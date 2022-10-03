@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\bin\Debug\net6.0\Proje01_Hello_World.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\bin\Debug\net6.0\Proje01_Hello_World.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\bin\Debug\net6.0\Proje01_Hello_World.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\bin\Debug\net6.0\Proje01_Hello_World.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\bin\Debug\net6.0\Proje01_Hello_World.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\refint\Proje01_Hello_World.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\Proje01_Hello_World.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Proje01_Hello_World\obj\Debug\net6.0\ref\Proje01_Hello_World.dll
