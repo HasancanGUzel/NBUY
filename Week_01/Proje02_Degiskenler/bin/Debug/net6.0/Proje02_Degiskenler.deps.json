@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Proje02_Degiskenler/1.0.0": {
+        "runtime": {
+          "Proje02_Degiskenler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proje02_Degiskenler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

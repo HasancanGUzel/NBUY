@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\bin\Debug\net6.0\Proje02_Degiskenler.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\bin\Debug\net6.0\Proje02_Degiskenler.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\bin\Debug\net6.0\Proje02_Degiskenler.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\bin\Debug\net6.0\Proje02_Degiskenler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\bin\Debug\net6.0\Proje02_Degiskenler.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\refint\Proje02_Degiskenler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\Proje02_Degiskenler.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje02_Degiskenler\obj\Debug\net6.0\ref\Proje02_Degiskenler.dll
