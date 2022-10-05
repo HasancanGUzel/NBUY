@@ -73,7 +73,7 @@ class Program
         //}
         ////Console.WriteLine(sonuc);
 
-        string adres = "selami ali mh. Can sk. no:6 kadıköy / istanbul";
+        //string adres = "selami ali mh. Can sk. no:6 kadıköy / istanbul";
         //bool sonuc = adres.EndsWith("istanbul");//endswith sonu ne ile bitiyorsa onu gösterir.
         //bool sonuc2 = adres.StartsWith("istanbul");//starswith başlangıcı ne ile başlıyorsa onu gösterir
         //Console.WriteLine(sonuc);
@@ -81,9 +81,29 @@ class Program
 
         // indexof adres içindeki bir harfin kaçıncı sırada olduğunu bulmak için kullanılır
 
-        string aranacakIfade = "c";
-        int siraNo = adres.ToLower().IndexOf(aranacakIfade.ToLower());
-        Console.WriteLine($"c harfi {adres} içerisinde {siraNo} sıradadır");
+        //string aranacakIfade = "c";
+        //int siraNo = adres.ToLower().IndexOf(aranacakIfade.ToLower());
+        //Console.WriteLine($"c harfi {adres} içerisinde {siraNo} sıradadır");
+
+        //string metin = "Wissen Akademie";
+        //Console.WriteLine($"metnin ilk hali:{metin}");
+        //Console.WriteLine($"Akademie metni silindikten sonraji hali:{metin.Remove(7)}");// metin de 7. karakterden başlayıp sonrasını komple siliyor
+
+        //Console.WriteLine($"Aka ifadesi silindikten sonraki hali:{metin.Remove(7,3)}");// metinde 7. karekterden başlayıp belirlediğimiz index kadar siliyor.
+
+
+        string urunAd = "Iphone 13 Pro";
+        //iphone-13-pro döüştürücez.
+        //string sonuc = (urunAd.Replace(" ","-")).ToLower();// string null olabilir amam char içi boş olamaz.
+        string sonuc = urunAd.ToLower().Replace(" ", "-");// üstteki satırla aynı daha sadesi.
+        Console.WriteLine("yeni metin={0}",sonuc);//Console.WriteLine($"yeni metin=={sonuc}"); aynı sonucu verir.
+        string sonuc2 = urunAd.Replace("Iphone", "Samsung");
+        Console.WriteLine("ynei metin={0}",sonuc2);
+
+
+
+
+
 
 
 

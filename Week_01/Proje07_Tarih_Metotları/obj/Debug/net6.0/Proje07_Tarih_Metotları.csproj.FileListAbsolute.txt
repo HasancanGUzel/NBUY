@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\bin\Debug\net6.0\Proje07_Tarih_Metotları.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\bin\Debug\net6.0\Proje07_Tarih_Metotları.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\bin\Debug\net6.0\Proje07_Tarih_Metotları.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\bin\Debug\net6.0\Proje07_Tarih_Metotları.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\bin\Debug\net6.0\Proje07_Tarih_Metotları.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\refint\Proje07_Tarih_Metotları.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\Proje07_Tarih_Metotları.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje07_Tarih_Metotları\obj\Debug\net6.0\ref\Proje07_Tarih_Metotları.dll

@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\bin\Debug\net6.0\Proje10_SwitchCondition.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\bin\Debug\net6.0\Proje10_SwitchCondition.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\bin\Debug\net6.0\Proje10_SwitchCondition.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\bin\Debug\net6.0\Proje10_SwitchCondition.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\bin\Debug\net6.0\Proje10_SwitchCondition.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\refint\Proje10_SwitchCondition.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\Proje10_SwitchCondition.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje10_SwitchCondition\obj\Debug\net6.0\ref\Proje10_SwitchCondition.dll

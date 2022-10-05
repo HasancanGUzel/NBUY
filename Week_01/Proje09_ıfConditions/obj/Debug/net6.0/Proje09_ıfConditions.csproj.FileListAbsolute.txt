@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\bin\Debug\net6.0\Proje09_ıfConditions.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\bin\Debug\net6.0\Proje09_ıfConditions.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\bin\Debug\net6.0\Proje09_ıfConditions.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\bin\Debug\net6.0\Proje09_ıfConditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\bin\Debug\net6.0\Proje09_ıfConditions.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\refint\Proje09_ıfConditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\Proje09_ıfConditions.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje09_ıfConditions\obj\Debug\net6.0\ref\Proje09_ıfConditions.dll

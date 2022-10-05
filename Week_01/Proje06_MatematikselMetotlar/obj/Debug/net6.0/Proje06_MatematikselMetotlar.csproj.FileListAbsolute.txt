@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\bin\Debug\net6.0\Proje06_MatematikselMetotlar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\bin\Debug\net6.0\Proje06_MatematikselMetotlar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\bin\Debug\net6.0\Proje06_MatematikselMetotlar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\bin\Debug\net6.0\Proje06_MatematikselMetotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\bin\Debug\net6.0\Proje06_MatematikselMetotlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\refint\Proje06_MatematikselMetotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\Proje06_MatematikselMetotlar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetotlar\obj\Debug\net6.0\ref\Proje06_MatematikselMetotlar.dll
