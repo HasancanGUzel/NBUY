@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\bin\Debug\net6.0\Proje12_While.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\refint\Proje12_While.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\Proje12_While.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje12_While\obj\Debug\net6.0\ref\Proje12_While.dll

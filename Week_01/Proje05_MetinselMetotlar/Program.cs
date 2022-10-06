@@ -92,13 +92,13 @@ class Program
         //Console.WriteLine($"Aka ifadesi silindikten sonraki hali:{metin.Remove(7,3)}");// metinde 7. karekterden başlayıp belirlediğimiz index kadar siliyor.
 
 
-        string urunAd = "Iphone 13 Pro";
-        //iphone-13-pro döüştürücez.
-        //string sonuc = (urunAd.Replace(" ","-")).ToLower();// string null olabilir amam char içi boş olamaz.
-        string sonuc = urunAd.ToLower().Replace(" ", "-");// üstteki satırla aynı daha sadesi.
-        Console.WriteLine("yeni metin={0}",sonuc);//Console.WriteLine($"yeni metin=={sonuc}"); aynı sonucu verir.
-        string sonuc2 = urunAd.Replace("Iphone", "Samsung");
-        Console.WriteLine("ynei metin={0}",sonuc2);
+        //string urunAd = "Iphone 13 Pro";
+        ////iphone-13-pro döüştürücez.
+        ////string sonuc = (urunAd.Replace(" ","-")).ToLower();// string null olabilir amam char içi boş olamaz.
+        //string sonuc = urunAd.ToLower().Replace(" ", "-");// üstteki satırla aynı daha sadesi.
+        //Console.WriteLine("yeni metin={0}",sonuc);//Console.WriteLine($"yeni metin=={sonuc}"); aynı sonucu verir.
+        //string sonuc2 = urunAd.Replace("Iphone", "Samsung");
+        //Console.WriteLine("ynei metin={0}",sonuc2);
 
 
 
