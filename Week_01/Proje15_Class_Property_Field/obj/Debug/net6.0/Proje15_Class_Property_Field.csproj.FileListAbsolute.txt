@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\bin\Debug\net6.0\Proje15_Class_Property_Field.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\bin\Debug\net6.0\Proje15_Class_Property_Field.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\bin\Debug\net6.0\Proje15_Class_Property_Field.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\bin\Debug\net6.0\Proje15_Class_Property_Field.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\bin\Debug\net6.0\Proje15_Class_Property_Field.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\refint\Proje15_Class_Property_Field.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\Proje15_Class_Property_Field.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje15_Class_Property_Field\obj\Debug\net6.0\ref\Proje15_Class_Property_Field.dll

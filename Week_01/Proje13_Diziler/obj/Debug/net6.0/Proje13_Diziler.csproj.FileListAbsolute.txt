@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\bin\Debug\net6.0\Proje13_Diziler.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\bin\Debug\net6.0\Proje13_Diziler.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\bin\Debug\net6.0\Proje13_Diziler.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\bin\Debug\net6.0\Proje13_Diziler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\bin\Debug\net6.0\Proje13_Diziler.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\refint\Proje13_Diziler.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\Proje13_Diziler.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje13_Diziler\obj\Debug\net6.0\ref\Proje13_Diziler.dll

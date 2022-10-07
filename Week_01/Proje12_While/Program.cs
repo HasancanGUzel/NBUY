@@ -162,6 +162,8 @@ class Program
 
         //----------------üstteki örneğin değişik versiyonu
 
+        string mesaj="";
+
         Random rnd=new Random();
         int uretilenSayi=rnd.Next(1,101);
         Console.WriteLine($"hile::{uretilenSayi}");
@@ -175,27 +177,37 @@ class Program
             tahminEdilenSayi=Convert.ToInt32(Console.ReadLine());
             if (tahminEdilenSayi>uretilenSayi)
             {
-                Console.WriteLine("BÜYÜK GİRDİN");
+                mesaj="büyük girdin";
             }
             else if(tahminEdilenSayi<uretilenSayi)
             {
-                System.Console.WriteLine("KÜÇÜK GİRDİN");
+                mesaj="küçük girdin";
             }
             if (tahminEdilenSayi!=uretilenSayi)
             {
+                
                 hak++;
                 if (hak<=haksiniri)
                 {
-                    Console.WriteLine("kaybettin");
+                    System.Console.WriteLine(mesaj);
+                    
                 }
-            }
-            else
-            {
-                Console.WriteLine("kazandın");
             }
 
 
         } while (tahminEdilenSayi!=uretilenSayi && hak<=haksiniri);
+        mesaj=tahminEdilenSayi==uretilenSayi ?"kazandınız":"kaybettiniz";
+        Console.WriteLine(mesaj);
+        // üstteki if de aynı alttaki if de aynı
+        // if (tahminEdilenSayi==uretilenSayi)
+        // {
+        //     System.Console.WriteLine(  "kazandınız");
+            
+        // }
+        // else
+        // {
+        //     System.Console.WriteLine(  "kaybettiniz");
+        // }
         //eğer program bu satıra gelmişse ya doğru tahminde bulunulmuştur yada hak sona gelmiştir.
         
 
