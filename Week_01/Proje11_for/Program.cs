@@ -218,23 +218,36 @@ namespace Proje11_for
              *       *      şeklini oluşturdum.
              */
 
-            Console.WriteLine("satırı giriniz");
-            int satir = int.Parse(Console.ReadLine());
-            Console.WriteLine("sütunu giriniz");
-            int sutun = int.Parse(Console.ReadLine());
-            for (int i = 0; i < satir; i++)
-            {
+            //Console.WriteLine("satırı giriniz");
+            //int satir = int.Parse(Console.ReadLine());
+            //Console.WriteLine("sütunu giriniz");
+            //int sutun = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < satir; i++)
+            //{
 
-                for (int j = sutun; j > 0; j--)
-                {
-                    Console.Write("*");
+            //    for (int j = sutun; j > 0; j--)
+            //    {
+            //        Console.Write("*");
 
 
-                }
-                sutun--;
-                Console.WriteLine();
+            //    }
+            //    sutun--;
+            //    Console.WriteLine();
 
-            }
+            //}
+            //Console.Write("Yüksekliği giriniz"); // üsttteki örneğin değişik versiyonu
+            //int yuksek = int.Parse(Console.ReadLine());
+            //Console.Write("Taban giriniz");
+            //int taban = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < yuksek; i++)
+            //{
+            //    for (int j = 0; j < taban; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    taban--;
+            //    Console.WriteLine();
+            //}
 
 
 
