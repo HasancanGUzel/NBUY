@@ -1,0 +1,15 @@
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\bin\Debug\net6.0\Odev4_Dik_Ucgen.exe
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\bin\Debug\net6.0\Odev4_Dik_Ucgen.deps.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\bin\Debug\net6.0\Odev4_Dik_Ucgen.runtimeconfig.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\bin\Debug\net6.0\Odev4_Dik_Ucgen.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\bin\Debug\net6.0\Odev4_Dik_Ucgen.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.csproj.AssemblyReference.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.AssemblyInfoInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.AssemblyInfo.cs
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.csproj.CoreCompileInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\refint\Odev4_Dik_Ucgen.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\Odev4_Dik_Ucgen.genruntimeconfig.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev4_Dik_Ucgen\Odev4_Dik_Ucgen\obj\Debug\net6.0\ref\Odev4_Dik_Ucgen.dll

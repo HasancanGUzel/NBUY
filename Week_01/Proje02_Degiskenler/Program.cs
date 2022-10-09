@@ -25,7 +25,7 @@
             Console.WriteLine("adSoyad");
 
             \n alt satıra geçmek için
-            \t var birazdan bakıcaz.
+            \t  tab tuşu gibi yazıları ileri atıyor boşluk bırakma işine yarıyor.
 
 
             int yas;

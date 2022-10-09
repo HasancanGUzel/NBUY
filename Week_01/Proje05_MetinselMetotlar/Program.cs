@@ -19,7 +19,7 @@ class Program
 
         //string m1 = "Wissen";
         //string m2 = "Wissen Akademia";
-        //int sonuc=String.Compare(m1, m2);// stringin ""S"" si büyük değer tipi değildir iki metini karşılaştırıp 1. ve 2. metine göre -1  0 ve 1 değerini döndrüyor
+        //int sonuc=String.Compare(m1, m2);// stringin ""S"" si büyük, değer tipi değildir iki metini karşılaştırıp 1. ve 2. metine göre -1  0 ve 1 değerini döndrüyor
         //Console.WriteLine(sonuc);
 
 
@@ -74,8 +74,8 @@ class Program
         ////Console.WriteLine(sonuc);
 
         //string adres = "selami ali mh. Can sk. no:6 kadıköy / istanbul";
-        //bool sonuc = adres.EndsWith("istanbul");//endswith sonu ne ile bitiyorsa onu gösterir.
-        //bool sonuc2 = adres.StartsWith("istanbul");//starswith başlangıcı ne ile başlıyorsa onu gösterir
+        //bool sonuc = adres.EndsWith("istanbul");//endswith sonu parantez içine yazdığımız kelime ile bitiyosa true bitmiyorsa false değerini döndürür.
+        //bool sonuc2 = adres.StartsWith("istanbul");//starswith başlangıcı parante ziçinde yazdığımız kelime ile başlıyorsa true başlamıyorsa false değerini döndürür.
         //Console.WriteLine(sonuc);
         //Console.WriteLine(sonuc2);
 

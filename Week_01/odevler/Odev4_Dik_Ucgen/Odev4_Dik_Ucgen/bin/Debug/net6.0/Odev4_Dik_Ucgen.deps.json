@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Odev4_Dik_Ucgen/1.0.0": {
+        "runtime": {
+          "Odev4_Dik_Ucgen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Odev4_Dik_Ucgen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

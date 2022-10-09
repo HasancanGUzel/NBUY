@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj": {}
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj": {
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj",
+        "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj",
         "projectName": "Proje04_TipDonusturme",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\obj\\",
+        "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\Proje04_TipDonusturme.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje04_TipDonusturme\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

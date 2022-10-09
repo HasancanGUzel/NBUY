@@ -1,0 +1,15 @@
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\bin\Debug\net6.0\Odev2_1_100_ArasıOrt.exe
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\bin\Debug\net6.0\Odev2_1_100_ArasıOrt.deps.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\bin\Debug\net6.0\Odev2_1_100_ArasıOrt.runtimeconfig.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\bin\Debug\net6.0\Odev2_1_100_ArasıOrt.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\bin\Debug\net6.0\Odev2_1_100_ArasıOrt.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.csproj.AssemblyReference.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.AssemblyInfoInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.AssemblyInfo.cs
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.csproj.CoreCompileInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\refint\Odev2_1_100_ArasıOrt.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\Odev2_1_100_ArasıOrt.genruntimeconfig.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev2_1_100_ArasıOrt\Odev2_1_100_ArasıOrt\obj\Debug\net6.0\ref\Odev2_1_100_ArasıOrt.dll

@@ -1,0 +1,15 @@
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\bin\Debug\net6.0\Odev3_1_100_Cift_Tek.exe
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\bin\Debug\net6.0\Odev3_1_100_Cift_Tek.deps.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\bin\Debug\net6.0\Odev3_1_100_Cift_Tek.runtimeconfig.json
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\bin\Debug\net6.0\Odev3_1_100_Cift_Tek.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\bin\Debug\net6.0\Odev3_1_100_Cift_Tek.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.csproj.AssemblyReference.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.AssemblyInfoInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.AssemblyInfo.cs
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.csproj.CoreCompileInputs.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\refint\Odev3_1_100_Cift_Tek.dll
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.pdb
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\Odev3_1_100_Cift_Tek.genruntimeconfig.cache
+C:\Users\HASAN\Documents\GitHub\NBUY\Week_01\odevler\Odev3_1_100_Cift_Tek\Odev3_1_100_Cift_Tek\obj\Debug\net6.0\ref\Odev3_1_100_Cift_Tek.dll

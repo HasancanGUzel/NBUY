@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj": {}
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj": {
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj",
+        "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj",
         "projectName": "Proje03_DegiskenOrnekleri",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\obj\\",
+        "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\Proje03_DegiskenOrnekleri.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje03_DegiskenOrnekleri\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj": {}
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj": {
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj",
+        "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj",
         "projectName": "Proje10_SwitchCondition",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\obj\\",
+        "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\Proje10_SwitchCondition.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje10_SwitchCondition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

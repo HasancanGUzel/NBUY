@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\HASAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\Proje08_Hata_Kontrolu.csproj",
+      "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\Proje08_Hata_Kontrolu.csproj",
       "projectName": "Proje08_Hata_Kontrolu",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\Proje08_Hata_Kontrolu.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\obj\\",
+      "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\Proje08_Hata_Kontrolu.csproj",
+      "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_01\\Proje08_Hata_Kontrolu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
