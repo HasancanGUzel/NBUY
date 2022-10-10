@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\bin\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\bin\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\bin\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\bin\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\bin\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\refint\Proje_01_Class_Field_Property_Uygulama.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\Proje_01_Class_Field_Property_Uygulama.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje_01_Class_Field_Property_Uygulama\obj\Debug\net6.0\ref\Proje_01_Class_Field_Property_Uygulama.dll
