@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Proje06_Inheritance_Kalitim_Miras/1.0.0": {
+        "runtime": {
+          "Proje06_Inheritance_Kalitim_Miras.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proje06_Inheritance_Kalitim_Miras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

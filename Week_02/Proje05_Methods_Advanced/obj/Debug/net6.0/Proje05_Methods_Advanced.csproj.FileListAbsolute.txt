@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\bin\Debug\net6.0\Proje05_Methods_Advanced.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\bin\Debug\net6.0\Proje05_Methods_Advanced.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\bin\Debug\net6.0\Proje05_Methods_Advanced.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\bin\Debug\net6.0\Proje05_Methods_Advanced.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\bin\Debug\net6.0\Proje05_Methods_Advanced.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\refint\Proje05_Methods_Advanced.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\Proje05_Methods_Advanced.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje05_Methods_Advanced\obj\Debug\net6.0\ref\Proje05_Methods_Advanced.dll
