@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\bin\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\bin\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\bin\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\bin\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\bin\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\refint\Proje12_OOP_Work_01_HocaCozum.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\Proje12_OOP_Work_01_HocaCozum.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_HocaCozum\obj\Debug\net6.0\ref\Proje12_OOP_Work_01_HocaCozum.dll

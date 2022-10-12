@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\bin\Debug\net6.0\Proje10_Collections_ArrayList.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\bin\Debug\net6.0\Proje10_Collections_ArrayList.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\bin\Debug\net6.0\Proje10_Collections_ArrayList.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\bin\Debug\net6.0\Proje10_Collections_ArrayList.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\bin\Debug\net6.0\Proje10_Collections_ArrayList.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\refint\Proje10_Collections_ArrayList.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\Proje10_Collections_ArrayList.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje10_Collections_ArrayList\obj\Debug\net6.0\ref\Proje10_Collections_ArrayList.dll

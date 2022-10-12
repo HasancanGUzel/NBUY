@@ -1,5 +1,12 @@
 ﻿namespace Proje09_Interface
 {
+    /* Interface ler için belirtilmediğinde default erişim belirleyici publictir.
+     * interface ler protected, private ya da static olarak işaretlenemezler.
+     * Interfaceler içinde çalışabilir kodlar olamaz: yani metodların sadece imzası bulunur. yani sadece metot adı bulunur {}içi boştur.
+     * Bir inteface bir ya da daha çok interface den miras alabilir.
+     * Bir interface  class tan miras alamaaz.
+     * Eğer bir class bir Interface den miras alıyorsa miras aldığı Interface dek tüm metotları İmplemente etmek zorundadır.(Implemente :: Miras alınan Interface de imzası bulunan tüm metotların içi dolu halleri)
+     */
     interface IPersonel
     {
         public string Departman { get; set; }
@@ -53,7 +60,7 @@
             Console.WriteLine($"Ad Soyad.{AdSoyad}Departman {Departman}");
         }
     }
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -64,9 +71,35 @@
             //ani bir nevi hepsi abstract olsun bunu yapmak yerine miras alınan classı class değil interface şeklinde tanımlarız.
 
             //IPersonel personel = new IPersonel();// hatalı kullanım nesne üretilemez.
-            Yonetici yonetici = new Yonetici();
-            Yonetici yonetici2 = new Yonetici("hAGİ","RİO DE JENARİO","500","FUTBOL");
-            Console.WriteLine("");
+            //Yonetici yonetici = new Yonetici();
+            //Yonetici yonetici2 = new Yonetici("hAGİ","RİO DE JENARİO","500","FUTBOL");
+            //Console.WriteLine("");
+
+            Product product1 = new Product()
+            {
+                Id = 1,
+                Name = "Iphone 13",
+                Price = 5900,
+                Properties = "8gb ram",
+                Ratio=0.5m,
+                CreatedDate=DateTime.Now
+
+
+            };
+            Console.WriteLine($"Product Name={product1.Name}(Büyük harf={product1.NameToUpper(product1.Name)})properties= {product1.Properties}");
+
+
+            Category category1 = new Category()
+            {
+                Id = 1,
+                Name = "telefon",
+                CreatedDate = DateTime.Now,
+                Description = "bu kategori telefonlar için"
+            };
+            Console.WriteLine($"Category Name={category1.Name}(Büyük harf={category1.NameToUpper(category1.Name)}) descrption= {category1.Description}");
+
+            Console.ReadKey();
+            
             
 
         }
