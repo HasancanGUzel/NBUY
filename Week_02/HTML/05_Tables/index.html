@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <style>
+        td{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <table style="border:1px solid black">
+    <table width="50%" style="border:1px solid black"><!-- table de width yaparsak yanındaki yüzde işaretiyle sayfa büyüsede küçülsede verdiğimiz yüzdeye göre hareket eder-->
         <tr>
-            <td style="border:1px solid black"> Adı</td>
+            <td  style="border:1px solid black"> Adı</td>
             <td style="border:1px solid black"> soyAdı</td>
             <td style="border:1px solid black"> imzası</td>
             
@@ -35,6 +40,34 @@
 
         </tr>
 
+    </table>
+    <br>
+    **********
+    <br>
+    <table ><!-- elle tablonun satır ve sütünlarını tek tek girmek yerine   tr*3>td*3  kaça kaçlık tablo istiyorsak yazabiliriz -->
+        <tr>
+            <td colspan="3">Sorumluluk tablosu</td><!-- colspan sütunları birleştirir.-->
+        </tr>
+        <tr>
+            <td>Sıra No</td>
+            <td >Kişi Bilgisi</td>
+            <td >Sorumluluk Alanı</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td >Ali MeşeKalkan</td>
+            <td >Mutfak</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td >Cansu Elveren</td>
+            <td rowspan="2">Giriş</td><!-- Rowspan satırları birleştiri colspan sütunları birleştirir-->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td >Sercan Dikcan </td>
+            
+        </tr>
     </table>
 </body>
 </html>
