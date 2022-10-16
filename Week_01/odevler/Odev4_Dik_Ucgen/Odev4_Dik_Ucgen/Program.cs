@@ -14,23 +14,35 @@ namespace Odev4_Dik_Ucgen
              * *******
              * *********
              */
-            Console.Write("Yüksekliği giriniz");
-            int yuksek = int.Parse(Console.ReadLine());
-            Console.Write("Taban giriniz");
-            int taban = int.Parse(Console.ReadLine());
-            for (int i = 0; i < yuksek; i++)
+
+            int sayac = 1;
+            for (int i = 0; i < 5; i++)
             {
 
-                for (int j = 0; j <= taban; j++)
+                for (int j = 0; j < sayac; j++)
                 {
                     Console.Write("*");
+
                 }
-                taban -= 2;
-
-
-
+                sayac += 2;
                 Console.WriteLine();
             }
+
+            //Console.Write("Yüksekliği giriniz");
+            //int yuksek = int.Parse(Console.ReadLine());// klavyeden girilerek istenilen değeregöre ters üçgen yapımı.
+            //Console.Write("Taban giriniz");
+            //int taban = int.Parse(Console.ReadLine());
+            //for (int i =0; i < yuksek; i++)
+            //{
+
+            //    for (int j = 1; j <= taban; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    taban -= 2;   
+            //}
+
+
 
 
 
