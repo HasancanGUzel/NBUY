@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #page-title{
+            background-color: darkslategray;
+            color: white;
+            width: 100%;
+            height: 400px;
+            padding: 10px;
+        }
+        #page-subtitle{
+            background-color: crimson;
+            color:bisque;
+            padding: 10px;
+        }
+        .main-header{
+            background-color: rgb(36, 131, 99);
+            height: 60px;
+            padding-top: 20px;
+        }
+        .main-nav{
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 150px);
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            padding: 15px 3px;
+            background-color: black;
+            border-radius: 45px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="#">Öğrenci Bilgi Sistemi</a>
+        <nav class="main-nav">
+            <a href="#">Öğrenci Giriş</a>
+            <a href="#">Öğreni Listesi</a>
+            <a href="#">Yardım</a>
+        </nav>
+    </header>
+    <main>
+        <section id="page-title">
+            <h1>Öğrenci bilgi sistemine hoşgeldin</h1>
+        </section>
+        <section id="page-subtitle">
+            <h1>Sayın kemal belge</h1>
+        </section>
+    </main>
+</body>
+</html>

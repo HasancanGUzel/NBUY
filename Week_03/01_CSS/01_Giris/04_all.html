@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>inline - internal - external css</title>
+   
+    <style>
+        /*buraya css kodları yazılır*/
+        h1{
+            color:red;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            color: brown;
+            text-indent: 30px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body><!--css kodları öncelik olarak en yakından uzağa doğru gider yani ilk önce yazının yazıldığı bloklar arasına bakılır sonra titlle arasındaki style kodlarına bakar en son ayrı sayfada oluşturulan style.css sayfasına bakar-->
+    <h1 style="color:navy;">internal css</h1><!-- css kodlarında inline yani değiştirmek istedğimiz bloğun içine yazılan koda önceliklidir sonra css kodlarına bakar en son bilgisayarın default değerine bakar-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum aliquam natus molestias perferendis veritatis. Et quaerat aspernatur commodi velit quam ratione laborum sint. In odit sit, porro ex quisquam earum animi assumenda, deserunt consectetur amet nemo nisi eveniet eum fuga sapiente totam quos distinctio tempore odio quam, adipisci officiis ad?</p>
+    <h1>introduction</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus pariatur eos sit ratione repellat optio recusandae deserunt assumenda quae magni. Tempore, pariatur repellendus voluptatibus ipsam distinctio nostrum consectetur totam nobis non, quo officiis molestias optio ad autem fuga harum quis voluptates! Ratione dolores beatae optio est incidunt reprehenderit amet. Maxime.</p>
+    <h1>exit</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam dolorem molestias repellat magni cupiditate? Laborum quisquam quis praesentium commodi ut sint repellendus qui tenetur?</p>
+
+</body>
+</html>

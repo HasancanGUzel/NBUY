@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxsizing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /*bu özellik elementin kapladığı alanı hesaplarken border genişliğini dahil etmemeyi sağlar*/
+
+
+        }
+
+        .kutu {
+            background-color: aquamarine;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            border: 1px solid red;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kutu">
+        kutu
+    </div>
+    <div class="kutu">
+        kutu
+    </div>
+    <div class="kutu">
+        kutu
+    </div>
+    <div class="kutu">
+        kutu
+    </div>
+    <div class="kutu">
+        kutu
+    </div>
+</body>
+
+</html>

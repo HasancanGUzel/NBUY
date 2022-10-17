@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+    <style>
+        .box{
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+        }
+        #first{
+            background-color: green;
+        }
+        #second{
+            background-color: aqua;
+            /*display: none; yazdığımız elementi gizliyor ama bulunduğu yere third elemnti kayıyoyr*/
+            visibility: hidden;/*bu da yazılan elemnti gizler fakat bu gizlediği yer boş kalır*/
+
+        }
+        #third{
+            background-color: red;
+        }
+        a{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+       <div class="box" id="first">First</div>
+       <div class="box" id="second">Second</div>
+       <div class="box" id="third">Third</div>
+    </div>
+    <div>
+        <a href="#">Anasayfa</a>
+        <a href="#">İletişim</a>
+        <a href="#">İndir</a>
+    </div>
+</body>
+</html>
