@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new floating attempt</title>
+    <style>
+        .box {
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+            float: left;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #container {
+            background-color: green;
+            overflow: auto;
+        }
+        /* float uygulandığı zaman ondan sonra gelenlere uygulanmasın sityorsak clear yapmamız lazım veya overflow auto olabilir */
+      /* #container::after{
+        content: "";
+        display: block;
+        clear: both;
+      } */
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h3>burası container içi</h3>
+        <div id="red" class="box"></div>
+        <div id="yellow" class="box"></div>
+        <div id="blue" class="box"></div>
+    </div>
+
+</body>
+
+</html>

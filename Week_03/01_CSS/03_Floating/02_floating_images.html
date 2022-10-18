@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floating images</title>
+    <style>
+        p{
+            border: 2px solid red;
+        }
+        .resim{
+            width:300px;
+            float: left;
+            margin-right: 10px;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi a accusamus nam laboriosam ut ab delectus accusantium debitis laborum sit veniam doloremque consectetur nesciunt, eum, cum dolorem. Deleniti, est similique?</p>
+    <p class="clearfix">
+        <img class="resim"src="/00_Images/features.jpeg" alt="">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores commodi eaque earum hic natus illo, ratione aperiam modi recusandae doloremque repudiandae sit incidunt dignissimos laborum atque distinctio voluptates sint necessitatibus.
+        </span>
+        <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur culpa dolor eligendi iure nemo magnam magni labore minima nam sed, reiciendis officiis ullam. Modi veniam natus, vitae consectetur ex architecto.
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, hic assumenda. Natus recusandae ducimus voluptatibus nobis corporis ut dolore! Vel officiis eos amet impedit, corporis necessitatibus ipsa voluptate at reprehenderit.
+
+            </span>
+        </span>
+    </p>
+
+    <p>
+        <img src="/00_Images/features.jpeg" alt="" width="100">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores commodi eaque earum hic natus illo, ratione aperiam modi recusandae doloremque repudiandae sit incidunt dignissimos laborum atque distinctio voluptates sint necessitatibus.
+        </span>
+        <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur culpa dolor eligendi iure nemo magnam magni labore minima nam sed, reiciendis officiis ullam. Modi veniam natus, vitae consectetur ex architecto.
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, hic assumenda. Natus recusandae ducimus voluptatibus nobis corporis ut dolore! Vel officiis eos amet impedit, corporis necessitatibus ipsa voluptate at reprehenderit.
+
+            </span>
+        </span>
+    </p>
+</body>
+</html>

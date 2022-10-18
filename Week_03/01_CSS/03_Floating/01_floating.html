@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .box{
+           float: right; /*kutuları inline yapar ve sırayla yan yana koyar*/
+            width: 100px;
+            height: 50px;
+            background-color: blueviolet;
+            margin: 5px;
+            color: aqua;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        .box-new{
+           
+            width: 100px;
+            height: 50px;
+            background-color: blueviolet;
+            margin: 5px;
+            color: aqua;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        #box1{
+            float:left;
+            background-color: red;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container" class="clearfix">
+        <div class="box" id="box1">Kutu1</div>
+        <div class="box">Kutu2</div>
+        <div class="box">Kutu3</div>
+    </div>
+    <div id="container1">
+        <a href="" class="box-new">a</a>
+        <a href="" class="box-new">b</a>
+        <a href="" class="box-new">c</a>
+    </div>
+</body>
+</html>

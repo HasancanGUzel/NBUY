@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo classes</title>
+    <style>
+        a{
+            border:1px solid grey;
+            padding: 5px 8px;
+            display:inline-block;
+            width: 70px;
+            text-decoration: none;
+            text-align: center;
+
+        }
+        /* link olan a ların rengini yesiş yapar */
+        a:link{
+            background-color: white;
+            color: tomato;
+        }
+        /* ziyaret edilen linklerin rengini turuncu yapar */
+
+        /* a:visited{
+            color:orange;
+        } */
+
+
+        /* üzerine gelince a ların rengi değişiyor */
+        a:hover{
+            background-color: tomato;
+            color:white;
+        }
+        /* a ların üzerine "TIKLANDIĞI" zaman rengi değişir */
+        /* a:active{
+            color: white;
+            background-color: tomato;
+        } */
+
+
+        div:hover p{
+            
+            display: block;
+        }
+        p{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="03_border.html">Border</a>
+    <a href="06_navbar.html">Navbar</a>
+    <a href="07_styling_list.html">Styling</a>
+    <br><br>
+    <div>
+        Üzerime Gelsene:)
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus culpa rerum, autem deleniti quis, itaque vel at fuga ratione eum quaerat earum? Dicta, accusantium saepe.</p>
+    </div>
+</body>
+</html>

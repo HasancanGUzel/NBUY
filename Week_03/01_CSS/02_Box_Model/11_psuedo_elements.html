@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Elements</title>
+    <style>
+        /* tüm p lerin ilk satırlarına aşşağıdaki değerleri verdik */
+        p::first-line{
+            font-weight: bold;
+            color:red;
+            word-spacing: 10px; /*kelimelerin arasındaki bolşuğu ayarlıyor*/
+            letter-spacing: 2px;/*harfler arasındaki boşluğu ayarlıyor*/
+            
+        }
+        p.myClass::first-line{/*myClass olan p mizin ilk satırnın rengini ayarladık*/
+            color:green;
+        }
+        p.myClass::first-letter{
+            font-size: 45px;/*myClass olan p mizin ilk harfini değerini veriyoruz*/
+        }
+        ::selection{/*yazıda seçtiğimiz yerlerin arka planını ve rengini değiştirdik*/
+            background-color: yellow;
+            color:red;
+            font-weight: bold;/*etki etmez*/
+            font-size: 30px;/*etki etmez*/
+        }
+        /* after ve before uyguladığımız yere göre başına ve sonuna birşey ekleyebilir ve eklediğimiz eklentinin özelliklerini değiştirebiliriz. */
+        p::after{
+            content: "bu yeni eklendi";
+            font-size: 48px;
+        }
+        p::before{
+            content: "buda before ile yapıldı";
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur voluptatum vel expedita magni quis assumenda hic esse ipsa eaque ut! Est voluptate dolorem quam nulla?</p>
+    <p class="myClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae ipsum laudantium omnis reprehenderit unde dolores fugiat provident magnam quidem neque minus non beatae aliquid labore architecto possimus, aliquam exercitationem repellendus sequi suscipit. Quam ipsa voluptate eveniet. Molestias pariatur nulla earum debitis exercitationem corporis a adipisci, totam optio repellat explicabo.</p>
+
+</body>
+</html>

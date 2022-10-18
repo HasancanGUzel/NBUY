@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .modal{
+            width: 400px;
+            height: 250px;
+            background-color: bisque;
+            border: 1px solid navy;
+            border-radius: 5px;
+            position: relative;
+            top: 150px;
+            left:calc(50% - 200px);
+            /* left:clac((100% - 400px)/2) */
+            padding: 5px;
+            
+
+        }
+        .x-button{
+            top: 5px;
+            right: 5px;
+            position: absolute;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: white;
+        }
+        .message{
+            position: absolute;
+          
+            top: 95px;
+            left: 65px;
+        }
+        .close-button{
+            position: absolute;
+            bottom: 10px;
+            left: 185px;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .virus{
+            position: absolute;
+            top: -15px;
+            left: 0px;
+            color: white;
+            background-color: blue;
+           
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <div class="virus">Dikkat Virüs Tehlikesi</div> 
+        <button class="x-button">X</button>
+        <p class="message"> Kpatamak için aşağıdaki butona tıklayınız</p>
+        <button class="close-button">Close</button>
+    </div>
+</body>
+</html>
