@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+        ölçü birimleri 
+        piksel       px
+        yüzde        %   neyin içindeyse onun % desini alır vh veya vw tarayıcının tamamını alır
+        santimetre   cm
+        milimetre    mm
+        inç          in ---- 1 inch 2.54 cm ----- 1 inch 96px
+        punto        pt
+        pika         pc  ----- 1 pc 12pt
+
+        em (ana ebeveyn etiketin font boyutuna göre ölçeklendirilerek belirlenen boyuttur örneğin bir etiketin ana ebeveyn i  body ise ve body nin font büyüklüğü 16 p ayarlanmışsa 1em dediğinde 16 pxe denk gelir)
+        viewport height vh ---- tarayıcının yükseliği ile ortantılı bir ölçü vermeyi sağlar
+        viewport width   vw----- taraycının genişliği ile orantılı ölçü vermeyi sağlar
+
+
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+        }
+        .container{
+            width: 80%;         
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .header , .footer{
+            background-color: #06283d;
+            padding-left: 20px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            
+        }
+        .footer{
+            color: white;
+            height: 60px;
+            font-size: 1.5em;
+            
+        }
+        .header h1{
+            color: white;
+            font-size: 6em;
+
+        }
+        .content{
+            display: flex;
+            margin-top: 10px;
+            height: calc(100vh - 200px);
+            flex-direction: row-reverse;
+            
+        }
+        .content-left{
+            width: 25%;
+            font-size: 1.5em;
+            
+            
+
+            /* display: flex;
+            flex-direction:column;
+            align-items: center;
+            margin-right: 20px; */
+
+        }
+         .content-left ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+
+            
+           
+        } 
+        .content-left ul li{
+            padding: 10px 15px;
+            background-color: #256d85;
+            margin-bottom: 8px;
+            color: white;
+           
+        }
+        .content-left ul li:hover{
+            cursor:pointer;
+            background-color: pink;
+        }
+       
+        .content-right{
+            width: 75%;           
+            padding-right: 15px;
+            font-size: 1.4em;
+           
+            /* display: flex;
+            flex-direction: row;
+             */
+        }
+        .content-right h1{
+            margin: 0px;
+            color: #002b5b;
+            font-size: 2.3em;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Frontend Dersleri</h1>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRİPT</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <h1>Uygulama Geliştirici Eğitimi</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse delectus dolorem harum iusto a. Rerum cupiditate asperiores officia consequatur totam quae molestias sequi maxime vero quam? Facilis cumque velit adipisci.</p>
+
+            </div>
+        </div>
+        <div class="footer">
+            Bu Sayfa Wissen Akademi Öğrencileri Tarafından Tasarlanmıştır.
+        </div>
+        
+    </div>
+</body>
+</html>

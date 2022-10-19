@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/buton.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie APPlication</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+
+        .container {
+            width: 80%;
+            margin: 0px auto;
+            /* buranın altı sonradan hocanın yaptığı */
+            /* position: relative;
+            top: 60px; */
+        }
+
+        .clearfix::after {
+            clear: both;
+            display: block;
+            content: "";
+
+        }
+
+        .main-header {
+            background-color: tomato;
+            padding: 8px 16px;
+            
+            position: fixed;/*burası*/
+            /* width: calc(100% - 270px);burası */
+            width: 80%;/*burası*/
+            border-bottom: 10px solid #fff;/*burası*/
+        }
+
+        .main-header-logo {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        .main-nav {
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 190px);
+        }
+
+        .main-nav-items {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+
+        }
+
+        .main-nav-item {
+            display: inline-block;
+            margin: 0px 10px;
+        }
+
+        .main-nav-item a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .main-nav-item a:hover {
+            color: rgb(38, 39, 59);
+        }
+
+        .main-nav-item-login a {
+            background-color: teal;
+            padding: 4px 16px;
+            border-radius: 15px;
+            border: 2px solid #fff;
+        }
+
+        .main-nav-item-login a:hover {
+            color: teal;
+            background-color: #fff;
+            border: 2px solid teal;
+        }
+
+        #showcase {
+            background: url(/00_Images/home-bg.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(38, 39, 59);
+            color: aliceblue;
+            padding: 10px;
+            width: 100%;
+            height: 80vh;
+           
+            
+
+
+        }
+
+        #showcase h1 {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: inline-block;/*burası*/
+            padding: 5px;
+            border-radius: 15px;
+            margin: 190px 350px;/*burası*/
+            
+            
+            
+        }
+
+        #how-it-works {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        #how-it-works h2 {
+            color: #3e4555;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .row {
+            margin-bottom: 40px;
+        }
+
+        .col-3 {
+            display: inline-block;
+            width: 30%;
+            margin: 8px;
+            padding: 16px;
+
+        }
+
+        .col-2 {
+            display: inline-block;
+            width: calc(50% - 2px);
+            height: 350px;
+            background-color: brown;
+        }
+
+        .icon-box i {
+            color: tomato;
+            font-size: 50px;
+            border-radius: 5px;
+        }
+
+        .icon-box h3 {
+            color: #3e4555;
+            font-size: 22px;
+        }
+
+        .features-left {
+            background: url(/00_Images/features.jpeg);
+            background-position: top center;
+            background-size: cover;
+        }
+
+        .features-right {
+            background-color: #edf5f7;
+            padding: 40px;
+            vertical-align: top;
+        }
+
+        .features-right h3 {
+            font-size: 30px;
+        }
+
+        /* .features-right a {
+            background-color: tomato;
+            color: #fff;
+            padding: 7px 15px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        .features-right a:hover {
+            background-color: white;
+            color: tomato;
+            border: 2px solid tomato;
+
+
+        } */
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px 0px;
+        }
+
+        .plan {
+            text-align: center;
+            padding: 16px;
+            width: 33.3%;
+            float: left;
+
+        }
+        .recomended-plan{
+            background-color: #396eb0 !important;/* aynı classs ın içinde başka renk tanımlandıysa eğer important varsa onları ez bu rengi yap demiş olduk*/
+            color: #fff;
+            
+        }
+        .inner-plan{
+            background-color: #edf5f7;
+            padding: 8px;
+            border-radius: 10px;
+        }
+        .plan-badge{
+            background-color: #fff;
+            color: tomato;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        .inner-plan ul{
+            list-style-type: none;
+            padding: 0px;
+        }
+        .inner-plan ul li{
+            margin:6px 0px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <!-- burası sayfamızın üst kısmı -->
+            <a href="#" class="main-header-logo">Movie APPlication</a>
+            <nav class="main-nav">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item"><a href="#">Home</a></li>
+                    <li class="main-nav-item"><a href="#">Movies</a></li>
+                    <li class="main-nav-item"><a href="#">Contact</a></li>
+                    <li class="main-nav-item main-nav-item-login"><a href="#"><i class="fa-solid fa-user"
+                                style="padding:5px;"></i>Login</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- burası sayfamızın ana içerik kısmı -->
+            <section id="showcase">
+                <h1>Welcome to movie application</h1>
+            </section>
+            <section id="how-it-works">
+                <div class="row">
+                    <h2>how it works?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consectetur provident illum
+                        nulla et ea veritatis perferendis consequatur quasi unde ipsa maxime, velit, dolore rerum
+                        repellendus id, commodi iste odio!</p>
+
+                </div>
+                <div class="row">
+                    <div class="icon-box col-3">
+                        <i class="fa-solid fa-id-card"></i>
+                        <h3></i>kayıt ol</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vero recusandae, in
+                            suscipit obcaecati atque totam inventore et saepe incidunt ipsam quod tempora esse cumque!
+                            Quos soluta minus illum quibusdam.</p>
+
+                    </div>
+                    <div class="icon-box col-3">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3> plan</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni numquam atque accusantium
+                            deserunt minima aliquam quis at voluptatem fugiat quod iure labore vitae a optio, laboriosam
+                            sequi enim error eligendi?</p>
+
+                    </div>
+                    <div class="icon-box col-3">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <h3>enjoy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur soluta, est maxime,
+                            exercitationem excepturi, ad quo et officia saepe perspiciatis fuga reiciendis tempore
+                            tempora laboriosam eveniet? Omnis, error harum. Aliquid?</p>
+
+                    </div>
+                </div>
+            </section>
+            <section id="features">
+                <div class="row">
+                    <div class="col-2 features-left"> </div>
+                    <div class="col-2 features-right">
+                        <h3>watch all movies and tv shows once thay get released</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nobis? Debitis sapiente
+                            aut ut atque, eveniet deleniti hic doloremque fuga magni! Consequatur illo modi repudiandae
+                            assumenda esse, distinctio aperiam dignissimos.</p>
+                        <a class="btn btn-primary" href="#">Features</a>
+                    </div>
+                </div>
+            </section>
+            <section id="plans">
+                <h2 class="section-title">Become a premium member</h2>
+                <div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan">
+                            <h2>Free</h2>
+                            <h3>0/Months</h3>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-secondary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan recomended-plan">
+                            <h2 class="plan-badge">Recommended</h2>
+                            <h2>PARA ver</h2>
+                            <h3>$19.99/Months</h3>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-outline-secondary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan">
+                            <h2>PARA ver</h2>
+                            <h3>$39.99/Months</h3>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-outline-primary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

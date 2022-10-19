@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+        align-items dikeyde
+         justfiy-content yatayda hiazalmaa yapaar 
+        
+        -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .flex-container {
+            background-color: navy;
+            display: flex;
+            height: 400px;
+
+            /* dikeyde ortalar */
+            /* align-items: center; */
+
+            /* alt tarafa hizalar */
+            /* align-items: flex-end; */
+
+            /* üst tarafa hizalar */
+            /* align-items: flex-start; */
+
+            /*sağ alt tarafa hizalar  */
+            /* justify-content: flex-end;
+            align-items: flex-end; */
+
+            /* tam ortaya hiazalar */
+            /* justify-content: center;
+            align-items: center; */
+
+
+        }
+
+        .flex-item {
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            height: 22px;
+        }
+
+
+
+
+
+
+
+        /*flex floatın gelişmiş versiyonu sıralama vs için kulalnılabilir ama daha kullanışlı bunu kullan*/
+        /*row yerine column reverse özellikleri var adlarına göre satır sütün veya satır ters sütun ters yapabilir*/
+        /*flex-direction:row;*/
+
+        /* satır ters yapar      */
+        /* flex-direction: row-reverse;*/
+
+        /* colon yapar */
+        /* flex-direction: column; */
+
+        /* colon ters yapar */
+        /* flex-direction: column-reverse;  */
+
+        /* nowrap::bir satıra sığmayan flex itemler olursa aynı satıra devam eder yani alt satıra geçmez
+            wrap:: nowrap tam tersi sığmayanları alta geçirir*/
+        /* flex-wrap: wrap; */
+        /* flex itemleri ters sıraya geçirip satır sığmayanları alt satıra geçirir */
+        /* flex-wrap: wrap-reverse; */
+
+        /* flex-direction: column;          
+            flex-wrap: wrap; */
+        /* flex-direction: row; 
+            flex-wrap: wrap; */
+        /* flexx-flow ile mümkün===flex direction:row ile flex-wrap:wrap ın birleştirilmiş hali aşağıdaki satır */
+        /* flex-flow: row wrap; */
+
+        /* oluşturulan div leri ortaya hizalar */
+        /* justify-content: center; */
+
+        /* end ise sağa hizalar yani sona */
+        /* justify-content: end; */
+
+        /* start ise sola hizalar yani başa */
+        /* justify-content: start; */
+
+        /* bulunduğu container içinde kutularımızı aralarında eşit boşluk olacak şekilde dağıtır */
+        /* justify-content: space-around; */
+
+        /*birinci ve son kutuyu sola ve sağa yaslar ve sonra aralarındaki mesafeyi ayarlayarak dağıtır */
+        /* justify-content: space-between; */
+    </style>
+
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div style="flex-shrink:10;" class="flex-item">6</div>
+
+
+
+        <!-- oluşturulan kutuların flex-grow ile kaç birim genişlikte olucağını belirleyebiliriz -->
+
+        <!-- <div style="flex-grow:4;"class="flex-item">1</div>   
+        <div style="flex-grow:1;"class="flex-item">2</div>
+        <div style="flex-grow:2;"class="flex-item">3</div>
+        <div style="flex-grow:1;"class="flex-item">4</div>
+        <div style="flex-grow:1;"class="flex-item">5</div>
+        <div style="flex-grow:3;"class="flex-item">6</div> -->
+
+        <!-- order kullanımı eğer kutuların yerlerini değiştirmek istersek böyle kullanabliriz -->
+
+        <!-- <div style="order:6"class="flex-item">1</div>   
+        <div style="order:2"class="flex-item">2</div>
+        <div style="order:5"class="flex-item">3</div>
+        <div style="order:4"class="flex-item">4</div>
+        <div style="order:3"class="flex-item">5</div>
+        <div style="order:1"class="flex-item">6</div> -->
+        <!-- <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+        <div class="flex-item">10</div>
+        <div class="flex-item">11</div>
+        <div class="flex-item">12</div> -->
+    </div>
+</body>
+
+</html>
