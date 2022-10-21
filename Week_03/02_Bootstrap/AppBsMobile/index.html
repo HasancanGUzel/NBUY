@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <link rel="stylesheet" href="/02_Lessons/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="row bg-danger mb-3">
+            <!-- movie aplication başlığı için col4 -->
+            <div class="col-4">
+                <h1 class="display-6 text-white pt-2">Movie Application</h1>
+            </div>
+            <!-- menüler için kol 8 -->
+            <div class="col-8">
+                <!-- kol8 içine satırımız -->
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <!-- ve bu satırların 12 parçaya bölünmesi -->
+                        <div class="row pt-4 p-0 m">
+                            <li class="col-4 text-white"></li>
+                            <li class="col-2 text-white">Home</li>
+                            <li class="col-2 text-white">Movie</li>
+                            <li class="col-2 text-white">Contact</li>
+                            <li class="col-2 text-white">Login</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- resim için row(satır)oluşturdum -->
+        <div class="row">
+            <img src="/00_Images/home-bg.jpeg" alt="" class="p-0 pb-3">
+        </div>
+        <!-- how it works iin satır oluşturdum -->
+        <div class="row text-center">
+            <h1>How it Works?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, accusantium a inventore provident,
+                dignissimos animi tempora perferendis placeat minus vero nihil ea quia quae commodi. Vero omnis
+                provident dolor iste velit quae debitis, facere consequatur amet fugit quod doloribus maiores impedit
+                quo ut, dicta repudiandae facilis id ab molestias, praesentium quisquam ratione. Nisi incidunt esse
+                optio magnam quod. Minus assumenda odit sit illum, consequatur ipsum! Natus fugiat porro omnis harum
+                accusantium corrupti minima impedit. Iure?</p>
+        </div>
+        <!-- yazının altındaki 3 tane bölme için 1 satır oluşurup ve busatırı 3 bölmeye böldüm ve hepsine 4 sütun genişliği verdim -->
+        <div class="row pt-5">
+            <div class="col-4  text-center">
+                <i class="fa-solid fa-id-card"style="color: tomato; font-size: 50px;"></i>
+                <h5>Kayıt ol</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo distinctio natus deleniti
+                    nemo eveniet? </p>
+            </div>
+            <div class="col-4  text-center">
+                <i class="fa-regular fa-circle-check" style="color: tomato; font-size: 50px;"></i>
+                <h5> Choose aPlan</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo distinctio natus deleniti
+                    nemo eveniet? </p>
+            </div>
+            <div class="col-4 text-center">
+                <i class="fa-regular fa-face-smile" style="color: tomato; font-size: 50px;"></i>
+                <h5 class=""> Enjoy</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo distinctio natus deleniti
+                    nemo eveniet?</p>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-6">
+                <img src="/00_Images/features.jpeg" class="w-100" alt="">
+            </div>
+            <div class="col-6 bg-muted">
+                <h3>watch all movies and tv shows once thay get released</h3> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus aliquid officiis ipsa
+                sapiente dolor sunt tempore nulla earum non, voluptatum debitis exercitationem nesciunt corporis!
+                Debitis!</p> 
+                <button class="btn btn-danger">Features</button>           
+            </div>               
+        </div>
+        <div class="row text-center pt-3">
+            <h3>Become a Premium Member</h3>
+        </div>
+        <div class="row text-center pt-3">
+            <div class="col-4 bg-secondary rounded-4 text-white">
+                <h5>Free</h5>
+                <h5>0/Months</h5>
+                <ul class="list-unstyled">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                <button class="btn btn-danger">Choose a Plan</button>
+            </div>
+            <div class="col-4 bg-primary rounded-4 pb-2 text-white">
+                <h2 class="plan-badge mt-3 mb-3 bg-white text-danger rounded-5 fs-3">Recommended</h2>
+                <h5>Basic</h5>
+                <h5>$9.99/Months</h5>
+                <ul class="list-unstyled">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                <button class="btn btn-danger">Choose a Plan</button>
+            </div>
+            <div class="col-4 bg-secondary rounded-4 text-white">
+                <h5>Premium</h5>
+                <h5>$19.99/Months</h5>
+                <ul class="list-unstyled">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                <button class="btn btn-danger">Choose a Plan</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="/02_Lessons/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

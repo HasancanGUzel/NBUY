@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/02_Lessons/css/bootstrap.min.css">
+    <title>list table</title>
+</head>
+<body class="p-4">
+
+    <ul class="list-unstyled"><!-- li lerin yanındaki nokta vs kaldırıyor-->
+        <li>çok satanlar</li>
+        <li> roman</li>
+        <li>hikaye</li>
+        <li>başvuru</li>
+        <li>çocuk</li>
+    </ul>
+
+    <br><br>
+
+    <ul class="list-inline"><!-- ul u içideki li leri yan yana yazmak için ula list-inline yazıyoruz ama li lerin içinede list-inline-item yazmak gerek-->
+        <li class="list-inline-item">çok satanlar</li>
+        <li class="list-inline-item"> roman</li>
+        <li class="list-inline-item">hikaye</li>
+        <li class="list-inline-item">başvuru</li>
+        <li class="list-inline-item">çocuk</li>
+    </ul>
+
+    <br><br>
+
+    <ul class="list-group"><!-- tablo haline gtiriyor-->
+        <li class="list-group-item">çok satanlar</li>
+        <li class="list-group-item"> roman</li>
+        <li class="list-group-item">hikaye</li>
+        <li class="list-group-item">başvuru</li>
+        <li class="list-group-item">çocuk</li>
+    </ul>
+    <br><br>
+
+    <ul class="list-group"><!-- buda tablo haline gtiriyor ama li lerin içinde action ekli ve bu satırın üzerine gidince efekt veriyor-->
+        <li class="list-group-item list-group-item-action">çok satanlar</li>
+        <li class="list-group-item list-group-item-action"> roman</li>
+        <li class="list-group-item list-group-item-action active">hikaye</li><!--active ise backende de yaızlırken işe yarar seçili olduğu zaman rengi değişiriyor vs-->
+        <li class="list-group-item list-group-item-action">başvuru</li>
+        <li class="list-group-item list-group-item-action">çocuk</li>
+    </ul>
+
+    <br><br><br>
+
+    <table class="table table-bordered w-50 table-hover table-striped table-danger">
+        <thead class="bg-dark ">
+            <tr>
+                <th>Sıra</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Kemal</td>
+                <td>Sucu</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>cemal</td>
+                <td>Sucu</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>vedat</td>
+                <td>Sucu</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mahmut</td>
+                <td>Sucu</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="/02_Lessons/js/bootstrap.min.js"></script>
+</body>
+</html>
