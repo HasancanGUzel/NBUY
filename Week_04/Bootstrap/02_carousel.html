@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+        <div class="container d-flex justify-content-center mt-5"><!-- d-flex display flex demek-->
+            <!-- resimlerin geçişleri için slide olacak geçiş efekti carousel-fade -->
+            <div class="carousel slide carousel-fade w-50" id="mySlider" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-bs-target="#mySlider" data-bs-slide-to="0"></li>
+                    <li  data-bs-target="#mySlider" data-bs-slide-to="1"></li>
+                    <li  data-bs-target="#mySlider" data-bs-slide-to="2"></li>
+
+                </ol>
+                <div class="carousel-inner"><!-- bütün slider lar carousel-inner içinde olması lazım-->
+                    <div class="carousel-item active" data-bs-interval="2000"><!-- resim koyulacak div bu-->
+                        <img src="/images/slide-1.jpeg" class="d-block w-100"  alt=""><!-- resimleri inner ken yani yan yan iken block yaptık-->
+                        <div class="carousel-caption "><!-- d none görünmez olmasını sağlıyor-->
+                            <h2>Slide1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolorum!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="/images/slide-2.jpeg" class="d-block w-100"  alt="">
+                        <div class="carousel-caption ">
+                            <h2>Slide2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolorum!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="/images/slide-3.jpeg" class="d-block w-100"  alt="">
+                        <div class="carousel-caption ">
+                            <h2>Slide3</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolorum!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  sağ ve sol tarafına ok butonu koyacaksak slayt ların  altına koymamız lazım -->
+                <a href="#mySlider" class="carousel-control-prev" data-bs-slide="prev"> <!--prev önceki demek-->
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mySlider" class="carousel-control-next" data-bs-slide="next"> <!--prev önceki demek-->
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+
+
+
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>

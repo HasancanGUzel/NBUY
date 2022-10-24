@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <!-- data-bs-toggle="collapse"  aşağıda classı collapse olan elemnti 'a' elemtine basınca  paragrafı götserip veya gizliyor-->
+            <a href="#content" class="btn btn-warning mt-2" data-bs-toggle="collapse">Göster/Gizle</a>
+            <br><br>
+            <!-- buda a gibi ama a ile aynı değil a da href kısmında #content yazabiliyoruz buna ek olarak data-bs-target="#container" yapmamamız lazım yani hangi elementi göstereceğimizi göstereceğimizi seçememiz lazım -->
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#content">Göster/Gizle</button>
+        </p>
+        <!-- id bir sayfanın içinde aynı isimde bir kere  tanımlanmalı aynı isimde başka bir elementlerin içinde kullanılmamalı -->
+        <div id="content" class="collapse">
+            <!-- class=" collapse show" yapınca a ya basılmış gibi gösterir gizliyse açar-->
+            <div class="card card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae aliquam, a dignissimos hic
+                cumque quod laborum sint aperiam minus nobis id delectus amet unde.
+
+            </div>
+
+        </div>
+
+        <br><br><br>
+        <h1 class="display-3">Sık Sorulan Sorular</h1>
+        <div id="myAccordion" class="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#answer-1"
+                        >HTML Nedir</button>
+                </h2>
+                <div 
+                    id="answer-1" 
+                    class="collapse accordion-collapse" 
+                    data-bs-parent="#myAccordion">
+
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eius. Ea possimus, corrupti
+                            distinctio quis ratione fuga cumque perspiciatis temporibus quisquam officiis magnam, doloremque
+                            atque.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#answer-2">React Nedir
+                        </button>
+                </h2>
+                <div 
+                    id="answer-2" 
+                    class="collapse accordion-collapse" 
+                    data-bs-parent="#myAccordion">
+
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eius. Ea possimus, corrupti
+                            distinctio quis ratione fuga cumque perspiciatis temporibus quisquam officiis magnam, doloremque
+                            atque.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#answer-3">CSS
+                        Nedir</button>
+                </h2>
+                <div 
+                    id="answer-3" 
+                    class="collapse accordion-collapse" 
+                    data-bs-parent="#myAccordion">
+
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eius. Ea possimus, corrupti
+                            distinctio quis ratione fuga cumque perspiciatis temporibus quisquam officiis magnam, doloremque
+                            atque.</p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#answer-4">JavaScript
+                        Nedir</button>
+                </h2>
+                <div 
+                    id="answer-4" 
+                    class="collapse accordion-collapse" 
+                    data-bs-parent="#myAccordion">
+
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eius. Ea possimus, corrupti
+                            distinctio quis ratione fuga cumque perspiciatis temporibus quisquam officiis magnam, doloremque
+                            atque.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
