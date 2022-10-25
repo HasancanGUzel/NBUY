@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Wissen Blog Home</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+        <nav class="navbar navbar-dark navbar-expand-md sticky-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mobil-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="mobil-menu" class="navbar-collapse collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+                        <li class="nav-item"><a href="blogs.html" class="nav-link active">Blogs</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <form class="d-flex" id="mobil-menu">
+                        <!-- formumuzu display-flex yaptık-->
+                        <input type="text" name="" id="" class="form-control" placeholder="search">
+                        <button type="submit" class="btn btn-warning ms-2"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- BLOGS -->
+        <div class="container my-4">
+            <div class="row">
+                <!-- aşşağıdaki satır normalde görünmez yaptık ama md boyutundan büyükse d-md-block yaparak görünür yaptık yani md boyutlarından küçük olursan bu kodlar sayfada gözükmeyecek -->
+                <!-- col-sm-12 d-sm-block  sayfa sm moduna yani baya küçük olduğu zman kolonu 12 kolon yaptık -->
+                <!-- sayfa sm moduna geldiği zaman 3 kolondan 4 kolona çektik -->
+                <div class="d-none col-md-3 d-md-block col-sm-4 d-sm-block ">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">October</a>
+                        <a href="#" class="list-group-item list-group-item-action">November</a>
+                        <a href="#" class="list-group-item list-group-item-action">December</a>
+                        <a href="#" class="list-group-item list-group-item-action">January</a>
+                    </div>
+                </div>
+                <!-- normalde 12 kolon kullan dedik  ama md boyutundan büyükse 9 kolon kullan ve sm boyutundan büyüksede 8 kolon kullan dedik -->
+                <div class="col-12 col-md-9 col-sm-8">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a> </li>
+                            <li class="breadcrumb-item"><a href="#">Library</a> </li>
+                            <li class="breadcrumb-item active">Data</li>
+                        </ol>
+                    </nav>
+                    <div class="card shadow-lg mb-3">
+                        <div class="row">
+                            <!-- lg modudndan büyükse 4 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12  col-lg-4">
+                                <img src="/img/1.jpeg" alt="" class="img-fluid card-img-top rounded-start ">
+                            </div>
+                            <!-- lg modudndan büyükse 8 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12 col-lg-8">
+                                <div class="card-body">
+                                    <h5 class="display-6 fs-4 fw-bold">Card</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repudiandae ipsum?
+                                        Nostrum quos veniam voluptates fugiat, expedita animi enim, corrupti eaque
+                                        exercitationem repudiandae, laudantium adipisci cumque fugit sunt a delectus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg mb-3">
+                        <div class="row">
+                            <!-- lg modudndan büyükse 4 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12  col-lg-4">
+                                <img src="/img/2.jpeg" alt="" class="img-fluid card-img-top rounded-start ">
+                            </div>
+                            <!-- lg modudndan büyükse 8 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12 col-lg-8">
+                                <div class="card-body">
+                                    <h5 class="display-6 fs-4 fw-bold">Card</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repudiandae ipsum?
+                                        Nostrum quos veniam voluptates fugiat, expedita animi enim, corrupti eaque
+                                        exercitationem repudiandae, laudantium adipisci cumque fugit sunt a delectus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg mb-3">
+                        <div class="row">
+                            <!-- lg modudndan büyükse 4 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12  col-lg-4">
+                                <img src="/img/3.jpeg" alt="" class="img-fluid card-img-top rounded-start ">
+                            </div>
+                            <!-- lg modudndan büyükse 8 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12 col-lg-8">
+                                <div class="card-body">
+                                    <h5 class="display-6 fs-4 fw-bold">Card</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repudiandae ipsum?
+                                        Nostrum quos veniam voluptates fugiat, expedita animi enim, corrupti eaque
+                                        exercitationem repudiandae, laudantium adipisci cumque fugit sunt a delectus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg mb-3">
+                        <div class="row">
+                            <!-- lg modudndan büyükse 4 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12  col-lg-4">
+                                <img src="/img/4.jpeg" alt="" class="img-fluid card-img-top rounded-start ">
+                            </div>
+                            <!-- lg modudndan büyükse 8 kolon kullansın ama sm modundan büyük olursa 12 kolon kullansızn-->
+                            <div class=" col-sm-12 col-lg-8">
+                                <div class="card-body">
+                                    <h5 class="display-6 fs-4 fw-bold">Card</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repudiandae ipsum?
+                                        Nostrum quos veniam voluptates fugiat, expedita animi enim, corrupti eaque
+                                        exercitationem repudiandae, laudantium adipisci cumque fugit sunt a delectus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <footer class="bg-dark text-white py-4 ">
+            <div class="container text-center">
+                <span class="h4 display-7">BAU Wissen Akademi Öğrencileri Trafından Tasarlanmıştır 2022</span>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+</body>
+
+</html>

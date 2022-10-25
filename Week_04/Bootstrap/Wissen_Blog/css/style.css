@@ -1,0 +1,12 @@
+
+/* bootstrapda navbar clası hazır olduğu için gelip onun rengini css kodlarıyla verebiliriz
+ heryerde navbar kullanmak yerine bg-dark rengii ezdik ve html sayfamızda bg-dark kullanırsak istediğimiz rengi alırırz*/
+.navbar,.bg-dark{
+    background-color: #085e7d !important;
+}
+/* resimlerimizin boyutkarı farklıydı bizde her cardın içinde card-img-top bulunuyordu bizde hepsine style yazmak yerine bunu ezik ve yeni özellikler verdik */
+.card-img-top{
+    width:100%; 
+    height:30vh; 
+    object-fit:cover /*resmi cardın içinde bulunduğu yer kadar yer kaplatır*/
+}
