@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="submit" onclick="alert('Merhaba Javascript')">Selam Ver</button>
+    <button type="submit" onclick="console.log('Burası Console Hoşgeldin')">Bana Tıkla</button>
+    <button type="button" onclick="selamVer()">Fonksiyonu çağır</button>
+    <button type="button" onclick="tıkla()">tıkla</button>
+    <!-- javascript kodlarını istersek elementlerimizin içine onclick arasına yazabiliriz veya html sayfamızaki script blokları arasına yazabiliriz en son olarak da css gibi ayrı bir sayfa oluşturarak buraya bağlayabilirirz -->
+    <script>
+        console.log('işte burası script etiketlerinin arası')
+        function selamVer(){
+            alert("işte buda bir function")
+        }
+        // selamVer() bu sayfa yüklenir yüklenmez çalışır butna koymaya gerek yok
+
+
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
