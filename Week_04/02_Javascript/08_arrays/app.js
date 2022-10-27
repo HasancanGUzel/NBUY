@@ -38,24 +38,43 @@
 // console.log(urun1,typeof urun1);
 // console.log(urun1Dizi,typeof urun1Dizi);
 
-let ogrenciler=['Cemre','Melahat','Sema','Hasancan'];
-let sonuc;
+// let ogrenciler=['Cemre','Melahat','Sema','Hasancan'];
+// let sonuc;
 // sonuc=ogrenciler;
 // sonuc=ogrenciler.toString();
 // sonuc=ogrenciler.join('/');
 
-ogrenciler[4]='Serhat';
-ogrenciler.push('aylin');
-ogrenciler.pop();//dizinin son elemanını siliyor
+// ogrenciler[4]='Serhat';
+// ogrenciler.push('aylin');
+// ogrenciler.pop();//dizinin son elemanını siliyor
 
 
-sonuc=ogrenciler.push('aylin');//push en sona eleman ekler
-sonuc=ogrenciler.pop();
-sonuc=ogrenciler.unshift('aylin');//unshift en başa eleman ekler
+// sonuc=ogrenciler.push('aylin');//push en sona eleman ekler
+// sonuc=ogrenciler.pop();
+// sonuc=ogrenciler.unshift('aylin');//unshift en başa eleman ekler
 
+// console.log(ogrenciler);
+// console.log(sonuc);
 
+    let sonuc;
+    let markalar1=['mazda','honda','BMW'];
+    let markalar2=['opel','renault','subaru wrx3'];
+    let markalar3=['mitsubishi lancer evo'];
 
+    console.log('markalar1: ' + markalar1);
+    console.log('markalar2: ' + markalar2);
+    console.log('markalar3: ' + markalar3);
 
+    sonuc=markalar1.concat(markalar2);//concat markalar1 dizisiyle markalar2 yi birleştirdi
+    sonuc=markalar1.concat(markalar2,markalar3);
+    console.log('sonuc: '+sonuc);
 
-console.log(ogrenciler);
-console.log(sonuc);
+    ikinciDizi=sonuc.splice(0,3);
+
+    // sonuc=markalar1.splice(0,1);// splice silmek için yani hangi indexten başlıcaksın ve kaç index siliceksin
+    
+    // sonuc.splice(4,2);
+    
+    console.log('sonuc: '+sonuc);
+    console.log('ikincidizi: '+ikinciDizi);
+    
