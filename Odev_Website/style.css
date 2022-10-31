@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-link:hover{
+    color: #e75e8d;
+}
+.active{
+    color:#e75e8d;
+
+}
+.profile:hover{
+    background-color: #e75e8d;
+    color: white;
+}
+.profile{
+    background-color: #27292a;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#showcase {
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('/img/indir.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(38, 39, 59);
+    color: aliceblue;
+    height: 50vh;
+    border-radius: 15px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    margin: 25px;
+}
+main{
+    position: relative;
+    z-index: 1;
+}
+.button-discover{
+    position: absolute;
+    z-index:2;
+    background-color: #e75e8d;
+    color: white;   
+}
+.button-discover:hover{
+    color: #e75e8d;
+    background-color: white;
+}
+.resim img{
+    width: 100px;
+}
+.button-dowload{
+   border-color: #e75e8d;
+    color:#e75e8d;
+    border-radius: 20px;
+
+}
+.button-dowload:hover{
+     background-color: white;
+     background-color: #e75e8d;
+
+}
+.button-dowloaded{
+    border-color: gray;
+    color: gray;
+    border-radius: 20px;
+    text-align: center;
+}
