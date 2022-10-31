@@ -1,0 +1,8 @@
+.dropdown-toggle::after{
+    display: none;/* 3 noktanın yanındaki ok işaretini kaldırdık*/
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
