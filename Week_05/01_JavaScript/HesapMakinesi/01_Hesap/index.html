@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <div>
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+    </div> -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        table{
+            border:1px rgb(180, 180, 180);
+           
+            font-size: 35px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            
+        }
+        /* tr{
+            border:2px solid black;
+           
+            
+        }
+        th{
+            border:2px solid black;
+            padding: 50px;
+        }
+        .ac{
+            text-align: center;
+            background-color: red;
+             color: white;
+        } */
+        
+        button{
+            width: 100%;
+            height: 100;
+            padding: 15px;
+            color: black;
+            background-color: rgb(235, 235, 235);
+            border: none;
+            
+        }
+        .zero{
+            border:none;
+            background-color: black;
+            color: white;
+            text-align: right;
+            
+            
+        }
+        .esit{
+            background-color: navy; 
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center;
+           
+        }
+       
+        th{
+            padding: 3px;
+        }
+        .ac{
+            background-color: red;
+            color: white;
+        }
+       
+    </style>
+
+    <table >
+        <tr>
+            <th  colspan="4"><button class="zero">0</button></th>
+        </tr>
+       
+            <tr>
+                <th><button>+</button></th>
+                <th><button>-</button></th>
+                <th><button>*</button></th>
+                <th><button>/</button></th>
+                </tr>
+            <tr>
+                <th><button>7</button></th>
+                <th><button>8</button></th>
+                <th><button>9</button></th>
+                <th rowspan="4"><button class="esit">=</button> </th>
+            
+                </tr>
+            <tr>
+                <th><button>4</button></th>
+                <th><button>5</button></th>
+                <th><button>6</button></th>
+                
+            </tr>
+    
+            <tr>
+                <th><button>1</button></th>
+                <th><button>2</button></th>
+                <th><button>3</button></th>
+               
+            </tr>
+    
+            <tr>
+                <th><button>0</button></th>
+                <th><button>.</button></th>
+                <th ><button class="ac" >AC</button></th>
+                
+            </tr>
+      
+       
+    </table>
+
+
+
+
+
+
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js "></script>
+
+</body>
+</html>

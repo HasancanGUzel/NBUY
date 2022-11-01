@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.5rem;
+}
+.calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/* position absolute lef 50% ve top 50% yaomıştık ama sadece sol üstten ortaladı bizde bu satırda tam ortaya getirdik*/
+
+}
+.calculator-input{
+    width: 100%;
+    height: 70px;
+    font-size: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+    background-color: #252525;
+    color: #fff;
+}
+button{
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 2.5rem;
+    color: #333;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #e0dcdc;;
+}
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.operator{
+    color: #336cac;
+}
+.decimal{
+
+}
+.clear{
+    background-color: #f0595f;
+    color: #fff;
+   
+
+}
+.clear:hover{
+    background-color: #f17377;
+}
+.equal-sign{
+    background-color: #336cac;
+    color: #fff;
+    grid-area: 2/4/6/5;/*araştır çok anlaşılmadı 2. satır 4. sütuna gönderdik ve 5 sütunluk yer kapla dedik*/
+    height: 100%;
+
+}
+.equal-sign:hover{
+    background-color: #2e86c0;
+}
