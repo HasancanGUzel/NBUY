@@ -27,5 +27,5 @@ for (const gorev of gorevListesi) {
     ul.insertAdjacentHTML('beforeend',li);
 }
 
-
+    
 

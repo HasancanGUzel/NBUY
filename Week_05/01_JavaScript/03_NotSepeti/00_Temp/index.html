@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color:dodgerblue;
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(to right, dodgerblue , white);
+            
+
+        }
+        .girdi{
+            
+            padding: 12px 20px;
+            box-sizing: border-box;
+            outline: none;
+            transition:.3s;
+            width: 100%;
+
+           border:none;
+        }
+        .plus{
+            position: absolute;
+            right:5px;
+            top:8px;
+            background-color: orange;
+            color: white;
+            padding: 2px;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+        
+        }
+        .section{
+            position: relative;
+            margin: 0 auto;          
+            padding-bottom: 35px;
+            width: 400px;
+            
+        }
+        .header{
+            display:flex;
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: white;
+            font-weight: bold;
+        }
+        .deneme{
+            width: 50%;
+            padding: 14px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            outline: none;
+            transition:.3s;
+            border:none;
+           
+        }
+        .main{
+           
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+           
+        }
+        .trash{
+            color: white;
+            
+            
+
+        }
+        .clear{
+            background-color: red;
+            width: 45px;
+            height: 43px;
+            text-align: center;
+            cursor:pointer ;
+            border: none;
+            /* position: relative;
+            top: 5px; */
+            
+           
+        }
+        .tik{
+            background-color: orange;
+            width: 45px;
+            height: 43px;
+            text-align: center;
+            cursor:pointer ;
+            border: none;
+           
+            
+        }
+        .tic{      
+             color:white;
+             
+  
+        }
+       .checked{
+        text-decoration: line-through;
+       }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="header">
+            <h1>Not Sepeti</h1>
+            </div>
+            <div class="section">
+                <input type="text" name="" id="txtTaskName" class="girdi">
+                <button class="plus" id="btnAddNewTask"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="main" id="task-list">
+                <!-- <input type="text" value="" id="" class="deneme">
+                <label for="1">Görev 1</label>
+                <button class="clear"><i class="fa-solid fa-trash trash"></i></button>
+                <button class="tik"><i class="fa-regular fa-square-check tic"></i></button>
+                <input type="text" value="" id="" class="deneme">
+                <label for="2" >Görev 2</label>
+                <button class="clear"><i class="fa-solid fa-trash trash"></i></button>
+                <button class="tik"></span><i class="fa-regular fa-square-check tic"></i></button>
+                <input type="text" value="" id="" class="deneme">
+                <label for="3">Görev 3</label>
+                <button class="clear"><i class="fa-solid fa-trash trash"></i></button>
+                <button class="tik"><i class="fa-regular fa-square-check tic"></i></button> -->
+            </div>
+
+        </div>
+   
+    
+
+
+
+
+
+
+    
+    <script src="app.js"></script>
+
+   
+</body>
+</html>

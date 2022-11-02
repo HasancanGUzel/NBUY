@@ -151,6 +151,7 @@ function updateStatus(selectedTask) {
     // console.log(selectedTask.parentElement.lastElementChild);
     // console.log(selectedTask.nextElementSibling);
     let label=selectedTask.nextElementSibling;
+    console.log(label);
     if (selectedTask.checked) {
         label.classList.add('checked');
     }

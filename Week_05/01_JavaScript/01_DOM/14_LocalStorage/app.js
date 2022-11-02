@@ -40,7 +40,7 @@ if (localStorage.getItem('gorevListesi')!=null) {
     gorevListesi=JSON.parse(localStorage.getItem('gorevListesi'));
     console.log(gorevListesi);
 }
-
+    
 let taskBox=document.getElementById('task-box');
 function displayTasks(filter) {
     let ul = document.getElementById('task-list');
