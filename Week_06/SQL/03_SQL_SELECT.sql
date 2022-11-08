@@ -12,8 +12,8 @@
 
 --select * from Doktorlar where id=5
 --select * from Doktorlar where adSoyad='Tuna Sefer' --adý tuna sefer olaný getirir
---select * from Doktorlar where NOT adSoyad='Tuna Sefer'  --üstteki ile ayný
 --select * from Doktorlar where adSoyad!='Tuna Sefer'  --buda tuna sefer hariç hepsini getirir
+--select * from Doktorlar where NOT adSoyad='Tuna Sefer'  --üstteki ile ayný
 --select * from Doktorlar where id=3 or id=6
 
 --select * from Doktorlar where bolumId=5 and adres='Ýzmir'
