@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje04_VeriErisimSinifi\\Proje04_VeriErisimSinifi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje04_VeriErisimSinifi\\Proje04_VeriErisimSinifi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje04_VeriErisimSinifi\\Proje04_VeriErisimSinifi.csproj",
+        "projectName": "Proje04_VeriErisimSinifi",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje04_VeriErisimSinifi\\Proje04_VeriErisimSinifi.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje04_VeriErisimSinifi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

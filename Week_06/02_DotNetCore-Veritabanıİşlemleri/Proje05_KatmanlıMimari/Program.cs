@@ -10,8 +10,9 @@ class Program
         int secim;
         do
         {
-            System.Console.WriteLine("1-Product list");
-            System.Console.WriteLine("2-Customer list");
+            Console.Clear();
+            System.Console.WriteLine("1-ProductList");
+            System.Console.WriteLine("2-cUSTOMER LİST");
             System.Console.WriteLine("0-exit");
             System.Console.WriteLine("Lütfen seçiminizi giriniz");
             secim = int.Parse(Console.ReadLine());
@@ -21,7 +22,7 @@ class Program
             }
             else if (secim == 2)
             {
-                // CustomerList();
+                CustomerList();
             }
             else if(secim!=0)
             {
@@ -30,6 +31,7 @@ class Program
         }  while (secim!=0);
 
     }
+  
     static void ProductList()
     {
         
@@ -45,50 +47,18 @@ class Program
 
 
     
-    //  static void CustomerList()
-    // {
-    //      List<Customer> customers=GetAllCustomers();  
-    //     foreach (var customer in customers)
-    //     {
-    //         System.Console.WriteLine($"Id:{customer.Id}, Name:{customer.Contact}, Price:{customer.Company}, Title:{customer.Title}");
-    //     }
-    // }
+     static void CustomerList()
+    {
+         var customerManager=new CustomerManager(new SqlCustomerDAL());  // server(businesslayer) ile iletişime geçiyor ve CustomerManager contructor metodunu çalıştırıyor yani burdaparantez içine hangi veritabanıyla iletişime geçeceksek onu yazıyoruz ve bu contructor metotla iletişime geçip orda metodun parametresi olan customerDAL içine aktarıyoruz  o da veriyi _customerDAl içine atıyor sonra o veriyi hangi işlemi yapıcaksak o metodun içinde geri döndürüyoruz 
+        List<Customer>customers=customerManager.GetAllCustomer();
+        foreach (var customer in customers)
+        {
+            System.Console.WriteLine($"Id:{customer.Id}, Name:{customer.Contact}, Price:{customer.Company}, Title:{customer.Title}");
+        }
+    }
 
    
-    //---------------CUSTOMER İÇİN VERİTABANI
-    // static List<Customer> GetAllCustomers()  
-    // {
-    //     List<Customer>customers =new List<Customer>();
-    //     using (var connection = GetSqlConnection())
-    //     {
-    //         try
-    //         {
-    //             connection.Open();
-    //             string queryString="select CustomerID,CompanyName,ContactName,ContactTitle from Customers";
-    //             SqlCommand sqlCommand =new SqlCommand(queryString,connection);
-    //             SqlDataReader sqlDataReader=sqlCommand.ExecuteReader();
-    //             while (sqlDataReader.Read())
-    //             {
-    //                 customers.Add(new Customer(){ 
-    //                     Id=sqlDataReader["CustomerID"].ToString(),  
-    //                     Contact=sqlDataReader["CompanyName"].ToString(),
-    //                     Company=sqlDataReader["ContactName"].ToString(),
-    //                     Title=sqlDataReader["ContactTitle"].ToString()
-    //                 });
-    //             }
-    //             sqlDataReader.Close();
-    //         }
-    //         catch (Exception)
-    //         {
-    //             System.Console.WriteLine("bir sorun oluştu");
-    //         }
-    //         finally
-    //         {
-    //             connection.Close();
-    //         }
-    //     }
-    //     return customers;
-    // }
+ 
 
 
 

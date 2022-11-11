@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
         "projectName": "Proje05_KatmanlıMimari",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

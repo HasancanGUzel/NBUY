@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nw17yG2CIf1HQ/ajcrhF/1FHXlG9YYgajG/XHqEBhsLIDNGIVCmCw0M9GtZyovqA5OfGfQc/eypRMpcGAly42A==",
+  "dgSpecHash": "Z/b9glxNhX8aSP9V7jeKA0S6toJtJx3M295CKhnBgIJJ0/XeJyDhIBs2NsAtHArYcq6WmMDZYeyvuKSKUH03FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_06\\02_DotNetCore-Veritabanıİşlemleri\\Proje05_KatmanlıMimari\\Proje05_KatmanlıMimari.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
