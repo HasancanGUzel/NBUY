@@ -1,0 +1,28 @@
+@model List<Proje04_MVC.Controllers.Product>
+@* homecontolden veriyi buraya göndeririken viewbag veya viewdata ile göndermek yerine return views(products) içinde gönderiisek burada model oluturmamız lazım ve foreach içinde Model ile döndürmemiz gerek *@
+@{
+    ViewData["Title"] = "GetProducts";
+}
+
+<h1 class="display-1">all products</h1>
+<ul class="list-unstyled">
+    @foreach (var p in Model)
+    {
+        <li>@p.id -@p.Name-@p.Price</li>
+    }
+</ul>
+
+
+
+
+
+
+
+
+
+@* <ul>
+    @foreach (var p in ViewBag.Products)
+    {
+        <li>@p.id -@p.Name-@p.Price</li>
+    }
+</ul> *@

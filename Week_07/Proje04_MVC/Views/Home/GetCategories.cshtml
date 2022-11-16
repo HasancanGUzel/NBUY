@@ -1,0 +1,13 @@
+@model List<Proje04_MVC.Controllers.Categories>
+
+@{
+    ViewData["Title"] = "GetCategories";
+}
+
+<h1 class="display-1">all Categories</h1>
+<ul class="list-unstyled">
+    @foreach (var p in Model)
+    {
+        <li>@p.id -@p.Name</li>
+    }
+</ul>

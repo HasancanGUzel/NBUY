@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "About";
+}
+<h1>about page</h1>
+
+@section Scripts{
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+}
+
+@if (ViewBag.Hata==true) @* eğer viewbag.hata dan gelen  değer true ise bu section çalışssın dedik  *@
+{
+    @section FirstSection{
+        <div class="alert alert-danger text-center">
+            dikkat 
+        </div>
+        }
+}
+<h1>not=@ViewData["Not"]</h1>
+
+<div>
+    @foreach (var isim in (List<string>)ViewData["Adlar"]) @*viewdata nesneleir hep obje tipinde tutar viewbag dan farkı budur onun için list e dönüştürdük*@
+    {
+        <p>@isim</p>
+    }
+</div>
+<div>
+    @foreach (var bolum in ViewBag.Bolumler) @* burada viewdatayı kullanmadık ve direk veriyi döndürebildik list türüne döndürmeye gerek kalmadı*@
+    {
+        <p>@bolum</p>
+        
+    }
+</div>
