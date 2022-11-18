@@ -9,4 +9,13 @@
 </li>
 <li class="nav-item">
     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="KitapListesi" asp-route-id=null>Kitaplar</a>
+    @* kategorilerden kategori ad a tıklayıp o kategorideki kitaplar geldiği zaman sonradan kitaplar menüsüne tıkladığımızda o sayfaya geçmiyordu ama bu kodu yazdığımız için geçiyor asp-route-id=null *@
+</li>
+
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Get" asp-route-id=5 asp-route-ad=Hasan>Kitaplar</a> @* 1 yazdığım yerde bunun içine gönderebiliriz farklı yolları var*@
+   
+</li>
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" href="=Home/Get/5/Hasan">Kitaplar</a> @* asp route olmadan da böyle gönderebiliriz*@
 </li>

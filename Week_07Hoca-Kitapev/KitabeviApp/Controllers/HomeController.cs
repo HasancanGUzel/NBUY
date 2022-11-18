@@ -50,4 +50,9 @@ public class HomeController : Controller
         var kitap=context.Kitaplar.Where(k=>k.Id==id).Include(k=>k.Yazar).Include(k=>k.Kategori).FirstOrDefault();
         return View(kitap);
     }
+    public IActionResult Get(int id,string ad) // buraya string yerine int object vesaire olabilir buraya gelen veriyi nasıl kullanacağımıza bağlı
+    {
+
+        return View();
+    }
 }

@@ -1,0 +1,82 @@
+@model Product
+@{
+    ViewData["Title"] = "CreateProduct";
+}
+<h1 class="display-6">Create Product</h1>
+<hr>
+
+<form asp-controller="Home" asp-action="CreateProduct" method="post"> @* buradaki asp-action="CreateProduct" yas
+        grubunda bahsettiğim gibi parametreli olan method *@
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Name:</label>
+
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Name"> @* buradaki Name leri değiştidik çünkü Product model
+                class tanımladık ve oradaki isimlere uygun yaptık böyle yapmamız lazım*@
+        </div>@* asp-for="Name" as-for bu sayfada bi model var diyor ve name yazmak yerine bunu yazınca algılıyor
+            sayfayı kaynağını görüntüle diyince ordan bakabilirisin name="Name" yazıyor*@
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Category:</label>
+
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Category">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Price:</label>
+
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Price">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-check-label">Is Approved:</label>
+
+        </div>
+        <div class="col-4">
+            <input class="form-check-input" type="checkbox" asp-for="IsApproved"> @* asp-for otomatik olarak chechbox
+                olduğu için value vermiş ve true olarak atamış*@
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-6 text-end">
+            <input class="btn btn-success btn-lg" type="submit" value="Create">
+        </div>
+    </div>
+
+    @* @if (@ViewBag.ResultHeader!=null)
+        {
+        <hr>
+        <div>@ViewBag.ResultHeader</div>
+        <div>@ViewBag.ResultBody</div>
+        } *@
+    @if (Model != null) // get olan CreateProduct dan veri göndermedik o yüzden Model çalışmıyordu koşul içine aldık
+    {
+        <hr>
+        <div>
+            <p class="text-danger">@Model.Name</p>
+            <p class="text-danger">@Model.Category</p>
+            <p class="text-danger">@Model.Price</p>
+            <p class="text-danger">@(Model.IsApproved? "Approved":"Not Approved")</p>
+        </div>
+    }
+
+
+
+
+
+
+
+</form>

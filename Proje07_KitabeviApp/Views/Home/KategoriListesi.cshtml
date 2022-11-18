@@ -1,0 +1,29 @@
+@model List<Kategori>
+@{
+    ViewData["Title"] = "Kategori Listesi";
+}
+
+<h1 class="display-6">Kategori Listesi</h1>
+<hr>
+<a asp-controller="Home" asp-action="KategoriEkle" class="btn btn-sm btn-outline-primary">Yeni Kategori</a>
+<hr>
+<table class="table table-sm table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Kategori Adı</th>
+            <th>Açıklama</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var k in Model)
+        {
+            <tr>
+                <td>@k.Id</td>
+                <td><a asp-controller="Home" asp-action="KitapListesi" asp-route-id=@k.Id>@k.Ad</a></td> @* burada  kategori sayfasında kategori adına tıklandığı zaman o kategoriye göre kitaplar listelenecek eğer benim uygulamamda olsaydı asp-controller="Home"  home yerine Menu yazacaktım benim cotrollerim MenuControllerdı *@
+                    @* asp-route-id buaray id yazmamızın nedeni program cs deki controller home daki id olan yer istersek orası mahmut da olabilir*@
+                <td>@k.Aciklama</td>
+            </tr>
+        }
+    </tbody>
+</table>

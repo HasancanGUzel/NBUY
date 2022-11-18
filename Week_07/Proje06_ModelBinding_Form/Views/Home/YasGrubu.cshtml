@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "YasGrubu";
+}
+
+<h1>Yaş Grubu hesaplama</h1>
+<hr>
+<h6 class="display-6"> Lütfen Yaşınızı giriniz</h6>
+<form asp-controller="Home" asp-action="YasGrubu" method="post">@* buraya yazılan asp-action="YasGrubu" homecontroldaki  parametreli olan yasgrubu metodu post olan*@
+    <label class="form-label">Yaş:</label>
+    <input class="form-control" type="text" name="yas" >
+    <label class="form-label">Ad:</label>
+    <input class="form-control" type="text" name="Ad" >
+    <input class="btn btn-primary mt-3" type="submit" value="Hesapla">
+</form>
+@if (@ViewBag.YasGrubu!=null)
+{
+    <div class=" mt-3 alert alert-success">@ViewBag.YasGrubu</div>  // alert verdiğimiz için sayfa açılı açılmaz bu div yeşil oluyordu bizde @ViewBag.YasGrubu içindeki değer boş değilse çalışssın dedik
+}
+    
