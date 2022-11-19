@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    @* burada _header.cshtml partial viewsinı çağırıyoruz *@
+    @* <partial name="_header" />    buradaki head  kısımlarını aldık çünkü her sayfada aynı olucak dedik ve _header.cshtml sayfasına yapıştırdık ve orası bizim sayfamızın header kısmı ve burada bu kod bloğu ile o kısmı çağırdık *@
+    @await Html.PartialAsync("_header") @* bu satır asenkron olarak çalışır üstteki gibi değil yani üstteki satır tamamlanmadan aşşağıya geçebilir ama bu satır ilk önce içeiris tamamlanacak sonra aşşağıya geçecek burası bitmeden aşşağıya geçmez*@
+    
+<body>
+   @await RenderSectionAsync("FirstSection",false)
+    <partial name="_headerNavbar" /> @*  buradaki header  kısımlarını aldık çünkü her sayfada aynı olucak dedik ve _navbar.cshtml sayfasına yapıştırdık ve orası bizim sayfamızın header kısmı ve burada bu kod bloğu ile o kısmı çağırdık *@
+
+    <div class="container">
+        <main role="main" class="pb-3">  @* bu kısım her sayfada farklı olacağı için her sayfanın içeriği gelicek *@
+            @RenderBody() 
+        </main>
+    </div>
+
+    <partial name="_footer" /> @*  buradaki footer  kısımlarını aldık çünkü her sayfada aynı olucak dedik ve _footer.cshtml sayfasına yapıştırdık ve orası bizim sayfamızın header kısmı ve burada bu kod bloğu ile o kısmı çağırdık *@
+    @await RenderSectionAsync("Scripts", required: false) @*bu her sayafaya eklediğimiz script dosyaları için kullanabilirz yani bizim oluşturduğumuz index.cshtml about.cshtml eklemiyoruz buraya eklediğimiz bu satır sayesinde istediğimiz sayfanın içinde @section yaparak script kodunu ekleyebilirz*@
+    @* parantez içindeki required: false  satır her sayfa için zorunlu olmadığı anlamına gelir true olsaydı zorunlu olurdu required: false  yazmaz isek otamatik olarak zorunlu olur *@
+    @* Parantez içindeki Script ifadesi ise istediğimiz ismi verebiliriz buraya verdiğimiz ismi @Section Scripts yanına koymamız lazım *@
+    
+
+    
+</body>
+</html>
