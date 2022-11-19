@@ -100,7 +100,37 @@ namespace Proje.DataAccessLayer
 
         public List<Product> GetProductsByCategories(string categoryName)
         {
-            throw new NotImplementedException();
+             List<Product> products = new List<Product>();
+            using (var connection = GetSqlConnection())
+            {
+                try
+                {
+                    connection.Open();
+                    string queryString = $"select ProductId,ProductName,UnitPrice,UnitsInStock from Products P INNER JOIN Customer C on P.CategoryId=C.CategoryId    Where C.CategoryName='{categoryName}'";
+                    SqlCommand sqlCommand = new SqlCommand(queryString, connection);
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+                    while (sqlDataReader.Read())
+                    {
+                        products.Add(new Product()
+                        {
+                            Id = int.Parse(sqlDataReader[0].ToString()),
+                            Name = sqlDataReader[1].ToString(),
+                            Price = decimal.Parse(sqlDataReader[2].ToString()),
+                            Stock = int.Parse(sqlDataReader[3].ToString())
+                        });
+                    }
+                    sqlDataReader.Close();
+                }
+                catch (Exception)
+                {
+                    System.Console.WriteLine("bir sorun oluştu");
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+            return products;
         }
 
         public List<Product> GetProductsByCategoriesId(int id)

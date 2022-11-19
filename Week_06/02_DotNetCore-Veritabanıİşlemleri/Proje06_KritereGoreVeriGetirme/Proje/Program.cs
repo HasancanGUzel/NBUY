@@ -97,7 +97,43 @@ class Program
                 
             }
         }
+           else if(secim==5)
+        {
+            if (dbType==1)
+            {
+                ProductFilterByCategoryName(new SqlProductDAL());// buraya metodu parametreli yaptığımız için içine hangi veri göndereceğimizi seçtik ve burda sql tablosunu gönderdik
+            }
+            else
+            {
+                
+            }
+        }
     }
+
+    static void ProductFilterByCategoryName(IProductDAL productDAL)
+    {
+        var productManager=new ProductManager(productDAL);
+        System.Console.WriteLine("Enter category Name:");
+        string name=Console.ReadLine();
+        List<Product>products=productManager.GetProductsByCategories(name);
+        // System.Console.WriteLine(products.Count());
+        if (products.Count>0) // GetProductsByCategoryId dan gelen categorimiz 0 ise bizim list emiz 0 değeri olucak yani products0 bizde bunu kontrol ettik
+        {
+            foreach (var product in products)
+        {
+            System.Console.WriteLine($"Id:{product.Id}, -Name:{product.Name}, -Price:{product.Price}, -Stock:{product.Stock}");
+        }
+        }
+        else
+        {
+            System.Console.WriteLine("Aradığınız kategoride ürün yoktur");
+        }
+         
+    }
+
+
+
+
   
     static void ProductFilterByCategoryId(IProductDAL productDAL)
     {

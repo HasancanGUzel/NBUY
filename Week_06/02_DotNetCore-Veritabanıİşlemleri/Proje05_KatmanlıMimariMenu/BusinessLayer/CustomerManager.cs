@@ -12,7 +12,7 @@ namespace Proje05_KatmanlıMimariMenu.BusinessLayer
         private readonly ICustomerDAL _customerDAL;
         public CustomerManager(ICustomerDAL customerDAL)
         {
-            _customerDAL=customerDAL; // private olaak tanımladığımız bunun içine dışarıdan gelen productDAL içindeki veriyi koy
+            _customerDAL=customerDAL; // private olaak tanımladığımız bunun içine dışarıdan gelen customerDAL içindeki veriyi koy
         }
         public void CreateCustomer(Customer customer)
         {
@@ -26,7 +26,7 @@ namespace Proje05_KatmanlıMimariMenu.BusinessLayer
 
         public List<Customer> GetAllCustomer()
         {
-            return _customerDAL.GetAll(); //ana sayfamızdan yani  arayüzden aldığımız veriyi ve hangi veritabanı seçildikten sonra _productDAL içine attıımız veriyi geri döndürüyoruz
+            return _customerDAL.GetAll(); //ana sayfamızdan yani  arayüzden aldığımız veriyi ve hangi veritabanı seçildikten sonra _customerDAL içine attıımız veriyi geri döndürüyoruz
         }
 
         public Customer GetByIdCustomer(int id)

@@ -41,7 +41,7 @@ namespace Proje.BusinessLayer
 
         public List<Product> GetProductsByCategories(string categoryName)
         {
-            throw new NotImplementedException();
+            return _productDAL.GetProductsByCategories(categoryName);
         }
         public List<Product> GetProductsByCategoryId(int id)
         {
