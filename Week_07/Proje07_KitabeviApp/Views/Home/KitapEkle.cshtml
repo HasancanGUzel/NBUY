@@ -51,7 +51,7 @@
                 <option selected>Kategori Seçiniz</option>
                 @foreach (var kategori in ViewBag.Kategoriler)
                 {
-                    <option value="1">@kategori.Ad</option>
+                    <option value="@kategori.Id">@kategori.Ad</option>
                 }
         
             </select>
