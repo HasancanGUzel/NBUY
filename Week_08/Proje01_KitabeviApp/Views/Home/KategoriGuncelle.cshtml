@@ -1,0 +1,33 @@
+@model Kategori // kategori türünde modle ekledik ve kategori türünde veri göndericez
+@{
+    ViewData["Title"] = "KategoriGuncelle";
+}
+
+<h1 class="display-6">Kategori Güncelle</h1>
+<hr>
+<form asp-controller="Home" asp-action="KategoriGuncelle"  method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ad"></label> @* asp-for labelın içine Ad yazmadık ama sayfamızda çıktı çünkü asp-for propterisin ismini alıp yazdı*@
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ad">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Aciklama"></label> @* asp-for labelın içine Ad yazmadık ama sayfamızda çıktı çünkü asp-for propterisin ismini alıp yazdı*@
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Aciklama">
+        </div>
+    </div>
+
+      <div class="row mb-2">
+        <div class="col-4 offset-2"> @* offset yanına ne yazarsak şu kadar kolonluk yer ayır sonra bunları yaz demek yani buraya ayrıyeten col-2 yapılmış gibi*@
+           <input class="btn btn-success" type="submit" value="Güncelle">
+        </div>
+    </div>
+
+</form>

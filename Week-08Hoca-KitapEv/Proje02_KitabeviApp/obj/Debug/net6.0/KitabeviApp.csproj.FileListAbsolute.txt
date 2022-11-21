@@ -1,0 +1,8 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.RazorAssemblyInfo.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje02_KitabeviApp\obj\Debug\net6.0\KitabeviApp.RazorAssemblyInfo.cs

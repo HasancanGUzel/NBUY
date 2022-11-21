@@ -1,0 +1,48 @@
+@* burası her bir kitabı göstermeye yarar*@
+@model Kitap // buraya kitaplistesi.cshtmlden foreachle dönen 1 kitap bilgisi gelicek burayı o yüzden liste yerine sadec Kitap yaptık
+@* ve kitaplistesi.cshtml den foreach arasında model=kitap yazdık*@
+
+<div class="col-3">
+    <div class="card text-center mb-4 " style="height:350px;">
+        <div class="card-header bg-primary text-white ">
+            <h6 class="display-6 fs-6 fw-normal m-0">@Model.Ad</h6> @* buraya model ile birlikte gelen kitap bilgisinin adını yazdırıdk*@
+        </div>
+        <div class="card-body bg-light">
+            <div class="card-title">
+                Kategori:@Model.Kategori.Ad
+                
+            </div>
+            <div>
+                <p> Yazar: @Model.Yazar.Ad</p>
+                <p>Basım Yılı: @Model.BasimYili</p>
+                <p>Saysa Sayısı: @Model.SayfaSayisi</p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-6 d-grid gap-2 ">
+                    <a asp-controller="Home" asp-action="Detay"asp-route-id=@Model.Id class="btn btn-sm btn-info mb-2">İncele</a>
+                </div>
+                <div class="col-6 d-grid gap-2">
+                     <a class="btn btn-sm btn-success mb-2">Sepete Ekle</a>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-grid gap-2">@* d-grid bulunduğu satırı kaplıyor d-block gibi ama yeni sürümü*@
+                         <a class="btn btn-sm btn-warning" asp-controller="Home" asp-action="KitapGuncelle" asp-route-id=@Model.Id>Güncelle</a>
+                    </div>
+                    <div class="col-6 d-grid gap-2">
+                        <a class="btn btn-sm btn-danger" asp-controller="Home" asp-action="KitapSil" asp-route-id=@Model.Id>Sil</a>
+                    </div>
+                </div>
+                
+            
+            
+             
+            
+           
+        </div>
+
+     
+    </div>
+</div>

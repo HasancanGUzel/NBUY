@@ -1,0 +1,45 @@
+@model Yazar
+@{
+    ViewData["Title"] = "YazarSil";
+}
+
+<h1 class="display-6 alert alert-danger">Dikkat YAZAR Silinecek Emin misiniz</h1>
+<hr>
+<form asp-controller="Home" asp-action="YazarSil"  method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ad"></label> @* asp-for labelın içine Ad yazmadık ama sayfamızda çıktı çünkü asp-for propterisin ismini alıp yazdı*@
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ad">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="DogumYili"></label> @* asp-for labelın içine Ad yazmadık ama sayfamızda çıktı çünkü asp-for propterisin ismini alıp yazdı*@
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="DogumYili">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Cinsiyet"></label> @* asp-for labelın içine Ad yazmadık ama sayfamızda çıktı çünkü asp-for propterisin ismini alıp yazdı*@
+            
+        </div>
+        <div class="col-4">
+            @* <input class="form-control" type="text" asp-for="Cinsiyet"> *@
+            <input class="form-check-input" asp-for="Cinsiyet" type="radio" value="K" checked><label>Kadın</label>
+            <input class="form-check-input" asp-for="Cinsiyet" type="radio" value="E" ><label>Erkek</label>
+        </div>
+    </div>
+
+      <div class="row mb-2">
+        <div class="col-6 d-grid gap-2"> 
+           <input class="btn btn-danger" type="submit" value="Sil">
+        </div>
+    </div>
+
+</form>
