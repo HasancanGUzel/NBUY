@@ -177,7 +177,7 @@ public class HomeController : Controller
         };
 
         
-        return View(kitapViewModel);
+        return View(kitapViewModel);//sayfaya gönderdiğimiz veri viewmodel türünde ama post da aldığımız veri kitap türünde bunuda düzelticez
     }
 
     [HttpPost]

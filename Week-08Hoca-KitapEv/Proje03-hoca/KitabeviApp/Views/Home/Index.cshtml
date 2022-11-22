@@ -1,0 +1,22 @@
+﻿@model List<KitapListViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            @* Burası kategorilerin listeleneceği yer *@
+            @await Component.InvokeAsync("Kategoriler") @* shared içindeki Component klasöründeki yanında kategoriler yazan yeri açıcak*@
+        </div>
+        <div class="col-9">
+            <div class="row">
+                @foreach (var kitap in Model)
+                {
+                    <partial name="_Kitap" model="kitap" />
+                }
+            </div>
+        </div>
+
+    </div>
+</div>
