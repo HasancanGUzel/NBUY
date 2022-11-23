@@ -1,0 +1,17 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Business.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\bin\Debug\net6.0\KitabeviApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\refint\KitabeviApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\KitabeviApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Business\obj\Debug\net6.0\ref\KitabeviApp.Business.dll

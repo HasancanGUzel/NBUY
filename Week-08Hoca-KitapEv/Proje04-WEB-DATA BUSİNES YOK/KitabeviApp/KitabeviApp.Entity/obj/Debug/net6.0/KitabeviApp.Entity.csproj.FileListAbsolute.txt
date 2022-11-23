@@ -1,0 +1,12 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\bin\Debug\net6.0\KitabeviApp.Entity.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\bin\Debug\net6.0\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\bin\Debug\net6.0\KitabeviApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\refint\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\KitabeviApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje04\KitabeviApp\KitabeviApp.Entity\obj\Debug\net6.0\ref\KitabeviApp.Entity.dll

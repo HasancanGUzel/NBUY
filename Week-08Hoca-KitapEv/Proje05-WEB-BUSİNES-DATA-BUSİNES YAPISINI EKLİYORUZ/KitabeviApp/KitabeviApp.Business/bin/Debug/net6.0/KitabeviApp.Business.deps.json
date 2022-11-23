@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KitabeviApp.Business/1.0.0": {
+        "dependencies": {
+          "KitabeviApp.Data": "1.0.0"
+        },
+        "runtime": {
+          "KitabeviApp.Business.dll": {}
+        }
+      },
+      "KitabeviApp.Data/1.0.0": {
+        "dependencies": {
+          "KitabeviApp.Entity": "1.0.0"
+        },
+        "runtime": {
+          "KitabeviApp.Data.dll": {}
+        }
+      },
+      "KitabeviApp.Entity/1.0.0": {
+        "runtime": {
+          "KitabeviApp.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KitabeviApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KitabeviApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KitabeviApp.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
