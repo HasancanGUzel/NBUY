@@ -47,7 +47,7 @@ public class HomeController : Controller
         List<KitapListViewModel> kitapListViewModels=kitaplar
         .Select(k=>new KitapListViewModel()
         {
-            Id=k.Id,
+            Id=k.Id, // kitapların içinde bulunan bilgileri  KitapListViewModel tanımladığımız değişkenlere karşılık gelenlere aktarıyoruz
             Ad=k.Ad,
             BasimYili=k.BasimYili,
             SayfaSayisi=k.SayfaSayisi,
@@ -171,7 +171,7 @@ public class HomeController : Controller
         // kitapModel.Kategoriler=context.Kategoriler.ToList();
 
         KitapViewModel kitapViewModel=new KitapViewModel(){
-            Kitap=kitap,
+            Kitap=kitap, // KitapViewModel deki ürettiğimiz bizim modelsimizin yerini tutan Kitap ,Yazarlar, Kategorilere bizim asıl tablomuzdan çektiğimiz verileri aktarıyoruz
             Yazarlar=context.Yazarlar.ToList(),
             Kategoriler=context.Kategoriler.ToList()
         };

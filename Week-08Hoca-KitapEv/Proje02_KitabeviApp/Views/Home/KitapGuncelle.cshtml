@@ -46,7 +46,7 @@
         <div class="col-4">
             <select asp-for="Kitap.KategoriId" class="form-select" aria-label="Default select example">
                 <option selected>Kategori seçiniz</option>
-                @foreach (var kategori in Model.Kategoriler)
+                @foreach (var kategori in Model.Kategoriler) // buraya önceden viewbag ile gönderiyorduk şimdi  kitapViewModel nesnesine attığımız HomeControl satır 174 deki Kategoriler ,Yazarlar yani ViewModel içindeki tanımladığımız Bizim Models in yerini tutan viewModeller
                 {
                     <option value="@kategori.Id">@kategori.Ad</option>
                 }
