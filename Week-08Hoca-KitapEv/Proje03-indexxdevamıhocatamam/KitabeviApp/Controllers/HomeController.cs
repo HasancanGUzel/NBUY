@@ -10,7 +10,7 @@ public class HomeController : Controller
 {
     KitabeviContext context = new KitabeviContext();
     public IActionResult Index()
-    {
+    {  // index yani anasayfamızda kitapları listelemek için yazdık
         List<Kitap> kitaplar =  context
                 .Kitaplar
                 .Include(k => k.Kategori)

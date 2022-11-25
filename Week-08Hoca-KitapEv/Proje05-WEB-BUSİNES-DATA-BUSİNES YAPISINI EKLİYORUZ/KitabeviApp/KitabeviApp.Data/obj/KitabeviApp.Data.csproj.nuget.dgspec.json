@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
         "projectName": "KitabeviApp.Data",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj"
+              "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj"
               }
             }
           }
@@ -41,16 +41,18 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -69,33 +71,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
         "projectName": "KitabeviApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje04\\KitabeviApp\\KitabeviApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -106,8 +108,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -124,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

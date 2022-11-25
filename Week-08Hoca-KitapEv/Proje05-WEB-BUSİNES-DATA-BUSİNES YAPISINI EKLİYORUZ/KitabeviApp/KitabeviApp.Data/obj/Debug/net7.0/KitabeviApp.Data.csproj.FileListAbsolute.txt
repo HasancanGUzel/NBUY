@@ -1,0 +1,17 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Data.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Data.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\bin\Debug\net7.0\KitabeviApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\refint\KitabeviApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\KitabeviApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\KitabeviApp\KitabeviApp.Data\obj\Debug\net7.0\ref\KitabeviApp.Data.dll
