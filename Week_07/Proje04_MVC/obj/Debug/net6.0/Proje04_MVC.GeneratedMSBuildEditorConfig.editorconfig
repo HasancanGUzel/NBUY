@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proje04_MVC
 build_property.RootNamespace = Proje04_MVC
-build_property.ProjectDir = c:\Users\SABAH\Documents\GitHub\NBUY\Week_07\Proje04_MVC\
+build_property.ProjectDir = c:\Users\HASAN\Documents\GitHub\NBUY\Week_07\Proje04_MVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\SABAH\Documents\GitHub\NBUY\Week_07\Proje04_MVC
+build_property.MSBuildProjectDirectory = c:\Users\HASAN\Documents\GitHub\NBUY\Week_07\Proje04_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/About.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/GetCategories.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/GetCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/GetProducts.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/GetProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/Index.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_footer.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_header.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_headerNavbar.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_headerNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXJOYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_navbar.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/_ViewImports.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/_ViewStart.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_Layout.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week_07/Proje04_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6zkgipf3wf
