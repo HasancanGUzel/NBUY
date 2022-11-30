@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
         "projectName": "BlogApp.Mvc",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\28-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
