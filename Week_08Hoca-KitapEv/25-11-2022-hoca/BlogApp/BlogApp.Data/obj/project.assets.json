@@ -560,11 +560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
       "projectName": "BlogApp.Data",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Data\\obj\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -581,11 +581,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
-              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj"
             },
-            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
-              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\25-11-2022-hoca\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
             }
           }
         }

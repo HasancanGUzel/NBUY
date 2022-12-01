@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BHaplW3a0evQyjy+8xVHrVXqRtRae7YNDgXCOqhoPmQy8g3Kj2PCNcg9Ji5xiDMlag78rLTHmy5Qk7TT/uxjkg==",
+  "dgSpecHash": "Hzk0BIcondTOBbZn2ChPPQwEQxwspoHStGSyYEV6jXWME/wHTXX+1w8s63npE6c/8CnQGQpvm40ur0Ns+gEZRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

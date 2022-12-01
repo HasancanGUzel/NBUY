@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "projectName": "BlogApp.Mvc",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\24-11-2022\\BlogApp\\BlogApp.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

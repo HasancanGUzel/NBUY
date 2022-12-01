@@ -3323,11 +3323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "projectName": "BlogApp.Mvc",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\obj\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3344,11 +3344,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj"
             },
-            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\30-11-2022-MVC\\BlogApp\\BlogApp.Services\\BlogApp.Services.csproj"
             }
           }
         }
