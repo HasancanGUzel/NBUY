@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KitabeviApp
 build_property.RootNamespace = KitabeviApp
-build_property.ProjectDir = c:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje03-indexkısmıyok\KitabeviApp\
+build_property.ProjectDir = c:\Users\HASAN\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje03-indexkısmıyok\KitabeviApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\SABAH\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje03-indexkısmıyok\KitabeviApp
+build_property.MSBuildProjectDirectory = c:\Users\HASAN\Documents\GitHub\NBUY\Week-08Hoca-KitapEv\Proje03-indexkısmıyok\KitabeviApp
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/Detay.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/Detay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/Index.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriEkle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriEkle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXRlZ29yaUVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriGuncelle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriGuncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXRlZ29yaUd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriListesi.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriListesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXRlZ29yaUxpc3Rlc2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriSil.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KategoriSil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXRlZ29yaVNpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapEkle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapEkle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLaXRhcEVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapGuncelle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapGuncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLaXRhcEd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapListesi.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapListesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLaXRhcExpc3Rlc2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapSil.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/KitapSil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLaXRhcFNpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarEkle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarEkle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZYXphckVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarGuncelle.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarGuncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZYXphckd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarListesi.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarListesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZYXphckxpc3Rlc2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarSil.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Home/YazarSil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZYXphclNpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Kitap.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Kitap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LaXRhcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Menu.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/_ViewImports.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/_ViewStart.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/SABAH/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Layout.cshtml]
+[c:/Users/HASAN/Documents/GitHub/NBUY/Week-08Hoca-KitapEv/Proje03-indexkısmıyok/KitabeviApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nypz2x1685
