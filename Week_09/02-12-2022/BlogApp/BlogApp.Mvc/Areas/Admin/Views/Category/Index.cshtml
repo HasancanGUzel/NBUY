@@ -1,0 +1,153 @@
+﻿@using BlogApp.Shared.Utilities.Result.ComplexTypes
+@using BlogApp.Entities.Dtos
+@model CategoryListDto // içerisinde DtoGetbase den  miras alan ve categorilerin listesini tutan  ekrana mesaj success error mesajlarını verdirebilmemiz için bir dto hazırlamıştık ve burada da categori listeleyeceğimiz için bunu model olaak kullandık
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Kategoriler Anasayfa";// sayfanın başlığı
+}
+@if (Model.ResultStatus == ResultStatus.Success)
+{
+    @*Kategoriler listelenecek*@
+    <div id="modalPlaceHolder" aria-hidden="true"></div>
+    <h1 class="mt-4">Admin Kategoriler</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item active">Kategoriler</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table mr-1"></i>
+            Kategoriler
+        </div>
+        <button class="btn btn-success" id="btnEkle">Ekle</button>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="categoriesTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th> @* sayfanın form kısmı ve sütun başlıkları*@
+                            <th>Ad</th>
+                            <th>Açıklama</th>
+                            <th>Aktif mi?</th>
+                            <th>Silinmiş mi?</th>
+                            <th>Not</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model.Categories) @* CategoryListDto modelimizin içindeki kategori listesini tutan Categories getirip her bir veriyi category adında foreach le döndürdük ve bu her dönüşte category.Id name vs sütunlara yazdırdık*@
+                        {
+                            <tr>
+                                <td>@category.Id</td> @*her sütuna karşılık gelen veritabanındaki değerleri buraya çağırdık*@
+                                <td>@category.Name</td>
+                                <td>@category.Description</td>
+                                <td>@category.IsActive</td>
+                                <td>@category.IsDeleted</td>
+                                <td>@category.Note</td>
+                                <td>@category.CreatedDate.ToShortDateString()</td>
+                                <td>@category.CreatedByName</td>
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            //datatable burada başlıyor
+            $('#categoriesTable').DataTable({
+
+                dom: "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3'f>>" +
+                    "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-5'i><'col-sm-7'p>>", // ekle ve yenile butonunu sayfanın ortasına yerleştirebilmek için
+                buttons: [
+                    {
+                        text: 'Ekle', // butonlarımız isim verdik ekle ve yenile
+                        attr: {
+                            id: 'btnAdd' // bu butona ileride bunun click olayı için bir id veriyoruz
+                        },
+                        action: function (e, dt, node, config) {
+
+                        },
+                        className: 'btn btn-success' // butonun rengi için class verdik
+                    },
+                    {
+                        text: 'Yenile',
+                        action: function (e, dt, node, config) {
+                            alert('Yenile butonuna tıklandı');
+                        },
+                        className: 'btn btn-warning'
+                    }
+                ],
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.13.1/i18n/tr.json'
+                }
+            });
+            //Datatable burada bitiyor
+
+            $(function () {
+                const url = '@Url.Action("Add","Category")';// category controllerındaki add actionun url yoluyunu alıyoruz
+                const placeHolderDiv = $('#modalPlaceHolder');// id si modalPlaceHolder olan veriyi placeHolderDiv buna atıyoruz
+                //ajaxla (GET) partial viewmızı ekrana getirdik
+
+                $('#btnAdd').click(function () {//ekle butonunun cliclk olayı olduğu zzaman
+                    $.get(url).done(function (data) {//const url = 'Url.Action("Add","Category")'; şu url Get diyoruz getir. Done ise $.get(url) burdan geleni kullan
+                        placeHolderDiv.html(data);
+                        placeHolderDiv.find(".modal").modal('show');// modal bul show yap göster
+                    });
+                });
+                //ajaxla  (GET)partial viewmızı ekrana getirme bitti
+
+                //ajaxla POST işlemleri
+                placeHolderDiv.on('click', '#btnSave', function (event) {// placeholder divin içinde id si btnSave olan elemntin click olayı ekledik yani açılan formdaki kaydet butonu        
+                    event.preventDefault();// default davranışı ortadan kaldırıyor
+                    const form = $('#form-category-add');// id si form-category-add olan formumuzu form değişkenine aktardık
+                    const actionUrl = form.attr('action');// form un  attr un action değerini aldık
+                    const dataToSend = form.serialize();//json türüne serliaze çevirdik dataToSend attık
+                    $.post(actionUrl, dataToSend).done(function (data) { 
+                        const categoryAddAjaxModel = jQuery.parseJSON(data);// datayı json türüne dönüştürdük
+                        const newFormBody = $('.modal-body', categoryAddAjaxModel.CategoryAddPartial);//gelen partialviewi newFormBody içien yerleştirdik
+                        placeHolderDiv.find('.modal-body').replaceWith(newFormBody);// classı  modal-body olan formu bul ve içeriğini newFormBody ile değiştir dedik
+                        const isValid = newFormBody.find('[name="IsValid"]').val() === 'True';//_CategoryAddPartial dan gelen input. newFormBody içinde name=IsValid olanı value si ile bul
+                        if (isValid) { // isvalid true ise bunlar çalışıcak
+                            const newTableRow = ` @* isvalid true olduğu zaman yeni eklene veriyi satır ve sütunlara göre json formatında aktardığımız datayı (categoryAddAjaxModel) kolonlara göre yerleştiriyoruz *@
+                              <tr>
+                                <td>${ categoryAddAjaxModel.CategoryDto.Category.Id }</td>
+                                <td> ${ categoryAddAjaxModel.CategoryDto.Category.Name } </td>
+                                <td> ${ categoryAddAjaxModel.CategoryDto.Category.Description } </td>
+                                <td> ${convertFirstLetterToUpperCase(categoryAddAjaxModel.CategoryDto.Category.IsActive)} </td>
+                               <td> ${convertFirstLetterToUpperCase(categoryAddAjaxModel.CategoryDto.Category.IsDeleted) } </td>
+                                <td> ${ categoryAddAjaxModel.CategoryDto.Category.Note ?? "" } </td>
+                                <td> ${convertToShortDate(categoryAddAjaxModel.CategoryDto.Category.CreatedDate)} </td>
+                                <td> ${ categoryAddAjaxModel.CategoryDto.Category.CreatedByName } </td>
+                              </tr>
+                             `;
+                              const newTableRowObject=$(newTableRow);//object dönüştürdük
+                              newTableRowObject.hide();//görünmez şuan
+                              $('#categoriesTable').append(newTableRowObject);//id si categoriesTable olan yere newTableRowObject ekliyoruz ama şuan görünmez
+                              newTableRowObject.fadeIn(3000);// burada ise 3000 saniyede görünüz yapıyoruz yavaş yavaş görünüyor
+                              toastr.success(`${categoryAddAjaxModel.CategoryDto.Message}`,'Başarılı');// başarılı mesajını formun içinde değilde sağda başarılı ise yeşil bir pencere veriyoruz
+                            placeHolderDiv.find(".modal").modal('hide');// kaydet butonu başarılı olduğuz zaman kaydettiktnsonra kapanıyor
+                        }
+                        else{//toaster hata için hatayı formun içinde değilde yanda renkli görüntü
+                            let summaryText='';
+                            $('#validation-summary > ul > li').each(function () {// validation-summary id li divimizin içindeki hataları ul  ve li içindeki hataları alıyoruz ve summaryText içine atıyoruz
+                                let liText=$(this).text();
+                                summaryText+=`*${liText}<br><br>`;
+                            });
+                            toastr.warning(summaryText, 'Dikkat!');//  dikkat mesajını formun içinde değilde sağda hatalı ise sarı bir pencere veriyoruz
+                        }
+                    });
+                });// placeholder divin içinde id si btnSave olan elemntin click olayı ekledik
+
+            });
+        });
+    </script>
+}
