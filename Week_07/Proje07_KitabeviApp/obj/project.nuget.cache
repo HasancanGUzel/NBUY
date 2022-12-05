@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "xToaJ4L7hQGdM+EQ7Eg4feh+FHOR6deuZd//dZ609iLC25tpzDOR56z5WczSLK1dCk9L/bbJpqOLiSoxhLCUEA==",
+  "dgSpecHash": "hxKLCQt+uuIYkHUsJlbd9HtH4hx01U3mq0g5aAP86cpo/d5RPzrYxm80Hp1hOSD8TqYoh7HeLFcP3/iyAi+CcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
-=======
-  "dgSpecHash": "r4V1/KkrHOTl6KdDjOn+A8WnpsJ/KOCjMadoqf525FN3akSCRoPNeBEN9E056EhpyxHjyH9z73mfq1wSnzCNHw==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
->>>>>>> 58cba5d0641bd7edf97bd75a5c4f9a21638f9a8f
+  "projectFilePath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HASAN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HASAN\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.11\\microsoft.data.sqlite.core.6.0.11.nupkg.sha512",
@@ -41,5 +35,12 @@
     "C:\\Users\\HASAN\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\HASAN\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

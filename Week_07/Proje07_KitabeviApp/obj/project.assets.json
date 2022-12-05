@@ -1226,11 +1226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
+      "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
       "projectName": "KitabeviApp",
-      "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
+      "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\KitabeviApp.csproj",
       "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\obj\\",
+      "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1290,5 +1290,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_07\\Proje07_KitabeviApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
