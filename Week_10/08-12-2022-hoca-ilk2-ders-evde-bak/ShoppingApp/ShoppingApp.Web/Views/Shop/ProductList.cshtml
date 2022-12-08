@@ -1,0 +1,25 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model List<ProductDto> // buda productları listelemek için oluşturudk ve buraya ProductDto tründe geliyor
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*kategorilere tıklayınca hangi kategoriye tıklandıysa o kategorinin içeriğini gtsericek*@
+<div class="text-center">
+    <h1 class="display-4">Welcome ShoppingApp</h1>
+</div>
+<div class="mt-4 row">
+    <div class="col-3">
+        @await Component.InvokeAsync("Categories") 
+    </div>
+    <div class="col-9">
+        <div class="row">
+            @foreach (var productDto in Model)
+            {
+                <div class="col-md-4">
+                    @await Html.PartialAsync("_ProductPartial", productDto)
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿@using ShoppingApp.Entity.Concrete
+@model List<Category> // CategoriesViewComponent den gelen kategori isimlerini altta seçili değilse active yap dedik
+<div class="list-group">
+    <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==null ? "active":"")"
+        asp-controller="Home"
+        asp-action="Index"
+        asp-route-category="" 
+
+    >Tümünü göster</a>
+    @foreach (var category in Model)
+    {
+         <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==category.Url ? "active":"")"
+        asp-controller="Home"
+        asp-action="Index"
+        asp-route-category=@category.Url>@category.Name</a>
+    }
+</div>

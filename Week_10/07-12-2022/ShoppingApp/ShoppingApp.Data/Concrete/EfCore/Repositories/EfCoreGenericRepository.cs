@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 {
     
+    // EfCoreGenericRepository bu lclassı yazmamızın nedeni eğer biz bu classı yazmasaydık  bu klasörün içindeki 2 değilde 10 classımız olsaydı biz bunlara  IRepository den imzalarını alıp içeriğini doldurmak zorunda kalıcaktık
+    // ama biz bunu düşünerek IRepository den  EfCoreGenericRepository classına miras verdirdik ve bu Generic yapıdaki clasımızın içinde metotların içeriğini doldurduk ve her classda bunu miras veridipi generic olarak tanımlalamız sonucunda kısa yol olmuş oldu.
     public class EfCoreGenericRepository<TEntity> : IRepository<TEntity>
         where TEntity : class, // bundan miras alan class lar new lenebilir olmalı Tentity ve class olmalı
         new()

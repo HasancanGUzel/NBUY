@@ -1,0 +1,16 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model ProductDto
+<div class="card mb-2">
+    <div class="card-img p-2 text-center">
+        <img src="/images/@Model.ImageUrl" />
+    </div>
+    <div class="card-body">
+        <h5 class="card-title text-center">@Model.Name</h5>
+        <div class="text-muted text-center p-4">@($"{Model.Price:C2}")</div>
+        <div class="text-success text-center">@($"{Model.DateAdded:d}")</div>
+    </div>
+    <div class="card-footer bg-light d-flex justify-content-around">
+        <a class="btn btn-primary">İncele</a>
+        <a class="btn btn-success">Sepete Ekle</a>
+    </div>
+</div>

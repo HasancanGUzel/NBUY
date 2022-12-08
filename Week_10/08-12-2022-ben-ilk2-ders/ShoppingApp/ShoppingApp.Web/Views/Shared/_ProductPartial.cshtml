@@ -1,0 +1,16 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model ProductDto
+<div class="card mb-2">
+    <div class="card-img p-2 text-center">
+        <img src="~/images/@Model.ImageUrl"/>
+    </div>
+    <div class="card-body">
+        <h5 class=" card-title text-center">@Model.Name</h5>
+        <div class="text-muted text-center p-4">@($"{Model.Price:C0}")</div> @* @($"{Model.Price:C0}" bu satırı para birimi şeklinde yazabilmek için yaptık şekilli olsun diye  C para birimi 0 da ondalık göstermesin dedik 0 yerine 1 , 2 falan yazılır*@
+        <div class="text-success text-center">@($"{Model.DateAdded:d}")</div>
+    </div>
+    <div class="card-footer bg-light d-flex justify-content-around">
+        <a class="btn btn-primary btn-sm">İncele</a>
+        <a class="btn btn-success btn-sm">Sepete Ekle</a>
+    </div>
+</div>
