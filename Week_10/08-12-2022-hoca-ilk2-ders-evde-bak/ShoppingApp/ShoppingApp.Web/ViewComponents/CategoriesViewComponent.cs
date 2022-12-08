@@ -14,7 +14,7 @@ namespace ShoppingApp.Web.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            if (RouteData.Values["category"] != null)
+            if (RouteData.Values["category"] != null)// buradaki category adı program cs deki maproute daki category adıyla aynı olmak zorunda 
             {
                 ViewBag.SelectedCategory = RouteData.Values["category"];// link yapısnı ismini category yapmıştık ve url i aldık buraya ne geliyor beyaz-esya gibi vs
             }

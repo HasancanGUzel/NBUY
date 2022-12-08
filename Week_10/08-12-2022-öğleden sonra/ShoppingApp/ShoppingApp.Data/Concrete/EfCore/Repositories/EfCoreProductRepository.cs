@@ -23,6 +23,8 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         public Task<Product> GetProductDetailsByUrlAsync(string producturl)
         {
+            //dışarıdan gelen producturl değerini alıp  ShopAppContext ile veritabnına bağlanıp  product ların url i dışarıdan gelen url eşimi ona bak
+            // poductlarlar produccategories tablosunu birleşir
             return ShopAppContext
                 .Products
                 .Where(p => p.Url==producturl)

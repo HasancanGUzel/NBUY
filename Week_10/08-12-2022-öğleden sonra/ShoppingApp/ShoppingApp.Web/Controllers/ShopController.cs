@@ -40,12 +40,13 @@ namespace ShoppingApp.Web.Controllers
         }
         public async Task<IActionResult> ProductDetails(string producturl)
         {
-            if (producturl ==null)
+            // anasayfamızda product cardlarında incele butonuna tıklandığı zaman burası çalışıcak oradan gelen producturl
+            if (producturl ==null)// boş ise geri NotFound hatası döndürür
             {
-                return NotFound();
-            }
+                return NotFound(); 
+            }// boş değilse GetProductDetailsByUrlAsync metodu kullaıp  producturl gönderip metoun olduğu business ordanda data katmanına gidick ve geri değer döndürücek
             var product = await _productManager.GetProductDetailsByUrlAsync(producturl);
-            ProductDetailsDto productDetailsDto = new ProductDetailsDto
+            ProductDetailsDto productDetailsDto = new ProductDetailsDto // gelen veriyi ProductDetailsDto dan türettiğimiz  productDetailsDto nesnesine karşlık gelen proplara aaktarıyoruz
             {
                 Id = product.Id,
                 Name = product.Name,

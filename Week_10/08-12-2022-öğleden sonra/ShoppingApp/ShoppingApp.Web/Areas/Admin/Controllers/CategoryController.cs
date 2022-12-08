@@ -17,8 +17,8 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
 
-            var categories = await _categoryService.GetAllAsync();
-            var categoryListDto = new CategoryListDto
+            var categories = await _categoryService.GetAllAsync(); // veritabanında tüm kategorileri çektik ve categories içine attık ama biz direk entityle ile ileişime geçmesinler diye CtageoyList Dto tanımlamıştık
+            var categoryListDto = new CategoryListDto// burada CtageorListDto dan kategorileri tutan Categories içine ukarıda tanımladığımız categories içindeki verilri atıyruz
             {
                 Categories = categories
 
