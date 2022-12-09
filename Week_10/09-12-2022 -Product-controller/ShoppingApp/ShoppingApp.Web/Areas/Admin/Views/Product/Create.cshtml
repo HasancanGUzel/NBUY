@@ -1,0 +1,56 @@
+﻿@model ProductAddDto
+<h1>Yeni Ürün Ekleme</h1>
+<hr />
+<form class="form form-bordered" asp-area="Admin" asp-controller="Product" asp-action="Create" method="post">
+    @*buradaki Create actionu  ProductConrollerdaki httppost olan Create veriyi göndericek olan*@ @* asp aremız admin dedik controlleırmız belirledik *@
+    <div class="row">
+        <div class="col-8">
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label> @* asp-for="Name" buraya gelen name alanını yani bizim ProductAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span> @* buda bizim ProductAddDto daki hata mesajları için kullandık hata mesajlarını ekrana yazıdrabilmek için*@
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label"></label> @* asp-for="Price" buraya gelen name alanını yani bizim ProductAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Price">
+                <span asp-validation-for="Price" class="text-danger"></span> @* buda bizim ProductAddDto daki hata mesajları için kullandık hata mesajlarını ekrana yazıdrabilmek için*@
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label> @* asp-for="Descripition" buraya gelen name alanını yani bizim ProductAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+            <label asp-for="ImageFile" class="form-label"></label> @* asp-for="ImageFile" buraya gelen name alanını yani bizim ProductAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+            <input type="file"asp-for="ImageFile" accept="image/"/>
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+
+        </div>
+        <div class="col-4">
+            <div>
+                <label asp-for="Categories"></label>
+            </div>
+            @foreach (var category in Model.Categories)
+            {
+                <div>
+                    <input  class="form-check-input"
+                        type="checkbox"/>
+                        <label>@category.Name</label>
+                </div>
+            }
+        </div>
+    </div>
+
+</form>

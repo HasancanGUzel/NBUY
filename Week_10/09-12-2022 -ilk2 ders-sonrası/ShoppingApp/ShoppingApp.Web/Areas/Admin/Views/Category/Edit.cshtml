@@ -1,0 +1,48 @@
+﻿@model CategoryUpdateDto
+<h1>Kategori Düzenleme</h1>
+<hr />
+<form class="form form-bordered" asp-area="Admin" asp-controller="Category" asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    @*buradaki Edit actionu  CategoryConrollerdaki httppost olan Edit veriyi göndericek olan*@ @* asp aremız admin dedik controlleırmız belirledik *@
+    <div class="row">
+        <div class="col-4">
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label> @* asp-for="Name" buraya gelen name alanını yani bizim ctagoryAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span> @* buda bizim ctagoryUpdateDto daki hata mesajları için kullandık hata mesajlarını ekrana yazıdrabilmek için*@
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label> @* asp-for="Descripition" buraya gelen name alanını yani bizim ctagoryUpdateDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Url" class="form-label"></label> @* asp-for="Descripition" buraya gelen name alanını yani bizim ctagoryUpdateDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Url">
+                <span asp-validation-for="Url" class="text-danger"></span>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
+            <a type="submit" class="btn btn-danger"
+                    asp-area="Admin"
+                    asp-controller="Category"
+                    asp-action="Delete"
+                    asp-route-id=@Model.Id>
+                Sil
+            </a>
+            <a type="submit" class="btn btn-warning"
+                    asp-area="Admin"
+                    asp-controller="Category"
+                    asp-action="Index"
+            >
+                Vazgeç
+            </a>
+
+
+
+        </div>
+    </div>
+
+</form>

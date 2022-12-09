@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\08-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-öğleden sonra\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
       "projectName": "ShoppingApp.Entity",
-      "projectPath": "C:\\Users\\SABAH\\Desktop\\08-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-öğleden sonra\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Desktop\\08-12-2022\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-öğleden sonra\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

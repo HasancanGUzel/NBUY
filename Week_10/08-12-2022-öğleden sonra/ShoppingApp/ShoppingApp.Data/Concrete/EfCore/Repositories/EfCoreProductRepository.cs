@@ -43,15 +43,15 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
-            var products= ShopAppContext.Products.AsQueryable();
-            if (category != null)
+            var products= ShopAppContext.Products.AsQueryable();// aşağıdaki ife girmeden önce pause yapıp sonra devam ettiriyor aşağıdakileri kontrol ettiriyor
+            if (category != null) // kategori null değilse yani anasayfamızad tüm kategoriler tıklandığı zaman kategori id si yok onun gibi
             {
-                products = products
+                products = products //yukarıdaki pause edilen products içinde p.IsApproved true ise
                     .Where(p => p.IsApproved)
-                    .Include(p => p.ProductCategories)
-                    .ThenInclude(pc => pc.Category)
-                    .Where(p => p.ProductCategories.Any(pc => pc.Category.Url == category));
-            }
+                    .Include(p => p.ProductCategories) //  ProductCategories bağladık producta bağladık
+                    .ThenInclude(pc => pc.Category)//  sonra ProductCategories bunuda category tablosuna bağladık
+                    .Where(p => p.ProductCategories.Any(pc => pc.Category.Url == category)); 
+            } // ve product içinde  ProductCategories beraber dönüp   category url eşitse dışarıdan gelen category ye gibi birşey
             return await products.ToListAsync();
 
 

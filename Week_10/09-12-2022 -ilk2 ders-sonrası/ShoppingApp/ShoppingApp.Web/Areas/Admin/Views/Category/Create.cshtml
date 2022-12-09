@@ -1,0 +1,28 @@
+﻿@model CategoryAddDto
+<h1>Yeni Kategori Ekleme</h1>
+<hr />
+<form class="form form-bordered" asp-area="Admin" asp-controller="Category" asp-action="Create" method="post">
+    @*buradaki Create actionu  CategoryConrollerdaki httppost olan Create veriyi göndericek olan*@ @* asp aremız admin dedik controlleırmız belirledik *@
+    <div class="row">
+        <div class="col-4">
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label> @* asp-for="Name" buraya gelen name alanını yani bizim ctagoryAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span> @* buda bizim CtageoyAddDto daki hata mesajları için kullandık hata mesajlarını ekrana yazıdrabilmek için*@
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label> @* asp-for="Descripition" buraya gelen name alanını yani bizim ctagoryAddDto daki Name alanının adını alıcak ve biz orda ismi kendimiz verdik*@
+                <input class="form-control" asp-for="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+
+        </div>
+    </div>
+
+</form>
