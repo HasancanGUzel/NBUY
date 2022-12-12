@@ -1,0 +1,92 @@
+﻿@model ProductUpdateDto
+<h1> Ürün Güncelleme</h1>
+<hr />
+<form asp-area="Admin"
+      asp-controller="Product"
+      asp-action="Edit"
+      method="post"
+      enctype="multipart/form-data">
+    @*resim veya herhangi bir dosayanın eklenmesi için*@
+    <div class="row">
+        <div class="col-8">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label"></label>
+                <input class="form-control" asp-for="Price">
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageFile" class="form-label"></label>
+                <input type="file" asp-for="ImageFile" accept="image/" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                <img src=@if(Model.ImageUrl!=null)
+                {
+                     "~/images/@Model.ImageUrl"
+                     } />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <input class="form-control" asp-for="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+            <a type="button" class="btn btn-danger"
+               asp-area="Admin"
+               asp-controller="Product"
+               asp-action="Delete"
+               asp-route-id=@Model.Id>Sil</a>
+            <a type="button" class="btn btn-light"
+               asp-area="Admin"
+               asp-controller="Product"
+               asp-action="Index">Vazgeç</a>
+        </div>
+        <div class="col-4">
+
+            <div class="mb-3">
+                <label class="form-label" asp-for="Categories"></label>
+
+
+                @foreach (var category in Model.Categories)
+                {
+                    <div>
+                        <input type="checkbox"
+                           class="form-check-input"
+                           name="selectedcategoryIds"
+                           value="@category.Id"
+                           @if (Model.SelectedCategoryIds !=null)
+                           {
+                           @(Model.SelectedCategoryIds.Any(sc=>sc==category.Id) ?"checked":"") @*productController da cretae postunda açıkladım şimdi categoryleride buaray yolladık fakat bunu kontrol ettirmemiz lazım buarya if koyamasaydık yeni ekleneceği zaman hata veriyordu onu kontrol ettirdik sonra if bloğu içine
+                           modelden gelen seçili id categoryId ye eşitse checked yaptırdık
+                           *@
+                           } />
+                        @* her bir inputa cehcboxa  name="selectedcategoryIds" isim veriyoruz ve her birinizn ayrı bir value değeri oluyor value değeride ıd leri*@
+
+                        @*burdaki verilerde  ProductAddDto daki (int[] SelectedCategoryIds) de tutuluyor*@ @*Any varmı demek *@
+
+                        <label>@category.Name</label>
+                    </div>
+                }
+                <span asp-validation-for="SelectedCategoryIds" class="text-danger"></span>
+
+            </div>
+
+            <div class="mb-1">Seçenekler</div>
+            <div>
+                <input type="checkbox" class="form-check-input" asp-for="IsHome">
+                <label asp-for="IsHome" class="form-label"></label>
+                <span asp-validation-for="IsHome" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input type="checkbox" class="form-check-input" asp-for="IsApproved">
+                <label asp-for="IsApproved" class="form-label"></label>
+                <span asp-validation-for="IsApproved" class="text-danger"></span>
+            </div>
+
+        </div>
+    </div>
+</form>
