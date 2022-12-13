@@ -1,0 +1,58 @@
+﻿@model List<ProductListDto>
+<h1>Ürünler</h1>
+<hr />
+<a class="btn btn-outline-primary"
+   asp-area="Admin"
+   asp-controller="Product"
+   asp-action="Create">Yeni Ürün Ekle</a>
+<hr />
+<table class="table table-responsive table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Resim</th>
+            <th>Adı</th>
+            <th>Fiyatı</th>
+            <th>Açıklama</th>
+            <th>Kategoriler</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Id</td>
+                <td>
+                    <img src="/images/@item.Product.ImageUrl" width="20" />
+                </td>
+                <td>@item.Product.Name</td>
+                <td>@($"{item.Product.Price:C2}")</td>
+                <td>@item.Product.Description</td>
+                <td>
+                    <ul>
+                        @foreach (var category in item.Product.ProductCategories)
+                        {
+                            <li>@category.Category.Name</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+
+                    <a class="btn btn-warning btn-sm"
+                   asp-area="Admin"
+                   asp-controller="Product"
+                   asp-action="Edit"
+                   asp-route-id=@item.Product.Id>Düzenle</a>
+
+                    <a class="btn btn-danger btn-sm"
+                   asp-area="Admin"
+                   asp-controller="Product"
+                   asp-action="Delete"
+                   asp-route-id=@item.Product.Id>Sil</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

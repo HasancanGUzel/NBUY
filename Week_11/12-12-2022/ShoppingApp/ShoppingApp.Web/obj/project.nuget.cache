@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MpPOKLGttf7oyweaDC+m97EdY+gDrMlBdq3vwhuJiSMrnnXL3nGyduU77XCmDI3MgkFmGWkCRfHT8PhYbh214w==",
+  "dgSpecHash": "8U5jUsNh2+WlToOBTrm3v01XkYZ3vQC+Lm/HLr7eClv1lxloCsRsBdDR398MbCufamgP/+8H07e4A8OWZdysog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_11\\12-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_11\\12-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

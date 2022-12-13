@@ -49,7 +49,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
            if(ModelState.IsValid)
             {
                 var url = Jobs.InitUrl(productAddDto.Name);
-                var product = new Product
+                var product = new Product // veritabanına product türünde gödereceğimiz için Product dan nesne tanımladık ve ordaki proplara aktardık
                 {
                     Name = productAddDto.Name,
                     Price = productAddDto.Price,
