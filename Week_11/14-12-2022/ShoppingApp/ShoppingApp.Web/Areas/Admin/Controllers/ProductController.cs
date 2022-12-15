@@ -63,7 +63,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             }
             var categories = await _categoryService.GetAllAsync();
             productAddDto.Categories = categories;
-            productAddDto.ImageUrl = productAddDto.ImageUrl;
+            productAddDto.ImageUrl = productAddDto.ImageUrl;//resmi tekrar gönderebilmek için
             return View(productAddDto);
         }
 
@@ -99,6 +99,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 }
                 var url= Jobs.InitUrl(productUpdateDto.Name);
                 var imageUrl = productUpdateDto.ImageFile != null ? Jobs.UploadImage(productUpdateDto.ImageFile) : product.ImageUrl;
+                //productUpdateDto yani edit sayfasından gelen resim boş değilse Jobs içindeki UploadImage metoduna gönderiyoruz eğer boşşsa productUpdateDto gelen verinin id sine göre producta attığımız verilerin için resim bilgisini çekiyoruz
                 product.Name= productUpdateDto.Name;
                 product.Price= productUpdateDto.Price;
                 product.Description= productUpdateDto.Description;
@@ -135,11 +136,11 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> Delete(int id)
-        {
-            var product = await _productService.GetByIdAsync(id);
-            if (product == null) { return NotFound(); }
-            _productService.Delete(product);
-            return RedirectToAction("Index");
+        { // buraya ProductDeletePartial dan id yi gönderiyoruz bu id ye göe herzamanki işlemi yapıyouz
+            var product = await _productService.GetByIdAsync(id); // id ye göre ürün bilgilerii getiriyoruz
+            if (product == null) { return NotFound(); }// boşmu diye kontrol ettiriyoruz
+            _productService.Delete(product);// boş değilse _productService den servicisimize bağlanıp Dlete metodunu içine ürün bilgilerini ekleyip yolluyoruz
+            return RedirectToAction("Index"); // ve sayfamızı yeniden yüklüyoruz
         }
     }
 }

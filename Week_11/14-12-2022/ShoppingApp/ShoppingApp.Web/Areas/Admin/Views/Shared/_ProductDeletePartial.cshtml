@@ -1,5 +1,5 @@
 ﻿@using ShoppingApp.Entity.Concrete
-@model Product
+@model Product // buraya bu partialı kullandığımız yerden sil butonu olduğu için 1 product bilgisi geliyor o yüzdn Product olarak tuttuk
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modalProductDelete_@Model.Id">
@@ -29,11 +29,12 @@
                     asp-controller="Product"
                     asp-action="Delete"
                     asp-route-id="@Model.Id"
-                >
+                >@*a mıza bir id ve yolunu belirtiyoruz bu verdiğimiz id yi aşşğıdaki js kodaunda kulllanıcaz*@
                     <button 
                         type="button" 
                         class="btn btn-primary"
                             onclick="document.getElementById('productDeleteForm_@Model.Id').submit()";>Evet </button>
+                            @* yukarıdaki a nın içindeki id ye göre submit olayı ekledik*@
                 </a>
 
                 <button type="button" class="btn btn-success" data-bs-dismiss="modal">Hayır</button>

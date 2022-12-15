@@ -70,6 +70,8 @@
                    asp-route-id=@item.Product.Id>Düzenle</a>
 
                    @await Html.PartialAsync("_ProductDeletePartial",item.Product)
+                   @*tanımladığımız _ProductDeletePartial yani delete butonu için burada çağırdık*@
+                   @* burada veriyi direk productolarak yollayabildik çünkü bu sayfaya gelen verinin ProductListDto yani çinde Product türünde Product tutyordu o yüzden bir çevirme işlemi falan yapmadık ama Edit sayfasında yaptık bak*@
 
                 </td>
             </tr>

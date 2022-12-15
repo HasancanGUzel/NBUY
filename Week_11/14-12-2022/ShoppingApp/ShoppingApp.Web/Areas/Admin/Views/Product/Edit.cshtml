@@ -46,6 +46,8 @@
                 Name = Model.Name,
                 ImageUrl = Model.ImageUrl
             };
+            @*İndex sayfamızad burayı direk çalıştırabilmitik ama bunu çalıştıramıyoruz çünkü buraya gelen veri ProductUpdateDto yani bunun içindeki Product türüde Product yok bunun için*@
+            @* üstteki kodau yazdık yani buraya gelen Model içindeki verileri Product türünde olan product nesnesine atıyoruz ve _ProductDeletePartial a bnu yolluyoruz*@
             }
             @await Html.PartialAsync("_ProductDeletePartial",product)
            
