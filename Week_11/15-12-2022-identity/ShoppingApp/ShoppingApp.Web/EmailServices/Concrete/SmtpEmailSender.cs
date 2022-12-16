@@ -15,6 +15,7 @@ namespace ShoppingApp.Web.EmailServices.Concrete
 
         public SmtpEmailSender(string host, int port, bool enableSSL, string userName, string password)
         {
+            //program.cs deki 67 satırda bilgileri buraya gönderiyoruz.
             _host = host;
             _port = port;
             _enableSSL = enableSSL;
@@ -24,12 +25,14 @@ namespace ShoppingApp.Web.EmailServices.Concrete
 
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var client = new SmtpClient(_host, _port)
+            //client kısmı kimden gidiyor
+            var client = new SmtpClient(_host, _port)  // dışarıdan gelen host ve port bilgisini client atıyoruz
             {
-                Credentials = new NetworkCredential(_userName, _password),
-                EnableSsl = _enableSSL
+                Credentials = new NetworkCredential(_userName, _password), // kullanıcı adı ve şifre veriyoruz
+                EnableSsl = _enableSSL // true yada false bilgiini veriyoruz
             };
-            return client.SendMailAsync(
+            //burası ise kime gidecek
+            return client.SendMailAsync( // mail yollama işlemi burada yapılıyor
                 new MailMessage(_userName, email, subject, htmlMessage)
                 {
                     IsBodyHtml = true

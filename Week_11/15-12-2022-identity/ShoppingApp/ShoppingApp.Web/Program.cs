@@ -15,7 +15,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<IdentityContext>(options=>options.UseSqlite("DataSource=ShoppingApp.db")); // IdentityContext options a  UseSqlite("DataSource=ShoppinApp.db" g�nderdik
 
-builder.Services.AddDbContext<ShopAppContext>();
+builder.Services.AddDbContext<ShopAppContext>(); // bunun connectionstringini  ShopAppContext içinde yapmıştık ama üstteki IdentitContexti burada tanmladık
 
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<IdentityContext>()
@@ -63,9 +63,9 @@ builder.Services.ConfigureApplicationCookie(options =>
         SameSite=SameSiteMode.Strict// siteyi sald�r�lardan korumak i�in 
     };
 });
-// ---------------------------------
+
 builder.Services.AddScoped<IEmailSender, SmtpEmailSender>(x=>new SmtpEmailSender
-    (
+    ( // buradaki bilgiler smtpEmailSende metodunun içindeki 16.satıra gidiyor
         "smtp.office365.com",587,true,"wissen_core@hotmail.com","Wissen123."
 
     ));

@@ -13,10 +13,11 @@ namespace ShoppingApp.Web.Controllers
         private readonly SignInManager<User> _signInManager; // kayıt olma işlemleri için
         private readonly IEmailSender _emailSender; 
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager,IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+             _emailSender = emailSender;
         }
 
         public IActionResult Login(string returnUrl = null)// default değerini null dedik
@@ -86,7 +87,8 @@ namespace ShoppingApp.Web.Controllers
                     });
 
                     //Mailin gönderilme onaylanma işlemleri vs
-                    //------------------------------------
+                   
+                    //mail gönderme işlemi gerçekleştirdik smtpEmailsender içindeki metodu çağırdık
                     await _emailSender.SendEmailAsync(user.Email, "ShoppingApp Hesap Onaylama", $"<h1>Merhaba</h1>"+
                         $"<br>"+
                         $"<p>Lütfen hesabınızı onaylamak için aşğıdaki linke tıklayınız</p>"+
@@ -108,17 +110,18 @@ namespace ShoppingApp.Web.Controllers
 
         public async Task<IActionResult>ConfirmEmail(string userId,string token)
         {
+            //register post actionundan gelen userId ve token bilgisi boş ise aşşağıdaki mesaj veriliyor
             if (userId==null || token==null)
             {
                 ViewBag.Message("Geçersiz oken ya da user bilgisi");
                 return View();
 
             }
-            var user = await _userManager.FindByIdAsync(userId);
-            if (user!=null)
+            var user = await _userManager.FindByIdAsync(userId); // userId ye göre bilgleri buluyor
+            if (user!=null) // boş değilse 
             {
                 var result = await _userManager.ConfirmEmailAsync(user, token); // kendisine verilen user ve token bilgilerini kullanarak başarılı başarısz kodunu döndürüyor
-                if (result.Succeeded)
+                if (result.Succeeded) // başarılı ise aşşağıdaki mesaj
                 {
                     ViewBag.Message("hesabınız başarıyla onaylandı");
                     return View();
