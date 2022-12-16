@@ -4,8 +4,9 @@ using System.Net.Mail;
 
 namespace ShoppingApp.Web.EmailServices.Concrete
 {
-    public class SmtpEmailSender : IEmailSender
+    public class SmtpEmailSender : IEmailSender //abstractda  tanımladığımız imzayı burada kullnadık
     {
+        //--------------
         private string _host;
         private int _port;
         private bool _enableSSL;

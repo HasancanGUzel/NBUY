@@ -13,56 +13,57 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<IdentityContext>(options=>options.UseSqlite("DataSource=ShoppingApp.db")); // IdentityContext options a  UseSqlite("DataSource=ShoppinApp.db" gönderdik
+builder.Services.AddDbContext<IdentityContext>(options=>options.UseSqlite("DataSource=ShoppingApp.db")); // IdentityContext options a  UseSqlite("DataSource=ShoppinApp.db" gï¿½nderdik
 
 builder.Services.AddDbContext<ShopAppContext>();
 
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<IdentityContext>()
-    .AddDefaultTokenProviders();//AddDefaultTokenProviders cookies ve biz mail attýðýmýz zaman sadece attýðýmýz kiþinin maile týklamasý için benzersiz deðer oluþturucak
+    .AddDefaultTokenProviders();//AddDefaultTokenProviders cookies ve biz mail attï¿½ï¿½ï¿½mï¿½z zaman sadece attï¿½ï¿½ï¿½mï¿½z kiï¿½inin maile tï¿½klamasï¿½ iï¿½in benzersiz deï¿½er oluï¿½turucak
 
-//buraya geçmeden migrations yapabilirsin
+//buraya geï¿½meden migrations yapabilirsin
 
-builder.Services.Configure<IdentityOptions>(options => // þifre nin nasýl olmasý gerektiðini belirlemek için 
+builder.Services.Configure<IdentityOptions>(options => // ï¿½ifre nin nasï¿½l olmasï¿½ gerektiï¿½ini belirlemek iï¿½in 
 {
     #region PasswordSettings
-    options.Password.RequireDigit = true;// þifre içinde mutlaka rakam bulunsun demiþ olduk
-    options.Password.RequireLowercase = true;//þifre içinde mutlaka küçük harf bulunsun
-    options.Password.RequireUppercase = true;//þifre içinde mutlaka büyük harf bulunsun
-    options.Password.RequiredLength = 6;//þifre en az 6 karakter olsun
-    options.Password.RequireNonAlphanumeric= true;//alfanumerik karakter bulunmasý zorunlu olsun(.,/*) gibi
+    options.Password.RequireDigit = true;// ï¿½ifre iï¿½inde mutlaka rakam bulunsun demiï¿½ olduk
+    options.Password.RequireLowercase = true;//ï¿½ifre iï¿½inde mutlaka kï¿½ï¿½ï¿½k harf bulunsun
+    options.Password.RequireUppercase = true;//ï¿½ifre iï¿½inde mutlaka bï¿½yï¿½k harf bulunsun
+    options.Password.RequiredLength = 6;//ï¿½ifre en az 6 karakter olsun
+    options.Password.RequireNonAlphanumeric= true;//alfanumerik karakter bulunmasï¿½ zorunlu olsun(.,/*) gibi
 
     #endregion
     #region LoginSetting
-    options.Lockout.MaxFailedAccessAttempts = 5;//kullanýcý þifre girerken üst üste 5 defa hata yaparsa hesabý kitleyecek
-    options.Lockout.DefaultLockoutTimeSpan= TimeSpan.FromMinutes(5);// kullanýcnýn hesabýný hatalý girþ yaptýðý için kilitlemiþtik ona süre verdik 5 dakika sonra açýlsýn dedik From yanýna days second minutes falan yapabiliriz
+    options.Lockout.MaxFailedAccessAttempts = 5;//kullanï¿½cï¿½ ï¿½ifre girerken ï¿½st ï¿½ste 5 defa hata yaparsa hesabï¿½ kitleyecek
+    options.Lockout.DefaultLockoutTimeSpan= TimeSpan.FromMinutes(5);// kullanï¿½cnï¿½n hesabï¿½nï¿½ hatalï¿½ girï¿½ yaptï¿½ï¿½ï¿½ iï¿½in kilitlemiï¿½tik ona sï¿½re verdik 5 dakika sonra aï¿½ï¿½lsï¿½n dedik From yanï¿½na days second minutes falan yapabiliriz
 
     #endregion
     #region UserSettings
-    options.User.RequireUniqueEmail = true;//benzersiz email adresi ile kayýt olunulabilir yani daha önceden kayýt olunmuþ email adresiyle kayýt olunamaz.
+    options.User.RequireUniqueEmail = true;//benzersiz email adresi ile kayï¿½t olunulabilir yani daha ï¿½nceden kayï¿½t olunmuï¿½ email adresiyle kayï¿½t olunamaz.
 
     #endregion
     #region SignInSettings
-    options.SignIn.RequireConfirmedEmail = false;//true ise email onayý aktiftir 
-    options.SignIn.RequireConfirmedPhoneNumber= false;//true ise telefon numarasý onayý aktiftir.
+    options.SignIn.RequireConfirmedEmail = false;//true ise email onayï¿½ aktiftir 
+    options.SignIn.RequireConfirmedPhoneNumber= false;//true ise telefon numarasï¿½ onayï¿½ aktiftir.
     
     #endregion
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/account/login";//eðer açýlabilmesi için login olamnýn zorunlu olduðu bir istekde bulunulursa kullanýcýnýn yönlendirileceði sayfa burasý olacak yani account controllarýndaki login actionu
-    options.LogoutPath= "/account/logout";//kullanýcý çýkýþ yaptýðýnda yönlendirilecek sayfa
-    options.AccessDeniedPath= "/account/accesdenied";//yetkisiz giriþte yönlendirilecek sayfa
-    options.SlidingExpiration = true;// cookienin varsayýlan yaþam süresi ya da ayarlanan yaþam sürei 20 dakýkadýr. bu false olsaydý 20 dakika sonra uygulamadan atar ama bunu true yaptýk ve ben uygulamada bir yere týklarsam  bir aktivite gösterirsem süre hep sýfýrdan baþlar
-    options.ExpireTimeSpan= TimeSpan.FromMinutes(5);//yaþam süresini ayarlar
+    options.LoginPath = "/account/login";//eï¿½er aï¿½ï¿½labilmesi iï¿½in login olamnï¿½n zorunlu olduï¿½u bir istekde bulunulursa kullanï¿½cï¿½nï¿½n yï¿½nlendirileceï¿½i sayfa burasï¿½ olacak yani account controllarï¿½ndaki login actionu
+    options.LogoutPath= "/account/logout";//kullanï¿½cï¿½ ï¿½ï¿½kï¿½ï¿½ yaptï¿½ï¿½ï¿½nda yï¿½nlendirilecek sayfa
+    options.AccessDeniedPath= "/account/accesdenied";//yetkisiz giriï¿½te yï¿½nlendirilecek sayfa
+    options.SlidingExpiration = true;// cookienin varsayï¿½lan yaï¿½am sï¿½resi ya da ayarlanan yaï¿½am sï¿½rei 20 dakï¿½kadï¿½r. bu false olsaydï¿½ 20 dakika sonra uygulamadan atar ama bunu true yaptï¿½k ve ben uygulamada bir yere tï¿½klarsam  bir aktivite gï¿½sterirsem sï¿½re hep sï¿½fï¿½rdan baï¿½lar
+    options.ExpireTimeSpan= TimeSpan.FromMinutes(5);//yaï¿½am sï¿½resini ayarlar
 
-    options.Cookie = new CookieBuilder // bu satýr cookiyi oluþturma satýrý
+    options.Cookie = new CookieBuilder // bu satï¿½r cookiyi oluï¿½turma satï¿½rï¿½
     {
-        HttpOnly=true,// http formatýnda çalýþssýn dedik ftp vs ulaþamaz
+        HttpOnly=true,// http formatï¿½nda ï¿½alï¿½ï¿½ssï¿½n dedik ftp vs ulaï¿½amaz
         Name=".ShoppingApp.Security.Cookie",
-        SameSite=SameSiteMode.Strict// siteyi saldýrýlardan korumak için 
+        SameSite=SameSiteMode.Strict// siteyi saldï¿½rï¿½lardan korumak iï¿½in 
     };
 });
+// ---------------------------------
 builder.Services.AddScoped<IEmailSender, SmtpEmailSender>(x=>new SmtpEmailSender
     (
         "smtp.office365.com",587,true,"wissen_core@hotmail.com","Wissen123."

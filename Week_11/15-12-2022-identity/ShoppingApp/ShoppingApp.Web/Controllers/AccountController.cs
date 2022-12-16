@@ -9,9 +9,9 @@ namespace ShoppingApp.Web.Controllers
     [AutoValidateAntiforgeryToken]// burada post olan metotlara uyguluyor
     public class AccountController : Controller
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
-        private readonly IEmailSender _emailSender;
+        private readonly UserManager<User> _userManager; // bizim produt ve kategori için yaptığımı _productManager gibi buradada user için tanımladık
+        private readonly SignInManager<User> _signInManager; // kayıt olma işlemleri için
+        private readonly IEmailSender _emailSender; 
 
         public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
         {
@@ -37,6 +37,9 @@ namespace ShoppingApp.Web.Controllers
                 }
                 //bu noktada email onayı yapılıp yapılmasığını kontrol ettitereceğiz 
                 //eğer email onaylı ise login yaptıracağız değilse hatırlatacağız
+
+
+                //-----------------------------
                 var result = await _signInManager.PasswordSignInAsync(user, loginDto.Password, true, true);
                 if (result.Succeeded)
                 {
@@ -56,22 +59,25 @@ namespace ShoppingApp.Web.Controllers
         [HttpPost]
         //[ValidateAntiForgeryToken]// benim bilgisayarımdan gelen cookie bilgisi ile çalışır
         // ilgili cookie nin sadece ait olduğu tarayıcı tarafından gönderilmesi halinde geçerli olmasını sağlar.
+        //bunu en yukarıda her post metodu için geçerli olmasını sağladık
         public async Task<IActionResult> Register(RegisterDto registerDto)
         {
             
             if (ModelState.IsValid) 
             {
-                var user = new User
+                var user = new User //user entitymiz deki proplara Register safasından post olduğu zaman RegisterDtodaki karşılık gelen verileri aktarıyoruz ama passwordu aktaramayız
                 {
                     FirstName = registerDto.FirstName,
                     LastName = registerDto.LastName,
                     UserName = registerDto.UserName,
                     Email = registerDto.Email,
                 };
-                var result = await _userManager.CreateAsync(user,registerDto.Password);
-                if (result.Succeeded)
+                var result = await _userManager.CreateAsync(user,registerDto.Password);// yukarıdaki user a attığımız bilgileri aldı ve post yapılırken registerDto.Password içinde olan şifre ile kayıt yaptı 
+                if (result.Succeeded)//kayıt işlemi başarılı ise 
                 {
                     //Generate Token(mail onayı için)
+
+                    //---------------------------------
                     var tokenCode = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     var url = Url.Action("ConfirmEmail","Account",new  // ConfirmEmail action acoount da controlları
                     { 
@@ -80,6 +86,7 @@ namespace ShoppingApp.Web.Controllers
                     });
 
                     //Mailin gönderilme onaylanma işlemleri vs
+                    //------------------------------------
                     await _emailSender.SendEmailAsync(user.Email, "ShoppingApp Hesap Onaylama", $"<h1>Merhaba</h1>"+
                         $"<br>"+
                         $"<p>Lütfen hesabınızı onaylamak için aşğıdaki linke tıklayınız</p>"+

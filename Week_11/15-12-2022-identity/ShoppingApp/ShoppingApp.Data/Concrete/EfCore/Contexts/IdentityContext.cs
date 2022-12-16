@@ -11,7 +11,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Contexts
 {
     public class IdentityContext:IdentityDbContext<User>//Oluşturuğumuz  IdentityContext te  ıdentitynin otomatik oluşan IdentityDbContext içine oluşturduğumuz entity de atarak miras aldırdık
     {
-        public IdentityContext(DbContextOptions<IdentityContext> options):base(options)
+        public IdentityContext(DbContextOptions<IdentityContext> options):base(options) // program cs deki  16. satırdan buraya bilgi geliyor
         {
 
         }
