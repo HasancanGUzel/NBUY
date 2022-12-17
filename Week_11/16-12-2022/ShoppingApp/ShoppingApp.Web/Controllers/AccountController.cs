@@ -135,27 +135,30 @@ namespace ShoppingApp.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ForgotPassword(string email)
+        public async Task<IActionResult> ForgotPassword(string email) //fotgotview dan email bilgisini gönderiyoruz
         {
-            if (string.IsNullOrEmpty(email))
+            if (string.IsNullOrEmpty(email))// boşmu veya "" diye kontrol ediyor
             {
                 TempData["Message"] = Jobs.CreateMessage("hata", "Lütfen mail adresinizi eksiksiz giriniz", "danger");
                 return View();
             }
-            var user = await _userManager.FindByEmailAsync(email);
-            if (user == null)
+            // değilse buraya geliyor
+            var user = await _userManager.FindByEmailAsync(email);// kayıtlı olan email adresine göre bulup user a atyırouz
+            if (user == null) // eğer boş ise
             {//bıoş ise
                 TempData["Message"] = Jobs.CreateMessage("hata", "böyle kaytlı bir madil adresi bulunamadı yeniden deneyiniz ", "danger");
                 return View();
             }
-            var tokenCode = await _userManager.GeneratePasswordResetTokenAsync(user);
+            // boş değilse
+            var tokenCode = await _userManager.GeneratePasswordResetTokenAsync(user);// user bilgisine göre   token üretiyoruz ama bunu aşğıdaki resetpassword get metodunda kullanıcaz
             var url = Url.Action("ResetPassword", "Account", new
             {
                 userId = user.Id,
                 token = tokenCode
-            });
-            await _emailSender.SendEmailAsync(
-                email,
+            });// bu url i şifremi unuttumdaki  şifre sıfırlamak için link göndericez url oluşturup bu url i accoutn controllarındki resetpassword vievına gönderiec
+            
+            await _emailSender.SendEmailAsync( // mail gönderme işlemiburada olucak
+                email, // dışaıdan gelen mail bilgisini alıp bu bilgileri kullnarak url i yollucaz
                 "ShoppingApp şifre sıfırlama linki",
                 $"Lütfen parolanızı yenilemek için <a href='https://localhost:7215{url}'>tıklayınız</a>  "
                 );
@@ -165,11 +168,12 @@ namespace ShoppingApp.Web.Controllers
 
         public IActionResult ResetPassword (string userId,string token)
         {
-            if (userId==null ||token==null)
-            {
+            if (userId==null ||token==null) // resetpassword sayfası ilk açıldıı zaman buaray userId ve token bilgisi göndermiştirk 156. satırda onları kontrol ediyoruz boş mu değilmi
+            {// boşsa burası çalışssın
                 TempData["Message"] = Jobs.CreateMessage("hata", "bir sorun oluştu lütfen daha sonra tekrar deneyiniz", "danger");
                 return RedirectToAction("Index", "Home");
             }
+            //  değilse  bu işlemi yapsın 
             var restPasswordDto = new ResetPasswordDto
             {
                 Token = token
@@ -180,22 +184,26 @@ namespace ShoppingApp.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ResetPassword(ResetPasswordDto resetPasswordDto)
         {
+            // post metoudan gelen Resetpassword titipindeki email ve passwordu aldık
             if(!ModelState.IsValid) // modalstate false ise yaptık
             {
                 return View(resetPasswordDto);
             }
+            //true ise buraya gelen maile göre bilgileri user a attık
             var user = await _userManager.FindByEmailAsync(resetPasswordDto.Email);
-            if (user == null)
+            if (user == null) // user boş mu kontrol ettik
             {
                 TempData["Message"] = Jobs.CreateMessage("hata", "böyle bir kullanıcı bulunamadı", "danger");
                 return View(resetPasswordDto);
             }
+            // değilse hazır olan metodu kullnrak parametrelerini girdirdik user bilgisini ekledik, gelen tokn bilgisini kullandık ve girdiği şifryi kullandık
             var result = await _userManager.ResetPasswordAsync(user, resetPasswordDto.Token,resetPasswordDto.Password);
-            if (result.Succeeded)
+            if (result.Succeeded)// sonuç sucess ise aşşağıdaki mesajı veridrdik
             {
                 TempData["Message"] = Jobs.CreateMessage("başarılı", "parolanız başarıyla değiştirilmiştir giriş yapmayı deneyebilirisniz", "info");
                 return RedirectToAction("Login", "Account");
             }
+            // değilse bu mesajı versin
             TempData["Message"] = Jobs.CreateMessage("hata", "bir sorun oluştu lütfen daha sonra tekrar deneyiniz", "danger");
             return RedirectToAction("~/");
         }
