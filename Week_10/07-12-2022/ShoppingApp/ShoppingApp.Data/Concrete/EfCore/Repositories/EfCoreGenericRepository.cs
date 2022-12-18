@@ -17,7 +17,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
     {
         private readonly DbContext _context;// bunun içini  EfCoreGenericRepository bunu başka class larda  kullandığımız  zaman kullanıcaz
 
-        public EfCoreGenericRepository(DbContext context) // buda constructor 
+        public EfCoreGenericRepository(DbContext context) // buda constructor  buraya ef core categoryrepository veya efprdocutrepositoryden gelicek
         {
             _context = context;
         }
