@@ -184,19 +184,19 @@ namespace ShoppingApp.Web.Controllers
             return Redirect("~/");
         }
         
-        public async Task<IActionResult> Manage(string id) // buraya navbar dan name i yolladık
+        public async Task<IActionResult> Manage(string id) // buraya navbar dan id ile name i yolladık
         {
             var name = id;
-            if (String.IsNullOrEmpty(name))
+            if (String.IsNullOrEmpty(name))// boşmu "" diye baktık
             {
                 return NotFound();
             }
-            var user = await _userManager.FindByNameAsync(name);
+            var user = await _userManager.FindByNameAsync(name);// değilseburaya gelen name ile kullanıcı bilgisini bulduk
             if (user == null)
             {
                 return NotFound();
             }
-            List<SelectListItem> genderList = new List<SelectListItem>();
+            List<SelectListItem> genderList = new List<SelectListItem>(); // burada  usermanageDto da  tanımladığımız List<SelectListItem> yani manage view da cinsiyeti böyle tutucaz 
             genderList.Add(new SelectListItem
             {
                  Text="Kadın",
@@ -209,8 +209,9 @@ namespace ShoppingApp.Web.Controllers
                 Value = "Erkek",
                 Selected=user.Gender == "Erkek" ? true : false
             });
-            UserManageDto userManageDto = new UserManageDto
+            UserManageDto userManageDto = new UserManageDto // tanımladığımız dto ile dto daki proplara user bilgisini tuttuğumzu user değişkeninden atardık
             {
+                Id=user.Id,//id yi httpost da kullanıcağımız için buradan manage içindeki inputa yolladık
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Gender = user.Gender,
@@ -219,29 +220,30 @@ namespace ShoppingApp.Web.Controllers
                 Email = user.Email,
                 GenderSelectList= genderList
             };
-            return View(userManageDto);
+            return View(userManageDto); // manage sayfasına yolladık
         }
 
         [HttpPost]
-        public async Task<IActionResult>Manage(UserManageDto userManageDto)
+        public async Task<IActionResult>Manage(UserManageDto userManageDto) // buaya manage view dan post olduğu zaman gelen bilgiler
         {
-                var user = await _userManager.FindByIdAsync(userManageDto.Id);
+                var user = await _userManager.FindByIdAsync(userManageDto.Id); // get metodunda gönderdiğimiz id  yi post olduğu zaman buraya göndermiştik ve onu kullnarak user bilgisini bulduk
                 if (user==null)
                 {
                     return NotFound();
                 }
-                user.FirstName = userManageDto.FirstName;
+                user.FirstName = userManageDto.FirstName; // Manage viewdan gelen verileri yuarıda içinde bilgi bulunan user içinekarşılık gelen verileri attık
                 user.LastName = userManageDto.LastName;
                 user.Gender = userManageDto.Gender;
                 user.UserName = userManageDto.UserName;
                 user.Email = userManageDto.Email;
                
-                var result = await _userManager.UpdateAsync(user);
-                if (result.Succeeded)
+                var result = await _userManager.UpdateAsync(user); // ve burada usr içine attığımız güncel verileri güncelledik
+                if (result.Succeeded) // sonuc başarılı ise burası çalışıcak
                 {
                     TempData["Message"] = Jobs.CreateMessage("Bilgi", "Hesabınız başarı ile güncellenmiştir. ", "success");
                     
                 }
+                // sonuç false ise  view içinde esski yazdığı bilgileri gödericez fakat bunu yanında ciniyetide göndermemiz lazım onun için aşşağıdaki kodları yazdık
                 List<SelectListItem> genderList = new List<SelectListItem>();
                 genderList.Add(new SelectListItem
                 {

@@ -4,9 +4,10 @@
 <form asp-controller="Account"
       asp-action="Manage"
       method="post">
+      <input type="hidden" name="Id" value="@Model.Id" /> @*manage action  get metodundan gönderdik*@
     <div class="row">
         <div asp-validation-summary="All" class="text-danger"></div>
-        <input type="hidden" name="Id" value="@Model.Id" />
+        
                 <div class="col-6 mb-3">
                     <label asp-for="FirstName" class="form-label"></label>
                     <input class="form-control" asp-for="FirstName">
@@ -28,7 +29,7 @@
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
 
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-3">@*Gender bilgisini cinsiyeti post ile göndericez*@ @*asp-items ise buraya hangi cinsiyetlerin olduğunu gönderdik manage get metodundan*@
                     <label asp-for="Gender" class="form-label"></label>
                     <select asp-for="Gender" asp-items="@Model.GenderSelectList" class="form-select">
 

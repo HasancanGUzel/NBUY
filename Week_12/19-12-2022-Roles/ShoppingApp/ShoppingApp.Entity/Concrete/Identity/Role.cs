@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingApp.Entity.Concrete.Identity
 {
-    public class Role:IdentityRole
+    public class Role:IdentityRole // biz user gibi  Role de ayrı bir özellik vericez diyorsak böyle yapmamız lazım ve IdentityninRole modelinden miras ladırmalıyız
     {
         public string Description { get; set; }
     }
