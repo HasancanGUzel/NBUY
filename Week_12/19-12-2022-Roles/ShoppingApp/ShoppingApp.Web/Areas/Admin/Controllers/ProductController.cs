@@ -7,7 +7,7 @@ using ShoppingApp.Web.Areas.Admin.Models.Dtos;
 
 namespace ShoppingApp.Web.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
     [Area("Admin")]
     public class ProductController : Controller
     {

@@ -7,7 +7,7 @@ using ShoppingApp.Web.Areas.Admin.Models.Dtos;
 
 namespace ShoppingApp.Web.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")] 
     [Area("Admin")]
     public class RoleController : Controller
     {
@@ -30,7 +30,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 Id=r.Id,
                 Name=r.Name,
                 Description=r.Description
-            }).ToList();
+            }).ToList(); // role tablosundan gelen verileri çektik ama ROLE titpinde geliyor bizz ise Lit<RoleDto> aktarmaya çalışıyoruz bunun için gelen verileri üzerinden döngü kurduk ve her gelen veriyi tanımladığımız RoleDto proplarına karşılık aktardık
 
             return View(roles);
         }
@@ -42,27 +42,27 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(RoleDto roleDto)
+        public async Task<IActionResult> Create(RoleDto roleDto)// sayfayı post edince RoleDto türünden veri gelicek
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) // bu veriyi kontrol edicez
             {
-                var result = await _roleManager.CreateAsync(new Role
+                var result = await _roleManager.CreateAsync(new Role //yeni gelen veriyi nesne oluşturup buna katarıcaz
                 {
                     Name=roleDto.Name,
                     Description=roleDto.Description
                 });
-                if (result.Succeeded)
+                if (result.Succeeded)// baarılı ise bu mesajı
                 {
                     TempData["Message"] = Jobs.CreateMessage("Başarılı", roleDto.Name + " rolü başarı ile eklenmiştir", "success");
                     return RedirectToAction("Index", "Role");
                 }
-                foreach (var error in result.Errors)
+                foreach (var error in result.Errors) // değilse hata mesajlarını vericez
                 {
                     ModelState.AddModelError("", error.Description);
                 }
 
             }
-            return View(roleDto);
+            return View(roleDto);//kontrol edilen veri boşşsa aynı sayfaya bilgileri göndericez
         }
 
         public async Task<IActionResult> Edit(string id)
@@ -97,7 +97,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             }
             RoleDetailsDto roleDetailsDto = new RoleDetailsDto
             {
-                Role = role,
+                Role = role, // bilgileri edit sayfasına göndermek için  RoleDetailsDto propların aktarıyoruz
                 Members = members,
                 NonMembers = nonMembers
             };
@@ -105,7 +105,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(RoleEditDetailsDto roleEditDetailsDto )
+        public async Task<IActionResult> Edit(RoleEditDetailsDto roleEditDetailsDto )// buraya RoleEditDetailsDto türünde veriler gelicek
         {
             if (ModelState.IsValid)
             {
@@ -126,7 +126,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                     }
                 }
 
-                foreach (var userId in roleEditDetailsDto.IdsToRemove ?? new string[] { })// gelen IdsToAdd doluysa içinde dolaş boşsa yeni üret
+                foreach (var userId in roleEditDetailsDto.IdsToRemove ?? new string[] { })// gelen IdsToRemove doluysa içinde dolaş boşsa yeni üret
                 {
                     var user = await _userManager.FindByIdAsync(userId);
                     if (user == null)

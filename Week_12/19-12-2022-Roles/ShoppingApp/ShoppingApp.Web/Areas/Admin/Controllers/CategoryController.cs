@@ -30,13 +30,13 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             return View(categoryListDto);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
 
         [HttpPost]
         public async Task<IActionResult> Create(CategoryAddDto categoryAddDto)
@@ -55,7 +55,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             }
             return View();
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
 
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
@@ -74,7 +74,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             };
             return View(categoryUpdateDto);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
 
         [HttpPost]
         public async Task<IActionResult> Edit(CategoryUpdateDto categoryUpdateDto)
@@ -96,7 +96,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             }
             return View(categoryUpdateDto);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]// giriş yapa admin ise bu sayfayı görsün ama user ise bu sayfayı göremesin
 
         [HttpGet]
         public async Task<IActionResult> Delete(int id)

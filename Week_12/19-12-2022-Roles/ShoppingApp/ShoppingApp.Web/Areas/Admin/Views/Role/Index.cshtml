@@ -1,5 +1,5 @@
 ﻿@using ShoppingApp.Core;
-@model List<RoleDto>
+@model List<RoleDto> // gelen eri 1 tane değil liste şeklinde gönderdik burda da öyle alıyorz
 <hr />
 <a class="btn btn-outline-primary"
    asp-area="Admin"
@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody>
-        @if (Model.Count>0)
+        @if (Model.Count>0) // rolde gelen veri içi doluysa burası çalışssın
         {
             @foreach (var role in Model)
             {
@@ -40,7 +40,7 @@
                 </tr>
             }
         }
-        else
+        else @*eğer gelen verinin içi boşsa bilgilendirme mesajı versin*@
         {
             TempData["Message"] = Jobs.CreateMessage("Bilgi", "Kayıtlı bir role bilgisi bulunmamaktadır.", "warning");
         }
