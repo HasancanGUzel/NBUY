@@ -163,7 +163,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
 
 //-----------------------------------------------------------------------------------------------
             List<SelectListItem> selectRoleList = roles.Select(r => new SelectListItem
-            {//rollerin adı ve id sini getirmek için
+            {//rollerin adı ve id sini getirmek için UserRoles viewmında liste şeklinde getirmek için
                 Text=r.Name,
                 Value=r.Id
             }).ToList(); //  List<SelectListItem> tipinden nesne üretiyoruz ve yukarıdaki çektiğimiz rollerin içinde dönüyoruz her bir rol için  SelectListItem propların aktarıyoruz
@@ -172,16 +172,16 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 SelectRoleList = selectRoleList,
                 Users = users
             };
-            return View(userRolesDto);// ve bu nesneyi döndürüyoruz
+            return View(userRolesDto);// ve bu nesneyi döndürüyoruz kullanıcılar ve rolleri
         }
 
-        public async Task<IActionResult> GetUsers(UserRolesDto userRolesDto)
+        public async Task<IActionResult> GetUsers(UserRolesDto userRolesDto) //UserRoles deki 1. forman buaraya veri geldi
         {
-            var role = await _roleManager.FindByIdAsync(userRolesDto.RoleId);
-            var members = new List<User>();
-            var nonMembers=new List<User>();
+            var role = await _roleManager.FindByIdAsync(userRolesDto.RoleId);//gelen bilgiye göre yani tıklanılan role göre id si geldi ve o id ye göre de rol bilgisini bulduk ve roles e attık
+            var members = new List<User>();// List tipinde user tutan members adında nesne tanımladık 
+            var nonMembers=new List<User>(); // List tipinde user tutan nonmember adında nesne tanımladık
 
-            List<User> users = _userManager.Users.Select(u => new User
+            List<User> users = _userManager.Users.Select(u => new User //List<user> tipinde user ları çektik ve tek tek prolara attık
             {
                 Id = u.Id,
                 FirstName = u.FirstName,
@@ -189,33 +189,33 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 UserName = u.UserName
             }).ToList();
 
-            foreach (var user in users)
+            foreach (var user in users) // bu users lar içinde döndük ve her bir kullanıcının rolü varmı baktık ve varsa yukarıda tanımladığımız members değişkenine rolü yoksa nonmembers değişkenine attık
             {
                 var list = await _userManager.IsInRoleAsync(user, role.Name) ? members : nonMembers;
                 list.Add(user);
             }
-            var roleDetailsDto = new RoleDetailsDto
+            var roleDetailsDto = new RoleDetailsDto //bu RoleDetailsDto UserRolesDto daki değil bizim RoleDetailsDto modelimizden nesne ürettik ve bizim yukarıdaki tanımlaıdğımız role members ve nonmembers i bu modelde karşılık gelen proplara attık
             {
                 Role = role,
                 Members = members,
                 NonMembers = nonMembers
             };
-            List<Role> roles = _roleManager.Roles.Select(r => new Role
+            List<Role> roles = _roleManager.Roles.Select(r => new Role//rolleri Role entitymizden listeleyip tutuyoruz
             {
                 Id = r.Id,
                 Name = r.Name,
                 Description = r.Description
             }).ToList();
             List<SelectListItem> selectRoleList = roles.Select(r => new SelectListItem
-            {
+            {//rollerin adı ve id sini getirmek için UserRoles viewmında liste şeklinde getirmek için
                 Text = r.Name,
                 Value = r.Id
-            }).ToList();
-            userRolesDto.SelectRoleList = selectRoleList;
-            userRolesDto.RoleDetailsDto= roleDetailsDto;
-            userRolesDto.Users = users;
+            }).ToList();//  List<SelectListItem> tipinden nesne üretiyoruz ve yukarıdaki çektiğimiz rollerin içinde dönüyoruz her bir rol için  SelectListItem propların aktarıyoruz
+            userRolesDto.SelectRoleList = selectRoleList; // selectRoleList nesnesini userRolesDo içindeki SelectRoleLis içine attık
+            userRolesDto.RoleDetailsDto= roleDetailsDto;//bizim yukarıda tanımladığımız roleDetailsList nesnesini userRolesDo içindeki RoleDetailsDo içine attık
+            userRolesDto.Users = users;// users bilisinide  userRolesDto içindeki  Users attık
             ViewBag.Onay = true;
-            return View("UserRoles", userRolesDto);//UserRoles viewına git dedik
+            return View("UserRoles", userRolesDto);//UserRoles viewına git dedik ve içinde kullanıcıları rolleri seçili rolleri falan yolladık
             
         }
 

@@ -9,6 +9,7 @@ using ShoppingApp.Web.Models.Dtos;
 
 namespace ShoppingApp.Web.Areas.Admin.Controllers
 {
+    // bir sonraki klasörde hocadan alınan daha içeriklisi var bunu ders içinde biz yaptık
     [Area("Admin")]
     [Authorize(Roles ="Admin")]
     public class UserController : Controller

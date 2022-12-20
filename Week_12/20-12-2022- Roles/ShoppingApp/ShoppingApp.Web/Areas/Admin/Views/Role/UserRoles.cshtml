@@ -1,5 +1,11 @@
-﻿@model UserRolesDto// bu tipte veriler geldi içinde Roller var
+﻿@model UserRolesDto// bu tipte veriler geldi içinde Roller ve kullanıcılar varvar
 
+@*buradaki formda id verdik js için 
+  controllar ve action verdik ama bu action post olduğu zaman değil get olarak gidicek
+  ve bu formun içine bizim UseRoleDto içindeki  List<SelectListItem> tipindeki SelectRoleList   içinde bulunna rolleri aldık
+  ve bu formun id sini kullanark buraya gelen rollere tıklandığı zaman  submit ediyoruz ve tıklanılan rolun Id sini alıyoruz GeUsers viewına gönderiyoruz
+  
+*@
 <form 
     id="formRoleList"
     asp-area="Admin"
