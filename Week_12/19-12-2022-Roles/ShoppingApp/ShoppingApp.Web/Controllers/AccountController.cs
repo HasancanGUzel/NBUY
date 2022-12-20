@@ -257,7 +257,7 @@ namespace ShoppingApp.Web.Controllers
             //Veya "Benim aklmıma başka çözüm geldi" diyen varsa, kabülümüzdür :)
         }
 
-        public IActionResult AccessDenied()
+        public IActionResult AccessDenied()//program cs de tanımlamıştık oraya gidicek öyle hata veriyor
         {
             return View();
         }

@@ -1,0 +1,62 @@
+﻿@model UserAddDto // get metodudan buraya bilgiler geldi
+
+<form asp-area="Admin"
+      asp-controller="User"
+      asp-action="Create"
+      method="post">
+    <div class="row">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-8">
+
+            <div class="mb-3">
+                <label asp-for="UserDto.FirstName" class="form-label"></label> @*UserAddDto içindeki UserDto da user bilgilerini tutyoruz ordan name lerini aldık*@
+                <input class="form-control" asp-for="UserDto.FirstName">
+                <span asp-validation-for="UserDto.FirstName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="UserDto.LastName" class="form-label"></label>
+                <input class="form-control" asp-for="UserDto.LastName">
+                <span asp-validation-for="UserDto.LastName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="UserDto.UserName" class="form-label"></label>
+                <input class="form-control" asp-for="UserDto.UserName">
+                <span asp-validation-for="UserDto.UserName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="UserDto.Email" class="form-label"></label>
+                <input class="form-control" asp-for="UserDto.Email">
+                <span asp-validation-for="UserDto.Email" class="text-danger"></span>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Oluştur</button>
+            <a type="button" class="btn btn-light"
+               asp-area="Admin"
+               asp-controller="Home"
+               asp-action="Index">Vazgeç</a>
+        </div>
+        <div class="col-4">
+            @foreach (var role in Model.Roles) // get metodaun gelen role bilgilerini ekranın sağında göstericez döngüye aldık ve herbirini checkboxda götsericez
+            {
+                <div class="form-check">
+                    <input class="form-check-input"
+                       type="checkbox"
+                       name="selectedRoles"
+                       value="@role.Name"
+                       @(Model.SelectedRoles.Any(sr=>sr==role.Name)?"checked":"") @*Modelimizden gelen SelectedRoles içinde veri varmı bak varsa ismine göre checked yap yoksa boş bırak *@ />
+                    <label class="form-check-label">@role.Name</label> @*gelen rollerin ismini checkboxların yani inputun yanına yazdırıcaz*@
+                </div>
+            }
+            <span class="text-danger" asp-validation-for="SelectedRoles"></span> @* hata mesajı için*@
+            <hr />
+            <div class="form-check">
+                @*email onaylımı için yaptık*@
+                <input class="form-check-input"
+                       asp-for="UserDto.EmailConfirmed"
+                       type="checkbox" />
+                <label asp-for="UserDto.EmailConfirmed" class="form-check-label"></label>
+            </div>
+        </div>
+    </div>
+</form>
