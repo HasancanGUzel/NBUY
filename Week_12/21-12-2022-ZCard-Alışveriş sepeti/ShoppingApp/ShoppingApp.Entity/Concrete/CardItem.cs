@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingApp.Entity.Concrete
 {
-    public class CardItem:IEntityBase // her bir carın içinde birden fazla olabilir
+    public class CardItem:IEntityBase // her bir cardın içinde birden fazla olabilir
     {
         public int Id { get; set; }
         public int ProductId { get; set; }

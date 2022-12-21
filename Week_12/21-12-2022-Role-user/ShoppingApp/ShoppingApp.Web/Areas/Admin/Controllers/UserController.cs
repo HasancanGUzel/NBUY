@@ -117,24 +117,24 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(UserAddDto userUpdateDto)
+        public async Task<IActionResult> Edit(UserAddDto userUpdateDto)//sayfa post edildiği zaman buraya UserAddDto tipinde veriler gelicek
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByIdAsync(userUpdateDto.UserDto.Id);
-                if (user == null) { return NotFound();}
-                user.FirstName = userUpdateDto.UserDto.FirstName;
+                var user = await _userManager.FindByIdAsync(userUpdateDto.UserDto.Id);// buraya gelen veriler içindeki UserDto içindeki kullancıı idsine göre kullanıcı bilgisini getiriyoruz
+                if (user == null) { return NotFound();}// boşmu bak
+                user.FirstName = userUpdateDto.UserDto.FirstName;// değilse kullanıcı bilgilerine userUpdateDto içinde UserDto bilgilerini aktar
                 user.LastName= userUpdateDto.UserDto.LastName;
                 user.UserName= userUpdateDto.UserDto.UserName;
                 user.Email= userUpdateDto.UserDto.Email;
                 user.EmailConfirmed=userUpdateDto.UserDto.EmailConfirmed;
 
-                var result = await _userManager.UpdateAsync(user);
-                if (!result.Succeeded)
+                var result = await _userManager.UpdateAsync(user);// aktardığımız bilgileri veritabanına gönder
+                if (!result.Succeeded)// veritabanına gönderme başarılı değilse hata verdir
                 {
                  return NotFound();
 
-                }
+                }//başarlı ise bunlar olsun
                 var userRoles = await _userManager.GetRolesAsync(user);// userın rollerini getirdik
                 await _userManager.AddToRolesAsync(user, userUpdateDto.SelectedRoles.Except(userRoles).ToList<string>());//burada  güncellemede role eklerken bizim var olan rolleri çıkarıp olmaynları eklicez yukarıda userin rollerini getirdik ve excepti ile userin rollerini çıkarıp ekleme yaptık
 
@@ -147,7 +147,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 Id = r.Id,
                 Name = r.Name,
                 Description = r.Description
-            }).ToList();
+            }).ToList();//rolleri listeleyip userUpdateDto içindeki Roles atıyoruz
             //eğer sayfayı güncelelrken role seçmez ise hata veriyordu ama şimdi role boş olarkda gönderiyoruz ve hata mesajı verdiriyoruz.
             userUpdateDto.SelectedRoles = userUpdateDto.SelectedRoles ?? new List<string>();
             return View(userUpdateDto);

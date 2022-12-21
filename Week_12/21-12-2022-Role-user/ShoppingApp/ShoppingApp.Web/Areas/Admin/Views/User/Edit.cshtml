@@ -1,12 +1,12 @@
-﻿@model UserAddDto
+﻿@model UserAddDto // bu sayfayaedit get metodundan bilgiler geldi
 <form asp-area="Admin"
       asp-controller="User"
       asp-action="Edit"
       method="post">
-      <input type="hidden" asp-for="UserDto.Id" />
+      <input type="hidden" asp-for="UserDto.Id" /> @*bir input içinde buraya gönderdiğimiz UserDto içindki id yi tutuyoruz post metoduna yollucaz*@
     <div class="row">
         <div asp-validation-summary="All" class="text-danger"></div>
-        <div class="col-8">
+        <div class="col-8"> @*col-8 lik kısımda yani sayfanın sol kısmında kullacıı bilgileri yer alıcak*@
             <div class="mb-3">
                 <label asp-for="UserDto.FirstName" class="form-label"></label>
                 <input class="form-control" asp-for="UserDto.FirstName">
@@ -34,8 +34,8 @@
                asp-controller="User"
                asp-action="Index">Vazgeç</a>
         </div>
-        <div class="col-4">
-            @foreach (var role in Model.Roles)
+        <div class="col-4">@*sayfanın sağ kısmında ise roller kısmı yer alıcak*@
+            @foreach (var role in Model.Roles)@*burada modelden gelen rollerin içinde dönücek ve her döndüğünde modelden gelen seçili role bakıcak modelden geln rol seçili rolde varmı varsa checkbox ı işaretler yoka boş bırak*@
             {
                 <div class="form-check">
                     <input class="form-check-input"
@@ -52,7 +52,7 @@
             <div class="form-check">
                 <input class="form-check-input"
                        type="checkbox"
-                       asp-for="UserDto.EmailConfirmed" />
+                       asp-for="UserDto.EmailConfirmed" />@*email onaylımı kısmı için*@
                 <label asp-for="UserDto.EmailConfirmed" class="form-check-label"></label>
             </div>
         </div>

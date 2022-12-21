@@ -93,13 +93,13 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             return View(userAddDto);
         }
 
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(string id)//index sayfamızadan buraya id yi yolluyoruz
         {
-            var user = await _userManager.FindByIdAsync(id);
-            if (user == null) { return NotFound(); }
-            UserAddDto userUpdateDto = new UserAddDto
+            var user = await _userManager.FindByIdAsync(id); // gelen bu id ye göre de user bilgisini buluyoruz
+            if (user == null) { return NotFound(); } // boşmu bakıyoruz
+            UserAddDto userUpdateDto = new UserAddDto // boş değilse  UserAddDto nesne tanımladık bu nesnein içinde 
             {
-                UserDto = new UserDto
+                UserDto = new UserDto//user bilgilerini UserDto tipine dönüştürüyoruz
                 {
                     Id = user.Id,
                     FirstName = user.FirstName,
@@ -108,7 +108,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                     EmailConfirmed = user.EmailConfirmed,
                     UserName = user.UserName,
                 },
-                SelectedRoles = await _userManager.GetRolesAsync(user),
+                SelectedRoles = await _userManager.GetRolesAsync(user),// bu user bilgisinin seçili rollerini alıyoruz
                 Roles = _roleManager.Roles.Select(r => new RoleDto // içinde roledtolar barındıran roller lazımdı
                 {
                     Id = r.Id,
@@ -116,7 +116,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                     Description = r.Description
                 }).ToList()
             };
-            return View(userUpdateDto);
+            return View(userUpdateDto);// ve edit sayfamıza içinde userDto tipinde user barındıran  seçili rolleri tutan ve rollerin tamamını yolluyoruz
         }
     }
 }
