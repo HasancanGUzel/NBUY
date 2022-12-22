@@ -21,12 +21,12 @@ namespace ShoppingApp.Web.Controllers
 
         public async Task<IActionResult>Index()
         {
-            var userId = _userManager.GetUserId(User);
-            var card = await _cardManager.GetCardByUserId(userId);
-            CardDto cardDto = new CardDto
+            var userId = _userManager.GetUserId(User);// o sırada login olan User bilgisinden userId yi bulucak 
+            var card = await _cardManager.GetCardByUserId(userId);//userId ye görede card bilgilerini getiricek
+            CardDto cardDto = new CardDto // gelen bu card bilgileri içindeki veileri
             {
-                CardId = card.Id,
-                CardItems = card.CardItems.Select(ci => new CardItemDto
+                CardId = card.Id,//cardId yi CarIdpropumuza
+                CardItems = card.CardItems.Select(ci => new CardItemDto //CarDto içindeki CradItems içinde dön  ve her döüşündeki bilgleri CardItemDto daki proplara aktar eğer sepette hiçbirşeyyoksa CradItems içinde boşa dönücek yani sepetin içini boş gönderice ve bnu index de kontrol ettiricez
                 {
                     CardItemId = ci.Id,
                     ProductId = ci.ProductId,

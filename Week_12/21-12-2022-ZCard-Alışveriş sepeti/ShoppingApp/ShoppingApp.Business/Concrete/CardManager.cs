@@ -20,7 +20,7 @@ namespace ShoppingApp.Business.Concrete
 
         public async Task AddToCard (string userId, int productId, int quantity)
         {
-            await _unitOfWork.Cards.AddToCard(userId, productId, quantity);
+            await _unitOfWork.Cards.AddToCard(userId, productId, quantity); // sepete ürün eklemek için dışarıdan gelen bilgilei kullanıyoruz
             await _unitOfWork.SaveAsync();
         }
 
@@ -31,7 +31,7 @@ namespace ShoppingApp.Business.Concrete
 
         public async Task<Card> GetCardByUserId(string userId)
         {
-            return await _unitOfWork.Cards.GetCardByUserId(userId);
+            return await _unitOfWork.Cards.GetCardByUserId(userId); // userId yi efCoreCadRepositorye gönderiyor card bilgilerini almak için
         }
 
         public async Task InitializeCard(string userId)

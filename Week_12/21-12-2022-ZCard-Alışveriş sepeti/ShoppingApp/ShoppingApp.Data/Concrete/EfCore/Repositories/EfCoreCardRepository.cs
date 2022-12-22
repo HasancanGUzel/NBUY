@@ -23,13 +23,13 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         public async Task AddToCard (string userId, int productId, int quantity)
         {
-           var card =await GetCardByUserId(userId);
-            if (card!=null)
+           var card =await GetCardByUserId(userId);//  userId ye göre card bilgilerini getirdi
+            if (card!=null)// card boş değilse aşşağıadkileri yapıcak
             {
-                var index = card.CardItems.FindIndex(ci => ci.ProductId == productId);
-                if (index<0)//eğer ürün daha önceden sepete eklenmemişse
+                var index = card.CardItems.FindIndex(ci => ci.ProductId == productId);//card entitmizin içindei CardItems içinde bul neyi Product ilgilerini tutuyoruz b yüzdn ProductId si dışarıdan gelen productId ye eşitmi bak
+                if (index<0)//eğer ürün daha önceden sepete eklenmemişseyani ProductId dışarıdan gelen productId ye eşit değilse
                 {
-                    card.CardItems.Add(new CardItem
+                    card.CardItems.Add(new CardItem // card entitmiz içindeki cardItems propuna ekle ne ekle CardItem entitymizdeki proplara karşılık gelen dışşarıdan gelen verileri
                     {
                         ProductId = productId,
                         Quantity = quantity,
@@ -38,10 +38,10 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
                 }
                 else// eğer ürün daha önceden spete eklenmişsse
                 {
-                    card.CardItems[index].Quantity += quantity;
+                    card.CardItems[index].Quantity += quantity; //ard entitmiz deki cardItems propuna yukarıda tanımı olan ProductId dışaıdan gelen ProductId ye eşitsedeki indexin yani daha önceden sepette ekli olan ürünün fiyatını al ve dışarıan gelen fiyatın üzerie ekle
                 }
                
-                ShopAppContext.Cards.Update(card);
+                ShopAppContext.Cards.Update(card);// güncelleme yap
             }
         }
 

@@ -1,8 +1,8 @@
-﻿@model CardDto
+﻿@model CardDto //cardDto türünde bilgiler buraya geldi
 <h6 class="display-6">Sepet</h6>
 <hr />
 
-@if (Model.CardItems.Count==0)
+@if (Model.CardItems.Count==0)//modelden gelen Cardtems içi boş ise yani ürün bilgileri yok isebu mesajı verdiricez
 {
     <div class="row">
         <div class="alert alert-warning">Sepetinizde ürün bulunmamamktadır</div>
@@ -37,7 +37,7 @@ else
                             <td>@carditem.ProductName</td>
                             <td>@carditem.ItemPrice</td>
                             <td>@carditem.Quantity</td>
-                            <td>@(carditem.ItemPrice*carditem.Quantity)</td>
+                            <td>@(carditem.ItemPrice*carditem.Quantity)</td>@*ürünün fiyatı ile adedini çapırıcaz yani ürünler lt alta değilde sadece adedi artarak gözüükücek*@
                         </tr>
                     }
                 </tbody>
@@ -45,7 +45,7 @@ else
         </div>
 
         <div class="col-4">
-            <h6 class="text-danger display-6">Özet Bilgiler</h6>
+            <h6 class="text-danger display-6">Özet Bilgiler</h6>@*sayfanın sağ tarafından  toplam tutar vs göükücek*@
             <hr>
             <table class="table table-sm">
                 <tbody>
