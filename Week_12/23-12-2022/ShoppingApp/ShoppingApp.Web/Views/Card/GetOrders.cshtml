@@ -1,0 +1,90 @@
+﻿@model List<OrderListDto>
+<h6 action="display-6">Sİparişlerim</h6>
+<hr />
+<table class="table tabel-bordered tabel-sm">
+    <thead>
+        <tr class="bg-danger">
+            <th>Sipariş No</th>
+            <th>Tarih</th>
+            <th>Sipariş Toplamı</th>
+            <th>Sipariş Detay</th>
+         
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderNumber</td>
+                <td>@order.OrderDate</td>
+                <td>@($"{order.TotalPrice():C0}")</td>
+                <td>
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Detay göster
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                           Şipariş Numarası: @order.OrderNumber
+                                        </div>
+                                        <div class="col-6">
+                                           Sİpariş Tarihi: @order.OrderDate
+                                        </div>
+                                        <div class="col-6">
+                                           Email: @order.Email
+                                        </div>
+                                        <div class="col-6">
+                                           Kullanıcı Adı: @order.FirstName
+                                        </div>
+                                        <div class="col-6">
+                                           Soyadı: @order.LastName
+                                        </div>
+
+                                        <div class="col-6">
+                                           Sipariş Tipi:  @order.OrderType
+                                        </div>
+                                        <div class="col-6">
+                                           Adres: @order.Address
+                                        </div>
+                                      
+                                        <div class="col-6">
+                                            Şehir: @order.City
+                                        </div>
+
+                                        <div class="col-6">
+                                           Telefon Numarası:  @order.Phone
+                                        </div>
+                                        <div class="col-6">
+                                            @order.OrderState
+                                        </div> 
+                                        <div class="col-12 text-center">
+                                            Toplam Tutar: @($"{order.TotalPrice():C0}")
+                                        </div>
+                                  
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
