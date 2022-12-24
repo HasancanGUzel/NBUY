@@ -20,15 +20,13 @@
                 <td>@order.OrderDate</td>
                 <td>@($"{order.TotalPrice():C0}")</td>
                 <td>
-
-
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form_@order.OrderId">
                         Detay göster
                     </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <!-- Modal -->
+                    <div class="modal fade" id="form_@order.OrderId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -36,44 +34,13 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-6">
-                                           Şipariş Numarası: @order.OrderNumber
+                                    @foreach (var orderItem in order.OrderListItems)
+                                    {
+                                        <div>
+                                            @orderItem.ProductName
                                         </div>
-                                        <div class="col-6">
-                                           Sİpariş Tarihi: @order.OrderDate
-                                        </div>
-                                        <div class="col-6">
-                                           Email: @order.Email
-                                        </div>
-                                        <div class="col-6">
-                                           Kullanıcı Adı: @order.FirstName
-                                        </div>
-                                        <div class="col-6">
-                                           Soyadı: @order.LastName
-                                        </div>
+                                    }
 
-                                        <div class="col-6">
-                                           Sipariş Tipi:  @order.OrderType
-                                        </div>
-                                        <div class="col-6">
-                                           Adres: @order.Address
-                                        </div>
-                                      
-                                        <div class="col-6">
-                                            Şehir: @order.City
-                                        </div>
-
-                                        <div class="col-6">
-                                           Telefon Numarası:  @order.Phone
-                                        </div>
-                                        <div class="col-6">
-                                            @order.OrderState
-                                        </div> 
-                                        <div class="col-12 text-center">
-                                            Toplam Tutar: @($"{order.TotalPrice():C0}")
-                                        </div>
-                                  
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -82,9 +49,14 @@
                             </div>
                         </div>
                     </div>
+
+           
                 </td>
 
-            </tr>
+          </tr>
+         
         }
+         
+                                   
     </tbody>
 </table>

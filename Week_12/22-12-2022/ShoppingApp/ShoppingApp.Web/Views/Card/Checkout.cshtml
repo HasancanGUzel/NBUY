@@ -1,4 +1,4 @@
-﻿@model OrderDto
+﻿@model OrderDto // get sayfsından buraya bilgiler geldi kullanıcı bilgileri ilgili inpulara yerleşti
 <h6 class="display-6">Ödeme</h6>
 <form asp-controller="Card"
       asp-action="Checkout"
@@ -52,7 +52,7 @@
 
                 </div>
             </div>
-            <h6 class="display-6">Kart Bilgileri</h6>
+            <h6 class="display-6">Kart Bilgileri</h6> @* kullanıcı kart bilgilerini girmesi için*@
             <div class="row mb-3">
                 <div class="col-6">
                     <label class="form-label" asp-for="CardName"></label>
@@ -91,7 +91,7 @@
 
 
         <div class="col-4">
-            <h6 class="display-6">Özet Bilgiler</h6>
+            <h6 class="display-6">Özet Bilgiler</h6> @*burada da spetimdeki özet bilgiler gözüküyor angi ürün kaç tane fiyatı falan*@
             <ul class="list-group mb-3">
                 @foreach (var cardItem in Model.CardDto.CardItems)
                 {

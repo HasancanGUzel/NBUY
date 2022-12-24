@@ -148,6 +148,14 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             userUpdateDto.SelectedRoles = userUpdateDto.SelectedRoles ?? new List<string>();
             return View(userUpdateDto);
         }
-        //ÖDEV: Roller ve Kullanıcılar ile ilgili silme işlemlerini de tamamlayın.
+
+         public async Task<IActionResult> Delete(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user==null) { return NotFound();}
+            await _userManager.DeleteAsync(user);
+            return RedirectToAction("Index");
+        }
+      
     }
 }

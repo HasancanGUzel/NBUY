@@ -126,17 +126,16 @@ namespace ShoppingApp.Web.Controllers
                    *Eğer kart numarası geçerli ise ödemeyi al
                    *Ödeme başarılı ise orderi kaydet
                  */
-                //Yapılan satışı kaydetme işlemleri(Save Order)
-                if (!CardNumberControl(orderDto.CardNumber))
+                if (!CardNumberControl(orderDto.CardNumber))//CardNumberControl metodunu çağırıyouz
                 {
                     TempData["Message"] = Jobs.CreateMessage("Hata", "Kredi kartı numarası hatalıdır", "danger");
                     return View(orderDto);
                 }
                 //Web katmanında  manage nugget package de Iyzico ve newtonsfot.Json indirdik
-                Payment payment = PaymentProcess(orderDto);
-                if (payment.Status=="success")
+                Payment payment = PaymentProcess(orderDto); //paymetnprocess metoduna orderdto türünde orderdto nesnesini yolluyoruz
+                if (payment.Status=="success") // sonuç success ise
                 {
-                    SaveOrder(orderDto, userId);
+                    SaveOrder(orderDto, userId); // kayıt işlemi yapıyoruz
                     //tam bu noktada sepeti boşaltmalıyız.
                     _cardItemManager.ClearCard(orderDto.CardDto.CardId);
                     TempData["Message"] = Jobs.CreateMessage("Başarılı", "Ödemeniz başaarı ile alınmıştır", "success");
@@ -203,7 +202,7 @@ namespace ShoppingApp.Web.Controllers
             int ovenTotal = 0;
             
           
-            for (int i = 0; i < cardNumber.Length; i+=2)
+            for (int i = 0; i < cardNumber.Length; i+=2)//burada luhn algoritması var kredi kartı algortiması
             {
                 int nextOddNumber = Convert.ToInt32(cardNumber[i].ToString());
                 int nextOvenNumber = Convert.ToInt32(cardNumber[i+1].ToString());
@@ -224,7 +223,7 @@ namespace ShoppingApp.Web.Controllers
             //İyzcio githubda dotnet içindeki Usage kopyaladık
 
             #region Payment Options Created
-            Options options = new Options();
+            Options options = new Options(); // ıyzico dan apikey ve secret keyi aldık
             options.ApiKey = "sandbox-8p8AaVrAAL6qOplNAPTrOG1Xs47QCeqL";
             options.SecretKey = "sandbox-evTw594ykkd6eg9540f2FuSaCtIrNzbz";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
@@ -331,12 +330,12 @@ namespace ShoppingApp.Web.Controllers
 
         }
 
-        public async Task<IActionResult> GetOrders()
+        public async Task<IActionResult> GetOrders() // siparişler menüsüne basıldığı zaman buraya gelicek get sayfası
         {
-            var userId = _userManager.GetUserId(User);
-            var orders = await _orderManager.GetOrders(userId);
-            List<OrderListDto> orderListDtos = new List<OrderListDto>();
-            OrderListDto orderListDto;
+            var userId = _userManager.GetUserId(User); // o anki User bilgisne göre userId yi bulucaz
+            var orders = await _orderManager.GetOrders(userId); //  userIdye görede Getorders olarak tanımlaığımız metodu kullanıcaz ve satış bilgileii bulucaz
+            List<OrderListDto> orderListDtos = new List<OrderListDto>();//orderlist Dto dan nesne ürettik bunu üretmemizin nedeni tek bir satış değilde 1 den fazl satış olması onları tutucaz
+            OrderListDto orderListDto; // buuda döngü içinde yapmadık 1 kere tanımladık ve döngü içinde doldurucaz satış bilgilerini tutucak ama 1 satış bilgisi ve 1 ürün bittiği zaman üstteki orderListDtos içine atcaz her bir satış için bunu yapıcak
             foreach (var order in orders)
             {
                 orderListDto = new OrderListDto()
@@ -352,7 +351,7 @@ namespace ShoppingApp.Web.Controllers
                     Email = order.Email,
                     OrderState = order.OrderState,
                     OrderType = order.OrderType,
-                    OrderListItems = order.OrderItems.Select(oi => new OrderListItemDto
+                    OrderListItems = order.OrderItems.Select(oi => new OrderListItemDto //orderist dto içindeki  OrderListItemDto olarak tutuğumuz OrderListItems içine  OrderListItemDto içindeki orderItems bilgilerini aktarıyoruz
                     {
                         OrderListItemId = oi.Id,
                         ProductName = oi.Product.Name,

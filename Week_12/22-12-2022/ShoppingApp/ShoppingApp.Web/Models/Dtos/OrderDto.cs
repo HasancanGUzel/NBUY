@@ -20,6 +20,7 @@ namespace ShoppingApp.Web.Models.Dtos
         [DisplayName("Şehir")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         public string City { get; set; }
+
         [DisplayName("Telefon")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         [DataType(DataType.PhoneNumber)]
@@ -29,10 +30,11 @@ namespace ShoppingApp.Web.Models.Dtos
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
         [DisplayName("Kartın üzerindeki ad soyad")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
-        
         public string CardName { get; set; }
+
         [DisplayName("Kartın numarası")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         public string CardNumber { get; set; }
@@ -40,13 +42,16 @@ namespace ShoppingApp.Web.Models.Dtos
         [DisplayName("Geçerlilik tarihi ay")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         public string ExpirationMonth { get; set; } // geçerlilik   ay bilgisi için
+
         [DisplayName("Geçerlilik tarihi yıl")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         public string ExpirationYear { get; set; }// geçerlilik   yıl bilgisi için
+
         [DisplayName("Kartın arka yüzündeki 3haneli güvenlik numarası")]
         [Required(ErrorMessage = ("{0} alanı boş bırakılmamalıdır"))]
         public string Cvc { get; set; }
-        public CardDto CardDto { get; set; }
+
+        public CardDto CardDto { get; set; }//kart bilgilerine yani sepetin bilgilerini sepetin içinde ürünlere erişmek için
 
     }
 }

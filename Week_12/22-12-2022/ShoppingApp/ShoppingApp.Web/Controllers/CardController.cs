@@ -76,9 +76,9 @@ namespace ShoppingApp.Web.Controllers
             var user = await _userManager.FindByIdAsync(userId);// user bilgilerini getirdik
             var card = await _cardManager.GetCardByUserId(userId);// kullancıı id sine göre card bilgilerini getiridk
 
-            OrderDto orderDto = new OrderDto
+            OrderDto orderDto = new OrderDto//OrderDto tipinde nesne tanımladık ve bunun içine öncelikle
             {
-                FirstName=user.FirstName,
+                FirstName=user.FirstName, // kullanıcı bilgilerini yerleştirdik
                 LastaName=user.LastName,
                 Adress=user.Adress,
                 City=user.City,
@@ -86,10 +86,10 @@ namespace ShoppingApp.Web.Controllers
                 Email=user.Email,
 
 
-                CardDto = new CardDto
+                CardDto = new CardDto // sonra CardDto dan nesne ürettik yani sepet den
                 {
-                    CardId = card.Id,
-                    CardItems = card.CardItems.Select(ci => new CardItemDto
+                    CardId = card.Id, //yukarıda card bilgisini geirmiştik id yi burada aktardık
+                    CardItems = card.CardItems.Select(ci => new CardItemDto // sonra  CardDto içinde bulunan CardItems a yukarıdaki card içindeki cardItems içinde döngü ile dönreke her ir cardItems için CardItemsDto tipinde nesne üretip ordaki bilgilere karşılık gelen verileri aktardık
                     {
                         CardItemId = ci.Id,
                         ProductId = ci.ProductId,
@@ -101,16 +101,16 @@ namespace ShoppingApp.Web.Controllers
                     }).ToList()
                 }
             };
-            return View(orderDto);
+            return View(orderDto); // en son ise Checkoutsayfasına bu bilgileri gönderdik
 
         }
         [HttpPost]
-        public async Task<IActionResult>Checkout(OrderDto orderDto)
+        public async Task<IActionResult>Checkout(OrderDto orderDto) // ödeme ap butonuna tıklandığı zaman kullanıcının inputlara girdiği bilgiler buraya gelicek
         {
             if (ModelState.IsValid)
             {
-                var userId = _userManager.GetUserId(User);
-                var card = await _cardManager.GetCardByUserId(userId);
+                var userId = _userManager.GetUserId(User); // o bililele User ile sisteme girmiş olan kullanıcı ıd sini bulucaz
+                var card = await _cardManager.GetCardByUserId(userId); // userId ile sepet bilgisini getiricez
                 orderDto.CardDto = new CardDto
                 {
                     CardId = card.Id,
@@ -134,9 +134,9 @@ namespace ShoppingApp.Web.Controllers
             return View("Index","Home");
         }
 
-        private async void SaveOrder(OrderDto orderDto,string userId)
+        private async void SaveOrder(OrderDto orderDto,string userId) //üstteki post metou çalışınca saveOrder metodu çalışıcak
         {
-            Order order = new Order();
+            Order order = new Order();//tanımladığımı order nesnesie aşşaığıdaki bilgileri atıcaz
             order.OrderNumber ="SA-"+ new Random().Next(111111111, 999999999).ToString();
             order.OrderState = EnumOrderState.Unpaid;//bunu geçiçi olarak yapıyoruz aslında buraya ödeme tamamlanmış olarak geleceğiz buranın Unpaid değilde completed olmasını sağlayacağız
             order.OrderType = EnumOrderType.CreditCard;
