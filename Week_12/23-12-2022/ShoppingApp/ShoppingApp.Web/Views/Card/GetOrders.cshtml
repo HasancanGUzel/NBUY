@@ -27,24 +27,90 @@
 
                            <!-- Modal -->
                     <div class="modal fade" id="form_@order.OrderId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-lg">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-header bg-warning">
+                                  
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel"> Sipariş Detayı</h1>
+                                     
+                                    <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    
                                 </div>
-                                <div class="modal-body">
-                                    @foreach (var orderItem in order.OrderListItems)
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <div class="row mt-2">
+                                                        <div class="col-2 ">
+                                                            <th>Resim</th>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <th>Ürün</th>   
+
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <th>Miktar</th>
+
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <th>Fiyat</th>
+
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <th>Adres</th>
+
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <th>Telefon</th>
+
+                                                        </div>
+                                                    </div>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <hr>
+               
+                                  @foreach (var orderItem in order.OrderListItems)
                                     {
-                                        <div>
-                                            @orderItem.ProductName
-                                        </div>
-                                    }
+                                       
+                                <div class="modal-body">
+                                    
+                                   <div class="row ">
+                                    
+                                    <div class="col-2">
+                                         <img src="~/images/@orderItem.ImageUrl" width="50px">    
+                                    </div>
+                                       <div class="col-2">
+                                         @orderItem.ProductName 
+                                    </div>
+                                     <div class="col-2">
+                                      @orderItem.Quantity
+  
+                                    </div>
+                                     <div class="col-2">
+                                      @($"{orderItem.Price:C0}")
+  
+                                    </div>
+                                     <div class="col-2">
+                                      @order.Address
+  
+                                    </div>
+                                     <div class="col-2">
+                                      @order.Phone
+  
+                                    </div>
+                                   </div>
+                                  <hr>
+                                       
+
+                                      
+                                        
 
                                 </div>
+                                    }
+
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn  btn-danger" data-bs-dismiss="modal">Close</button>
+                                   
                                 </div>
                             </div>
                         </div>

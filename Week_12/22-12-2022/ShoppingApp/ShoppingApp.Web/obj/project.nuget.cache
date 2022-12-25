@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qIKtRNqEZhWYhsA5jlNcSJthVAvwC784/X8p1tiDvjdPrBepNKN3kS97becmFMv+x3H7HveF0tgWhUymKpo3fg==",
+  "dgSpecHash": "UCIvnRNldmLglBXx28MzdgMOw+QjX8SXU8gMsHdUlVu5KcAQgFJbSJpqWHIN19as4v0VB+ZI1h+NR6mxsG1fnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\22-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+  "projectFilePath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\22-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HASAN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HASAN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",

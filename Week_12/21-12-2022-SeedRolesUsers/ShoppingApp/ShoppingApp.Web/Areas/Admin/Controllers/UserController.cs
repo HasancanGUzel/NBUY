@@ -152,6 +152,13 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             userUpdateDto.SelectedRoles = userUpdateDto.SelectedRoles ?? new List<string>();
             return View(userUpdateDto);
         }
+        public async Task<IActionResult> Delete(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user==null) { return NotFound();}
+            await _userManager.DeleteAsync(user);
+            return RedirectToAction("Index");
+        }
 
         //Ödev roller ve kullancıılar ile ilgili silme işlemlerinide tamamlayın
     }
