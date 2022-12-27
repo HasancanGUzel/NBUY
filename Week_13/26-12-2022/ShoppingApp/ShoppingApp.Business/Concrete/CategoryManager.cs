@@ -53,7 +53,7 @@ namespace ShoppingApp.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<List<Category>> GetSearchResultAsync(string searchString)
+        public async Task<List<Category>> GetSearchResultAsync(string searchString)
         {
             return await _unitOfWork.Categories.GetSearchResultAsync(searchString);
         }
