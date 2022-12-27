@@ -4138,19 +4138,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HASAN\\.nuget\\packages\\": {}
+    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
       "projectName": "ShoppingApp.Web",
-      "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
-      "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\obj\\",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4164,11 +4164,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
-              "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj"
             },
-            "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {
-              "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj"
+            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {
+              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\26-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj"
             }
           }
         }
@@ -4221,7 +4221,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+﻿@model ProductListWithSearchDto //İndex sayfamızadan gelen model tipini tanımlıyoruz
+<form
+    id="formSearch"
+    asp-area="Admin"
+    asp-controller="Product"
+      asp-action="Index" class="d-flex justify-content-end">
+      <select asp-for="SearchQueryDto.IsHome" asp-items="@Model.IsHomeList" class="form-select me-2" onchange="document.getElementById('formSearch').submit();"> @* ürünler sayfssında ara inputunun yanında selectler koyduk ve onaylı onaysız vs seçmesi için*@
+          
+      </select>
+
+    <select asp-for="SearchQueryDto.IsApproved" asp-items="@Model.IsApprovedList" class="form-select me-2" onchange="document.getElementById('formSearch').submit();">
+
+    </select>
+    <input class="form-control me-2" asp-for="SearchQueryDto.SearchString" type="search" placeholder="Ara..." aria-label="Search" />
+    <button class="btn btn-outline-success" type="submit">Ara</button>
+</form>

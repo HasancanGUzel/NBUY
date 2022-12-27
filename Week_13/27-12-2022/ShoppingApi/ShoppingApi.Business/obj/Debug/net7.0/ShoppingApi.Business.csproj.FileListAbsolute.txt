@@ -1,0 +1,17 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Business.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\bin\Debug\net7.0\ShoppingApi.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\refint\ShoppingApi.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ShoppingApi.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\27-12-2022\ShoppingApi\ShoppingApi.Business\obj\Debug\net7.0\ref\ShoppingApi.Business.dll
