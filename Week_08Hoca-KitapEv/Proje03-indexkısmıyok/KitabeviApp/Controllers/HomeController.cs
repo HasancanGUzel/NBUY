@@ -93,7 +93,7 @@ public class HomeController : Controller
         // if(yazar.ad!=) gibi dışaırdan gelen yazar.ad kontrol ettik
         if (ModelState.IsValid)// true ise demek
         {
-            Yazar yazar = new Yazar()
+            Yazar yazar = new Yazar()// burada viewmodelden gelen veriyi Yazar türüne çevimemizim nedeni ekleme yaptığımız için veritabanına viewmodel türünde değile Yazar türünde göndericenz entity türünde yani
             {
                 Ad = yazarViewModel.Ad,// formdan gelen verileri yani yazareklecs.htmlden gelen verileri yazardan türettiğimiz yazar değişkenine atıyoruz
                 DogumYili = yazarViewModel.DogumYili,

@@ -1276,19 +1276,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\HASAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
+      "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
       "projectName": "KitabeviApp.Data",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\obj\\",
+      "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\KitabeviApp.Data.csproj",
+      "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1302,8 +1302,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj"
+            "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
+              "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje05-WEB-BUSİNES-DATA-BUSİNES YAPISINI EKLİYORUZ\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj"
             }
           }
         }
@@ -1345,7 +1345,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj": {}
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj": {
+    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
+        "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
         "projectName": "KitabeviApp",
-        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
+        "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
         "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\obj\\",
+        "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

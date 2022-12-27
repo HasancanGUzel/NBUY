@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {}
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
         "projectName": "BlogApp.Data",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\obj\\",
+        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
-                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj"
+              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
+                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj"
               },
-              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
-                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
+              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
+                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
               }
             }
           }
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
+        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
         "projectName": "BlogApp.Entities",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\obj\\",
+        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\BlogApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,8 +106,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
-                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
+              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
+                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj"
               }
             }
           }
@@ -137,21 +137,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
+        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
         "projectName": "BlogApp.Shared",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\obj\\",
+        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

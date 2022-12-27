@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uOV5TrUb0jJJTIl/uEFcc9mamDWmYZH52a94avTTaBRBxn91G+NEfR0gU/QuBKQBPrQQdvd1+s02mejNWP5q6w==",
+  "dgSpecHash": "4J1mXFXO9CjEL77T4V38gsxPn9UW8O08Q8XhNeIQ/hfqfCIumYB6yB+Nx4/oMt8yOQREs3OAfeeSSPAJ4lTDIw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
+  "projectFilePath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje03-indexxdevamıhocatamam\\KitabeviApp\\KitabeviApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HASAN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HASAN\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.11\\microsoft.data.sqlite.core.6.0.11.nupkg.sha512",

@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {}
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
+    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
+        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
         "projectName": "KitabeviApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week-08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\obj\\",
+        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\KitabeviApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_08Hoca-KitapEv\\Proje06-GenericRepositoryDesignPattern\\KitabeviApp\\KitabeviApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\HASAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
       "projectName": "BlogApp.Mvc",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\obj\\",
+      "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\BlogApp.Mvc.csproj",
+      "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_09\\29-11-2022ben\\BlogApp\\BlogApp.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
