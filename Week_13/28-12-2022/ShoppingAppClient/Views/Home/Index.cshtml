@@ -1,0 +1,30 @@
+﻿@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-6">Ürün Listesi</h1>
+<table class="table table-sm table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Resim</th>
+            <th>Ürün Adı</th>
+            <th>Fiyatı</th>
+            <th>Açıklama</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.ImageUrl</td>
+                <td>@product.Name</td>
+                <td>@($"{product.Price:C0}")</td>
+                <td>@product.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

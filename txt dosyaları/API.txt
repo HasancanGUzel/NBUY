@@ -1,0 +1,10 @@
+apı oluşturma
+
+web katmanını sildik isimleri değiştiridk sln içindeki isimleride değiştirdik
+solution üstünde new project diyerek asp.netcore web API seçiyoruz ve onu prjemize ekliyoruz
+
+postman indir kayıt ol giriş yap
+
+uygulamayı çalıştır sonra api den url adresini al ve psotmana gir
+
+shoppingApi.API ye design entityiframeworkü indir

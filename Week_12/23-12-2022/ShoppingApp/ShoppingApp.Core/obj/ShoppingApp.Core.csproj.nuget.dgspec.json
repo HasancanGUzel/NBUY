@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
         "projectName": "ShoppingApp.Core",
-        "projectPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
-        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\obj\\",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
