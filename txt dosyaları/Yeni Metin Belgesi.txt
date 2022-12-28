@@ -1,0 +1,41 @@
+
+
+ --- Kullanıcılar(user öğretmen ve öğrenci admin) tablosu:
+
+Kullanıcı ID (int, primary key, unique)
+Ad (varchar)
+Soyad (varchar)
+E-posta (varchar, unique)
+Şifre()
+Telefon numarası (varchar)
+
+Kullanıcı ve ders arasında çoka çok ilişki olabilir bir öğretmen 
+birden fazla ders verebilir ve bir dersi birden fazla öğretmen verebilir
+
+
+
+ --- Kullanıcı Ders Tablosu
+
+Kullanıcı Id
+DersId
+Kullnıcı Kullanıcı
+Ders Ders
+
+
+ --- Dersler tablosu:
+
+Ders ID (int, primary key, unique)
+Ders adı (varchar)
+Öğretmen ID (int, foreign key)
+Ders tarihi (date)
+Ders saati (time)
+Ders konusu (varchar)
+
+
+
+mesaj
+
+mesajGönderenId
+mesajAlanId
+tarih
+İçerik
