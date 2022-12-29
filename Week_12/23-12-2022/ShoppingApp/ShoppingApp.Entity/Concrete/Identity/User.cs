@@ -15,5 +15,6 @@ namespace ShoppingApp.Entity.Concrete.Identity
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
+        
     }
 }

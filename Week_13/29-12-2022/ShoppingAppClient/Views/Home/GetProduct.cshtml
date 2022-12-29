@@ -1,0 +1,13 @@
+﻿@model ProductViewModel
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <img src="http://localhost:5200/images/@Model.ImageUrl" />
+        </div>
+        <div class="col-8">
+            <h1 class="display-6">@Model.Name</h1>
+            <p class="text-primary">@($"{Model.Price:C0}")</p>
+            <p>@Model.Description</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Ürün Yönetim Sayfası";
+}
+
+<h1 class="display-6">Ürün Listesi</h1>
+<hr />
+
+<a class="btn  btn-primary"
+   asp-controller="Product"
+   asp-action="Create">Yeni ürün ekle</a>
+   <hr />
+
+<table class="table table-sm table-bordered">
+    <thead>
+        <tr>
+          
+            <th>#</th>
+            <th>Ürün Adı</th>
+            <th>Fiyatı</th>
+            <th>işlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+               
+                <td><img src="http://localhost:5200/images/@product.ImageUrl" width="15" /></td>
+                <td>@product.Name</td>
+                <td>@($"{product.Price:C0}")</td>
+                <td>
+                    <a class="btn btn-sm btn-warning"
+                   asp-controller="Product"
+                   asp-action="Edit"
+                   asp-route-id="@product.Id">Düzenle</a>
+
+                    <a class="btn btn-sm btn-danger"
+                   asp-controller="Product"
+                   asp-action="Delete"
+                   asp-route-id="@product.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
