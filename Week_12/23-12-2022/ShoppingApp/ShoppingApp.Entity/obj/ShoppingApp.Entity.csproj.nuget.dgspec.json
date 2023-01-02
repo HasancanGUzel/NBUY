@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
         "projectName": "ShoppingApp.Entity",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_12\\23-12-2022\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

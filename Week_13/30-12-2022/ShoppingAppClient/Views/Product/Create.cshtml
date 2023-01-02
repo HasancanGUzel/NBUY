@@ -1,0 +1,65 @@
+﻿@model ProductViewModel
+<h1 class="display-6">Yeni Ürün Ekle</h1>
+<hr />
+<form
+    asp-controller="Product"
+    asp-action="Create"
+    method="post"
+    >
+    <div class="row">
+        <div class="col-6">
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label class="form-label" asp-for="Name"></label>
+                </div>
+                <div class="col-10">
+                    <input type="text" asp-for="Name" class="form-control" />
+                </div>
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label class="form-label" asp-for="Description"></label>
+                </div>
+                <div class="col-10">
+                    <input type="text" asp-for="Description" class="form-control" />
+                </div>
+                <span asp-validation-for="Description"></span>
+            </div>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label class="form-label" asp-for="Price"></label>
+                </div>
+                <div class="col-10">
+                    <input type="text" asp-for="Price" class="form-control" />
+                </div>
+                <span asp-validation-for="Price"></span>
+            </div>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label class="form-label" asp-for="ImageUrl"></label>
+                </div>
+                <div class="col-10">
+                    <input type="text" asp-for="ImageUrl" value="1.png" class="form-control" />
+                </div>
+                <span asp-validation-for="ImageUrl"></span>
+            </div>
+        </div>
+        <div class="col-4">
+            @foreach (var category in Model.Categories)
+            {
+                <div>
+                    <input type="checkbox" class="form-check-input"
+                        value="@category.Id"
+                        name="selectedCategoryIds"
+                    />
+                    <label class="form-label">@category.Name</label>
+                </div>
+            }
+        </div>
+    </div>
+    <button
+        class="btn btn-success"
+        type="submit"
+        >Kaydet</button>
+</form>

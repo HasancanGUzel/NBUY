@@ -1,0 +1,12 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\bin\Debug\net7.0\ShoppingApi.Core.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\bin\Debug\net7.0\ShoppingApi.Core.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\bin\Debug\net7.0\ShoppingApi.Core.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\refint\ShoppingApi.Core.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ShoppingApi.Core.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\30-12-2022\ShoppingApi\ShoppingApi.Core\obj\Debug\net7.0\ref\ShoppingApi.Core.dll
