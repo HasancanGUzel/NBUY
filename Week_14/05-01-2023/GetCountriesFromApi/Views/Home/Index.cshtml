@@ -1,0 +1,28 @@
+﻿@model List<Country>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ülke</th>
+            <th>Başkent</th>
+            <th>Bayrak</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var country in Model)
+        {
+            <tr>
+                <td>@country.name</td>
+                <td>@country.capital</td>
+                <td>
+                    <img src="@country.flag"width="200"/>
+                   </td>
+            </tr>
+        }
+    </tbody>
+</table>
