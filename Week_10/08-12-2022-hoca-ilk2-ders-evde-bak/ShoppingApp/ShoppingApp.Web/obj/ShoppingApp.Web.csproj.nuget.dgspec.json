@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
         "projectName": "ShoppingApp.Business",
-        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
-        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\obj\\",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
-                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj"
+              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
+                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
         "projectName": "ShoppingApp.Data",
-        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
-        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\obj\\",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,8 +87,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
-                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj"
+              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
+                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj"
               }
             }
           }
@@ -130,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
         "projectName": "ShoppingApp.Entity",
-        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,21 +185,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
         "projectName": "ShoppingApp.Web",
-        "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
-        "packagesPath": "C:\\Users\\HASAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\obj\\",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\ShoppingApp.Web.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HASAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -213,8 +213,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
-                "projectPath": "c:\\Users\\HASAN\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj"
+              "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj": {
+                "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\08-12-2022-hoca-ilk2-ders-evde-bak\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj"
               }
             }
           }
@@ -255,7 +255,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
