@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\refint\Solid04_LiskovsSubstitution.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\ref\Solid04_LiskovsSubstitution.dll

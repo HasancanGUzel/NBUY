@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\bin\Debug\net7.0\Solid03_OpenClosed.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\bin\Debug\net7.0\Solid03_OpenClosed.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\bin\Debug\net7.0\Solid03_OpenClosed.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\bin\Debug\net7.0\Solid03_OpenClosed.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\bin\Debug\net7.0\Solid03_OpenClosed.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\refint\Solid03_OpenClosed.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\Solid03_OpenClosed.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid03_OpenClosed\obj\Debug\net7.0\ref\Solid03_OpenClosed.dll

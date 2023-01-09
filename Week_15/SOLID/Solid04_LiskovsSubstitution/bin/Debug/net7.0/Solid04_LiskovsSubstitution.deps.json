@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Solid04_LiskovsSubstitution/1.0.0": {
+        "runtime": {
+          "Solid04_LiskovsSubstitution.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Solid04_LiskovsSubstitution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

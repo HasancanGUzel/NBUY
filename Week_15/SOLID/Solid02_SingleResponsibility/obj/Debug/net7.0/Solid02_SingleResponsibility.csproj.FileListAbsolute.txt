@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\bin\Debug\net7.0\Solid02_SingleResponsibility.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\bin\Debug\net7.0\Solid02_SingleResponsibility.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\bin\Debug\net7.0\Solid02_SingleResponsibility.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\bin\Debug\net7.0\Solid02_SingleResponsibility.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\bin\Debug\net7.0\Solid02_SingleResponsibility.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\refint\Solid02_SingleResponsibility.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\Solid02_SingleResponsibility.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_15\SOLID\Solid02_SingleResponsibility\obj\Debug\net7.0\ref\Solid02_SingleResponsibility.dll
